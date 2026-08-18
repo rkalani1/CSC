@@ -37,6 +37,21 @@ Treat the decision as a go / no-go with documented criteria. Do not start with a
 
 A no-go is a respectable academic decision. Write it, date it, and revisit when EMS data or guideline implementation guidance change. A half-built MSU is worse than none.
 
+### Licensure and regulatory go / no-go
+
+An MSU that rolls without the right licenses is not a clinical service. It is an enforcement event. Complete this table before the first supervised run. Do not invent a dollar return on investment to paper over a missing permit.
+
+| License / authority | Go | No-go |
+| --- | --- | --- |
+| State ambulance license / certificate of need | The vehicle is on a licensed EMS agency's roster, or a written CON / mutual-aid arrangement covers the unit in every county it will enter | The truck exists; the ambulance license does not |
+| Radiation-control registration for mobile CT | State radiation-control certificate, named medical physicist, and a technique chart that covers the street — not a hospital fixed-site registration stretched off campus | CT powered on under a building registration that does not name a mobile unit |
+| CLIA for point-of-care labs | CLIA certificate matches the tests actually run on board (glucose, INR, or the local kit list) | ED laboratory numbers used as if they cover the truck |
+| DEA | Current registrant if controlled substances ride on the vehicle; storage, waste, and discrepancy rules match hospital pharmacy | Controlled substances in a tackle box with no registrant |
+| Scope of practice | Paramedic, CT technologist, RN, and physician roles sit inside the state EMS act and each profession's practice act for care on an ambulance | Hospital privileges assumed to travel automatically onto the street |
+| Medical-director stack | Named **MSU medical director**, with a written relationship to the **CSC Medical Director** and the **EMS medical director** — who privileges the crew, who owns dispatch inclusion, who signs the controlled-substance policy | Three directors, no decision rights |
+
+Confirm each row with counsel, the EMS agency, radiation safety, the laboratory medical director, and pharmacy. A green clinical case does not override a red license row.
+
 ### The operating model
 
 ```mermaid
@@ -128,13 +143,13 @@ Cost/benefit principles, without invented ROI:
 - Compare the MSU proposal against alternative uses of the same operating money: another telestroke spoke, night APP coverage, or Saturday IRF staffing. An honest Medical Director can name the alternative.
 
 !!! tip "Key Actions"
-    Pull one year of EMS suspected-stroke times and map them before entertaining a vendor. Write a go / no-go memo against the criteria table. If the answer is go, lock dispatch, destination, and a multi-year operating budget before the chassis is ordered. Choose TNK 0.25 mg/kg as the on-board lytic unless a documented constraint forbids it. Decide CTA-on-board as a yes/no with EVT metrics in mind. Staff a video-supported model if 24/7 is the claim. Build the registry and the 90-day mRS pathway into the first protocol. Sit with EMS leadership until dual dispatch is a signed procedure.
+    Pull one year of EMS suspected-stroke times and map them before entertaining a vendor. Write a go / no-go memo against the clinical-criteria table **and** the licensure table (ambulance/CON, radiation-control, CLIA, DEA, scope, medical-director stack). If the answer is go, lock dispatch, destination, and a multi-year operating budget before the chassis is ordered. Do not invent a dollar ROI. Choose TNK 0.25 mg/kg as the on-board lytic unless a documented constraint forbids it. Decide CTA-on-board as a yes/no with EVT metrics in mind. Staff a video-supported model if 24/7 is the claim. Build the registry and the 90-day mRS pathway into the first protocol. Sit with EMS leadership until dual dispatch is a signed procedure.
 
 !!! abstract "Metrics Targets"
     Track onset-to-needle and dispatch-to-needle for MSU-treated lytic patients against conventional EMS controls in the same catchment. Internal targets should aim to reproduce the direction of BEST-MSU and B_PROUD: shorter treatment times and a higher proportion treated within 60 minutes of onset. Hold sICH and mimic-treatment rates at or below conventional-care comparators and review every case. Capture 90-day mRS on MSU patients at the same **≥90%** internal standard used for CSTK-02. Publish coverage fraction (hours the unit is in service divided by hours in the year) and the share of those hours that are nights and weekends. If CTA is performed on board, track alert-to-puncture for EVT patients separately so a lytic win is not hiding an EVT loss.
 
 !!! warning "Common Pitfalls"
-    Buying the truck with donated capital and no operating plan. Staffing with volunteer faculty who disappear after the press conference. Dispatching from a neurologist's cell phone instead of from 9-1-1. Cruising the campus zip code while the long-transport tracts go uncovered. Unloading every patient at the CSC regardless of need, angering EMS and filling beds. Skipping radiation safety and PACS integration. Running alteplase infusions that interrupt during movement without a practiced workaround. Claiming a dollar ROI. Treating the MSU and telestroke as rival empires. Letting a fellow give TNK on the street without a named attending.
+    Buying the truck with donated capital and no operating plan. Staffing with volunteer faculty who disappear after the press conference. Rolling before ambulance/CON, radiation-control, CLIA, or DEA rows are green. Leaving MSU, CSC, and EMS medical directors untitled. Dispatching from a neurologist's cell phone instead of from 9-1-1. Cruising the campus zip code while the long-transport tracts go uncovered. Unloading every patient at the CSC regardless of need, angering EMS and filling beds. Skipping radiation safety and PACS integration. Running alteplase infusions that interrupt during movement without a practiced workaround. Claiming a dollar ROI. Treating the MSU and telestroke as rival empires. Letting a fellow give TNK on the street without a named attending.
 
 !!! success "Implementation Tips"
     Start as a limited-hour implementation with full data capture, then expand hours against the coverage-fraction metric. Put an EMS leader in the governance chair next to the Medical Director. Practice CT acquisition and TNK mixing in the garage weekly for the first quarter. Use the telestroke platform as the on-board video backbone so credentialing and documentation match the network. Report MSU cases in the same weekly reperfusion conference as ED cases so the unit does not become a sidecar. When philanthropy calls, hand them the operating-budget page first.
@@ -155,7 +170,7 @@ Quarterly, decide whether hours should expand, contract, or shift toward nights.
 
 ### Annual / multi-year
 
-Annually, repeat the go / no-go logic against new EMS data. A unit that no longer reaches untreated patients should be redesigned or retired. Annually, refresh credentialing, controlled-substance policy, and the destination table against the current guideline.
+Annually, repeat the go / no-go logic against new EMS data **and** re-open every license row (ambulance/CON, radiation-control, CLIA, DEA, scope). A unit that no longer reaches untreated patients should be redesigned or retired. A unit whose radiation-control certificate lapsed is already retired. Annually, refresh credentialing, controlled-substance policy, and the destination table against the current guideline.
 
 Multi-year, decide whether a second unit, an expanded radius, or an on-board CTA upgrade is the next dollar. Multi-year, publish outcomes. An academic CSC that runs an MSU and does not contribute data to the field is using regional patients as a private experience. Confirm any future certification language about prehospital programs in the active DSC manual; do not invent a volume requirement for MSU runs.
 
@@ -169,13 +184,14 @@ Multi-year, decide whether a second unit, an expanded radius, or an on-board CTA
 4. Proposed hours and coverage fraction
 5. Staffing model (including video)
 6. Dispatch rule and cancel rule
-7. Imaging (NCCT ± CTA) and pharmacy
-8. Destination table
-9. Data and 90-day mRS
-10. Research questions
-11. Capital and **operating** budget, years 1–4
-12. Alternatives the same money could buy
-13. Recommendation and review date
+7. Licensure go / no-go: ambulance/CON, radiation-control, CLIA, DEA, scope, medical-director stack
+8. Imaging (NCCT ± CTA) and pharmacy
+9. Destination table
+10. Data and 90-day mRS
+11. Research questions
+12. Capital and **operating** budget, years 1–4 — no invented dollar ROI
+13. Alternatives the same money could buy
+14. Recommendation and review date
 
 ### Tool B — On-board lytic checklist
 
@@ -204,7 +220,7 @@ Multi-year, decide whether a second unit, an expanded radius, or an on-board CTA
 
 | Decision | CSC Medical Director | EMS medical director | MSU lead clinician | Pharmacy | Dispatch |
 | --- | --- | --- | --- | --- | --- |
-| Go / no-go and hours | A | C | C | I | I |
+| Go / no-go, hours, and license rows | A | A | C | C | I |
 | Dispatch inclusion | A | A | C | I | R |
 | On-board TNK | A | C | R | C | I |
 | Destination | A | C | R | I | I |
@@ -248,5 +264,6 @@ Data belong in [Quality System and Data Infrastructure](../quality/22-quality-da
 - Grotta JC, et al. Prospective, multicenter, controlled trial of mobile stroke units (BEST-MSU). *N Engl J Med*. 2021;385:971–981.
 - Ebinger M, et al. Association between dispatch of mobile stroke units and functional outcomes among patients with acute ischemic stroke in Berlin (B_PROUD). *JAMA*. 2021;325:454–466.
 - Mac Grory B, et al. Mobile stroke unit management in patients with acute ischemic stroke: subsequent syntheses and secondary analyses. See 2024 *JAMA Neurology* review and the 2026 guideline supportive text on lytic benefit versus EVT process metrics.
-- AHA Get With The Guidelines–Stroke and Target: Stroke public criteria for in-hospital time metrics (do not treat them as MSU-specific awards).
+- AHA Get With The Guidelines–Stroke and Target: Stroke public criteria for in-hospital time metrics (do not treat them as MSU-specific awards). See [Core Metrics](../quality/23-core-metrics.md).
 - Joint Commission stroke certification standards (SCS26) and the active DSC manual. Confirm any current language on prehospital programs; do not invent MSU volume requirements.
+- State ambulance / CON statutes; state radiation-control registration for mobile CT; CLIA (42 CFR 493) for on-board POC tests; DEA registrant rules if controlled substances ride on the vehicle; state EMS and professional practice acts for paramedic, CT, RN, and physician scope. Confirm live with counsel — this chapter does not invent a national permit list or a dollar ROI.

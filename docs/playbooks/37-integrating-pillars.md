@@ -6,7 +6,7 @@ An academic Comprehensive Stroke Center fails in pieces and succeeds as a system
 
 This chapter is the one-page operating system that ties the five working pillars — clinical, quality, education, research, and strategy — to a single cadence. It is not a theory of alignment. It is a calendar, a defect-routing rule, and a set of decision rights that keep the same problem from being solved five times in five rooms.
 
-Treat the operating system as a product the Medical Director owns. Version it. Put it on the first page of the stroke program binder and on the first slide of the quarterly executive review. When a new Associate Medical Director, program manager, fellowship director, or quality analyst arrives, this chapter is the onboarding document.
+Treat the operating system as a product the Medical Director owns. Version it. Put it on the first page of the stroke program binder and on the first slide of the quarterly stroke executive review. When a new Associate Medical Director, program manager, fellowship director, or quality analyst arrives, this chapter is the onboarding document.
 
 The test of integration is simple. Pick one defect — a 78-minute door-to-needle time on a weekday morning — and ask whether the same week produces a clinical after-action, a quality measure update, a teaching point, a protocol or trial implication, and a resource or network decision if the pattern holds. If any of those five loops is missing, the pillars are adjacent, not integrated.
 
@@ -29,7 +29,7 @@ Leadership and governance is not a sixth clinical service. It is the operating l
 | Pillar | Primary job | Standing owner | Cadence that cannot slip | Core artifacts |
 | --- | --- | --- | --- | --- |
 | Clinical | Deliver the continuum from EMS to 90-day outcome | Medical Director with service-line partners (ED, NCC, NIR, NSGY, radiology, pharmacy) | Daily huddle; weekly ops; real-time code-stroke after-action | Pathway maps, activation criteria, privilege lists, coverage grids |
-| Quality | See the system, close defects, stay survey-ready | Stroke program director / quality lead with Medical Director | Weekly measure review; monthly stroke quality committee; quarterly executive | GWTG, STK, CSTK files; audit tools; PDSA log; survey binder |
+| Quality | See the system, close defects, stay survey-ready | Stroke program director / quality lead with Medical Director | Weekly measure review; monthly quality; quarterly stroke executive | GWTG, STK, CSTK files; audit tools; PDSA log; survey binder |
 | Education | Produce competent vascular neurologists and a competent interprofessional team | Fellowship director with Medical Director | Weekly conference; monthly simulation; annual curriculum review | Conference calendar, procedure logs, simulation scenarios, competency matrices |
 | Research | Screen, enroll, and generate knowledge without harming the clock | Stroke research director / site PI with Medical Director | Daily screen; weekly coordinator huddle; monthly portfolio review | Screening log, 24/7 pager tree, central-IRB tracker, publication pipeline |
 | Strategy | Grow the right volume, fund the system, lead the region | Medical Director with chair, CMO, and network lead | Monthly finance/volume; quarterly network; annual offsite | Volume/complexity dashboard, transfer map, FTE model, 3-year roadmap |
@@ -42,14 +42,14 @@ Use the table below as the one-page OS. Print it. Do not let any standing meetin
 | --- | --- | --- | --- | --- | --- |
 | Daily | 08:00 stroke huddle | 12 min | Overnight codes, boarding, coverage holes, open safety events, trial screens | Immediate ops fixes; assign a same-day owner | On-call Medical Director / house supervisor |
 | Daily | Code-stroke after-action (same shift if DTN >45 min or DTD outlier) | 10–15 min | Time stamps, imaging queue, pharmacy, consent, puncture | Local recovery; flag for weekly ops | Weekly ops if pattern or harm |
-| Weekly | Stroke operations | 45 min | 7-day time metrics, transfer friction, equipment, staffing, open PDSAs | Process changes that do not require new policy or FTE | Stroke quality committee |
+| Weekly | Weekly ops | 45 min | 7-day time metrics, transfer friction, equipment, staffing, open PDSAs | Process changes that do not require new policy or FTE | Monthly quality |
 | Weekly | Case conference / M+M | 60 min | 2–4 selected cases; imaging; complication list | Teaching points; peer-review referral | Peer review / professionalism committee |
 | Weekly | Research coordinator huddle | 20 min | Screens, consents, protocol deviations, weekend coverage | Enrollment tactics; hold a protocol if unsafe | Research director + Medical Director |
-| Monthly | Stroke quality committee | 60–90 min | Full STK/CSTK/GWTG packet; equity slice; audit results | Approve PDSAs; close or escalate defects | CSC steering / executive sponsor |
+| Monthly | Monthly quality | 60–90 min | Full STK/CSTK/GWTG packet; equity slice; audit results | Approve PDSAs; close or escalate defects | Quarterly stroke executive / executive sponsor |
 | Monthly | Education council | 45 min | Duty hours, procedure numbers, evals, simulation attendance | Curriculum adjustments; remediation plans | GME / DIO |
 | Monthly | Research portfolio | 45 min | Enrollment vs target, coordinator FTE, IRB status | Open/close studies; protect clinical clock | Clinical trials office |
 | Monthly | Volume, finance, and access | 45 min | Transfers, diversions, contribution margin principles, unfunded FTE asks | Prioritize resource requests | Chair / CMO |
-| Quarterly | CSC steering / executive | 90 min | Scorecard, survey risks, network, capital, awards trajectory | Policy, FTE, capital, external commitments | Hospital executive committee |
+| Quarterly | Quarterly stroke executive | 90 min | Scorecard, survey risks, network, capital, awards trajectory | Policy, FTE, capital, external commitments | Hospital executive committee |
 | Quarterly | Network / EMS / spoke review | 60 min | DIDO, transfer outcomes, telestroke quality, MSU if present | Pathway and triage adjustments | Regional system-of-care forum |
 | Annual | Strategy offsite | Half day | 3-year roadmap, SWOT, workforce, research, survey cycle | Choose 3–5 bets; kill zombie projects | Board / dean as required |
 | Annual | Privileging and peer-review roll-up | Per medical staff calendar | Case volumes, complications, OPPE/FPPE | Privilege recommendations | Credentials committee |
@@ -76,7 +76,7 @@ flowchart TD
     I -->|"Yes, pattern"| K["PDSA opened at monthly quality"]
     K --> L["Strategy: FTE, pharmacy satellite, or CT priority"]
     K --> M["Fellowship: add to simulation scenario"]
-    L --> N["Quarterly executive: resource decision"]
+    L --> N["Quarterly stroke executive: resource decision"]
     M --> N
     N --> O["Annual roadmap: hyperacute reliability bet"]
 ```
@@ -89,13 +89,13 @@ Route the same case across pillars with a fixed script:
 | Quality | Is the case in the GWTG and STK-4 denominators correctly, and is this a first, third, or tenth event this month? | Abstraction note; run-chart point; trigger for PDSA if threshold met |
 | Education | What should a PGY-2, a fellow, an ED nurse, and a pharmacist each take from this case? | One teaching slide or 5-minute huddle script |
 | Research | Did a screen, consent, or coordinator presence add time? If yes, stop that practice the same day. | Deviation note or all-clear |
-| Strategy | If this interval fails again next month, what resource or policy is actually required? | Parked decision for monthly finance or quarterly executive |
+| Strategy | If this interval fails again next month, what resource or policy is actually required? | Parked decision for monthly finance or quarterly stroke executive |
 
 Do not wait for the monthly committee to protect the next patient. Daily and weekly loops exist to recover. Monthly and quarterly loops exist to change the system.
 
 ### Decision rights that keep pillars from colliding
 
-| Decision | Clinical may act alone | Quality may act alone | Requires Medical Director | Requires CSC steering |
+| Decision | Clinical may act alone | Quality may act alone | Requires Medical Director | Requires quarterly stroke executive |
 | --- | --- | --- | --- | --- |
 | Hold a code-stroke pathway overnight for safety | Yes, with notification | No | Notification same night | Only if hold lasts >72 h |
 | Change a time-metric definition | No | No | Yes, after analyst review | If it affects external reporting |
@@ -120,13 +120,13 @@ flowchart LR
       RH[Research huddle]
     end
     subgraph M["Monthly"]
-      QC[Quality committee]
+      QC[Monthly quality]
       ED[Education council]
       RP[Research portfolio]
       VF[Volume and finance]
     end
     subgraph Q["Quarterly"]
-      ST[Steering]
+      ST[Stroke executive]
       NET[Network]
     end
     subgraph Y["Annual"]
@@ -150,11 +150,11 @@ flowchart LR
 
 !!! tip "Key Actions"
 
-    Publish a one-page operating-system card this week: meetings, owners, inputs, and the two decisions each meeting is allowed to make. Kill any standing meeting that cannot name its decision. Install a same-shift after-action trigger for DTN greater than 45 minutes, door-to-device outliers, missed ICH reversal, missed nimodipine, and any research-related clock delay. Require every monthly quality packet to include one education product and one research-safety line. Put a single defect story — not a dashboard — on the first slide of the next quarterly executive meeting so sponsors see how the pillars actually connect.
+    Publish a one-page operating-system card this week: meetings, owners, inputs, and the two decisions each meeting is allowed to make. Kill any standing meeting that cannot name its decision. Install a same-shift after-action trigger for DTN greater than 45 minutes, door-to-device outliers, missed ICH reversal, missed nimodipine, and any research-related clock delay. Require every monthly quality packet to include one education product and one research-safety line. Put a single defect story — not a dashboard — on the first slide of the next quarterly stroke executive meeting so sponsors see how the pillars actually connect.
 
 !!! abstract "Metrics Targets"
 
-    Integration is working when the program can show: (1) 100% of code-stroke cases with DTN greater than 45 minutes have a same-shift or next-huddle after-action note; (2) weekly ops reviews a 7-day DTN and door-to-device bundle, not a monthly dump; (3) GWTG achievement measures sit at or above the 85% floor used for award eligibility, with Target: Stroke Elite (85% DTN ≤60 min) as the internal process floor and Elite Plus (75% DTN ≤45 min and 50% DTN ≤30 min) as the stretch; (4) CSTK-11 and CSTK-12 are reviewed in the same meeting as DTN so dual-eligible care is not split; (5) zero research screens that add documented minutes to needle or puncture; (6) every PDSA names a clinical owner, a quality owner, and a date it will be taught. Certification floors are floors. Elite internal targets are labeled as internal.
+    Integration is working when the program can show: (1) 100% of code-stroke cases with DTN greater than 45 minutes have a same-shift or next-huddle after-action note; (2) weekly ops reviews a 7-day DTN and door-to-device bundle, not a monthly dump; (3) GWTG and Target: Stroke published award criteria (Chapter 23) are tracked honestly, with Elite labeled as the internal DTN aim and Elite Plus as stretch — awards are not CSC certification floors; (4) CSTK-11 and CSTK-12 are reviewed in the same meeting as DTN so dual-eligible care is not split; (5) zero research screens that add documented minutes to needle or puncture; (6) every PDSA names a clinical owner, a quality owner, and a date it will be taught. Certification floors are floors. Internal aims are labeled internal.
 
 !!! warning "Common Pitfalls"
 
@@ -180,11 +180,11 @@ Protect one hour on the Medical Director calendar as “pillar join-up.” Use i
 
 ### Monthly / quarterly
 
-The monthly stroke quality committee is the only meeting allowed to open or close a PDSA that will be reported to executives. It reviews the full STK and CSTK packet, GWTG achievement and quality measures, Target: Stroke and Advanced Therapy trajectories, an equity slice (sex, race/ethnicity, transfer vs direct, night vs day, weekend vs weekday), and a research-safety line. It does not re-litigate individual time stamps that weekly ops already closed.
+Monthly quality is the only meeting allowed to open or close a PDSA that will be reported to executives. It reviews the full STK and CSTK packet, GWTG achievement and quality measures, Target: Stroke and Advanced Therapy published award-criteria trajectories (Chapter 23), an equity slice (sex, race/ethnicity, transfer vs direct, night vs day, weekend vs weekday), and a research-safety line. It does not re-litigate individual time stamps that weekly ops already closed.
 
 Education council and research portfolio sit the same week as quality so the Medical Director can carry one narrative across all three. Volume/finance sits after quality so resource asks are attached to defects, not to ambition.
 
-Quarterly CSC steering gets a 10-slide packet: scorecard, three defect stories, open PDSAs, survey risks, network, FTE/capital asks, award trajectory, and the 3-year roadmap status. The Medical Director presents. The program manager does not present in place of the Medical Director.
+Quarterly stroke executive gets a 10-slide packet: scorecard, three defect stories, open PDSAs, survey risks, network, FTE/capital asks, award trajectory, and the 3-year roadmap status. The Medical Director presents. The program manager does not present in place of the Medical Director.
 
 Quarterly network review includes EMS, transfer center, and at least one spoke clinical lead. Bring DIDO, telestroke door-to-recommendation, transfer outcomes, and any mothership diversion. Strategy without the spokes is a campus conversation.
 
@@ -192,7 +192,7 @@ Quarterly network review includes EMS, transfer center, and at least one spoke c
 
 Run a half-day offsite after the fiscal-year quality roll-up and before budget lock. Use the SWOT and 3-year roadmap templates in the audits playbook. Choose no more than five bets. Kill at least one project.
 
-Align the annual privileging roll-up with the same case file the quality committee already trusts. Do not build a parallel volume system for credentials.
+Align the annual privileging roll-up with the same case file monthly quality already trusts. Do not build a parallel volume system for credentials.
 
 On the certification cycle, treat the active DSC manual, the SCS26 standards book, and the current E-App / CSC eligibility table as the source of volume and capability requirements. The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10; confirm the live table before any external statement. Historical figures such as 25 IV thrombolysis cases in older summaries are historical — confirm current. Build the year so that peer review, research participation, 24/7 coverage, dedicated neuro ICU, and performance-measure reporting are visible without a scramble.
 
@@ -221,7 +221,7 @@ Weekly conference — [day/time]
 Weekly research huddle — [day/time]
 Monthly quality — [week/day]
 Monthly education / research / finance — [week]
-Quarterly steering — [month 1 week]
+Quarterly stroke executive — [month 1 week]
 Quarterly network — [month 2 week]
 Annual offsite — [month]
 
@@ -232,7 +232,7 @@ missed NIHSS, missed 90-day mRS attempt, or research-related delay:
   2. Next huddle
   3. Weekly ops pattern check
   4. Monthly quality PDSA if repeat or harm
-  5. Quarterly executive if resource required
+  5. Quarterly stroke executive if resource required
 
 STOP-THE-LINE AUTHORITY
 On-call vascular neurology may pause a pathway, a trial screen, or
@@ -257,7 +257,7 @@ MONDAY
 
 TUESDAY
 08:00  Huddle
-[ ]    Weekly stroke operations (45 min)
+[ ]    Weekly ops (45 min)
        Agenda: 7-day metrics, transfers, PDSAs, coverage
 [ ]    After-ops: 15 min MD + program manager decision memo
 
@@ -281,13 +281,13 @@ WEEKEND
 Same-shift after-action still required on triggers
 
 MONTHLY INSERTS (place on the calendar the first of the month)
-Week 1: Stroke quality committee (60–90 min)
+Week 1: Monthly quality (60–90 min)
 Week 2: Education council + research portfolio
 Week 3: Volume / finance / access
 Week 4: Catch-up audits; survey-binder 15-min walk
 
 QUARTERLY INSERTS
-Month 1 of quarter: CSC steering
+Month 1 of quarter: Quarterly stroke executive
 Month 2 of quarter: Network / EMS / spokes
 Month 3 of quarter: Award and certification posture check
 
@@ -304,6 +304,7 @@ ANNUAL INSERTS
 DEFECT ID: DTN-[YYYYMMDD]-[MRN suffix]
 Date/time of arrival: ________  LKW: ________  NIHSS: ________
 Agent: [ ] TNK 0.25 mg/kg max 25 mg   [ ] Alteplase 0.9 mg/kg max 90 mg
+[ ] TNK 0.4 / cardiac-card refused (Class 3 – No Benefit)
 DTN minutes: ________   Dual-eligible for EVT? [ ] Y [ ] N
 Night / weekend / transfer / MSU? ________
 
@@ -335,7 +336,7 @@ Action: [ ] none [ ] pause protocol [ ] retrain coordinator
 STRATEGY / RESOURCE
 If this repeats, we need: [ ] pharmacy presence [ ] CT priority
 [ ] APP coverage [ ] EHR order [ ] spoke education [ ] other: ____
-Park for: [ ] monthly finance [ ] quarterly steering [ ] none
+Park for: [ ] monthly finance [ ] quarterly stroke executive [ ] none
 
 CLOSE CRITERIA
 [ ] After-action complete    [ ] Huddle notified
@@ -375,8 +376,8 @@ Medical Director sign-off: ________
 
 2. AWARD AND CERTIFICATION POSTURE
    GWTG achievement (7 measures at ≥85%?): [ ] Y [ ] N  weakest: ____
-   Target: Stroke tier currently met: [ ] none [ ] Honor Roll [ ] Elite [ ] Elite Plus
-   Advanced Therapy (50% DTD ≤90 direct / ≤60 transfer): [ ] Y [ ] N
+   Target: Stroke published award criteria currently met: [ ] none [ ] Honor Roll [ ] Elite [ ] Elite Plus
+   Advanced Therapy (published: 50% DTD ≤90 direct / ≤60 transfer; DTD ≠ puncture): [ ] Y [ ] N
    aSAH volume this rolling 12 months: ____  (confirm live E-App table; criterion announced 10 on 2025-04-02)
    Survey window / next DSC activity: ________
 
@@ -421,7 +422,7 @@ CSC DAILY HUDDLE SCRIPT  —  start on time, stand up, 12 minutes
    No more than three same-day actions. Names and times, not teams.
 ```
 
-### Tool 7 — Quarterly executive one-slide OS
+### Tool 7 — Quarterly stroke executive one-slide OS
 
 ```
 SLIDE TITLE: CSC operating rhythm — [Quarter YYYY]
@@ -462,6 +463,6 @@ Use [First 90 Days and Year One](38-ninety-days-year-one.md) to install this ope
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Dual-eligible IVT plus EVT without delaying thrombectomy; treat disabling deficits rapidly within 4.5 hours regardless of NIHSS.
 - Specifications Manual for Joint Commission National Quality Measures (v2026B), Comprehensive Stroke (CSTK) set. Posted 02/06/2026 (3Q–4Q 2026 discharges). Measure IDs CSTK-01 through CSTK-06 and CSTK-08 through CSTK-12; CSTK-07 is not in the current set.
 - Joint Commission DSC certification framework: standards, clinical practice guidelines, and performance measurement. 2026 Stroke Certification Standards (SCS26). Confirm current E-App / CSC eligibility tables for volume criteria. The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10.
-- Get With The Guidelines–Stroke recognition criteria (AHA public page, last reviewed 9 September 2022): 85% on each of seven achievement measures; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy thresholds as listed in the evidence register.
+- Get With The Guidelines–Stroke recognition criteria (AHA public page, last reviewed 9 September 2022): 85% on each of seven achievement measures; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy as **published award criteria** (Chapter 23), not CSC certification floors.
 - IHI Model for Improvement and PDSA; AHRQ CUSP; high-reliability organizing principles (preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, deference to expertise).
 - NIH StrokeNet as national multicenter trial infrastructure — treat participation as a strategic capability, not an optional academic extra.

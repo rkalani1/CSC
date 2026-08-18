@@ -104,7 +104,7 @@ Write a one-page partnership. Friendship is not a governance structure.
 | Teaching | Residents rotate if they ask | Required vascular and PM&R cross-rotation |
 | Research | Occasional shared paper | Recovery trials on the StrokeNet menu, shared coordinator |
 | Spasticity / ITB / chemo-denervation | Referred out | On-campus tone program as a CSC differentiator |
-| Governance | "We call them" | PM&R on the stroke operations committee with vote |
+| Governance | "We call them" | PM&R on monthly quality with vote |
 
 ### Community reintegration and the post-stroke clinic
 
@@ -143,7 +143,7 @@ Weekly, the stroke coordinator and therapy supervisor review STK-10 fallouts, in
 
 ### Monthly / quarterly
 
-Monthly, present a rehabilitation scorecard to stroke operations: STK-10, day-3 evaluation completion, destination mix, IRF-eligible-to-SNF leakage, payer denials and appeals, unplanned readmissions from IRF, depression-screen completion and action, and 90-day mRS by destination. Invite the IRF medical director. If that person is not in the room, the continuum is not being managed.
+Monthly, present a rehabilitation scorecard to monthly quality: STK-10, day-3 evaluation completion, destination mix, IRF-eligible-to-SNF leakage, payer denials and appeals, unplanned readmissions from IRF, depression-screen completion and action, and 90-day mRS by destination. Invite the IRF medical director. If that person is not in the room, the continuum is not being managed.
 
 Quarterly, run a joint stroke–PM&R M&M: failed IRF stays, preventable aspiration after discharge, missed spasticity, caregiver collapse leading to readmission, and working-age patients who never received vocational referral. Quarterly, audit aphasia care: was SLP consulted, was a communication plan visible, was outpatient SLP actually booked.
 
@@ -212,7 +212,7 @@ Attendees: vascular neurology, PM&R, therapy, case management, and the charge nu
 - Clinic: one shared afternoon per week
 - Teaching: named cross-rotations
 - Research: named recovery-trial portfolio and coordinator time
-- Governance: PM&R seat on stroke operations; stroke seat on IRF quality
+- Governance: PM&R seat on monthly quality; stroke seat on IRF quality
 - Review date: annual
 
 ### Tool F — RACI for the continuum

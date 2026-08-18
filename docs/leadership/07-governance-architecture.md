@@ -121,7 +121,7 @@ Escalation that skips a level teaches staff to start at the top. Escalation that
 | 5 — Stroke executive | This quarter or emergency session | Charter conflict; FTE; cross-service stalemate; certification risk | MD + chairs as needed |
 | 6 — CMO / medical executive / board quality | Specified in hospital policy | Diversion policy deadlock; privilege or safety event requiring medical-staff action | MD + chair + CMO |
 
-Safety events that meet hospital sentinel or reportable criteria enter the hospital process **in parallel**, not after the stroke committee happens to meet. Write that sentence into the charter.
+Safety events that meet hospital sentinel or reportable criteria enter the hospital process **in parallel**, not after weekly ops or monthly quality. Write that sentence into the charter.
 
 ### Minutes that survive a survey
 
@@ -148,7 +148,7 @@ Retain according to hospital policy for quality and medical-staff records. The p
     Building a “stroke council” that meets quarterly and tries to do huddle work. Keeping peer review and quality in the same room so systems issues become hidden individual blame, or individual issues become endless process talk. Minutes that list attendees and “rich discussion.” Quorum defined as whoever happened to join the call. The Medical Director as the recorder. Quality reports that show only rates, never cases. M&M as entertainment. P&T finding out about a tenecteplase switch after implementation. Credentials criteria that still describe alteplase-only practice after the 2026 guideline. Executive committees that never invite the transfer-center supervisor. Dyads in which the RN program director has all the work and none of the signature authority.
 
 !!! success "Implementation Tips"
-    Start with huddle plus monthly quality plus quarterly executive. Add weekly ops only when the huddle list is overflowing. Use a single action log across huddle, weekly, and monthly so items do not reset when they change rooms. Put the RACI on the back of the cadence page and tape it in the transfer-center and ED charge station — not only in a governance binder. Schedule executive meetings a year ahead against IR and NSGY block time. If a service never attends, escalate that as a charter problem at the next executive, not as a personality complaint. Train two minute-takers. Practice a 10-minute retrieval drill before every mock survey.
+    Run all four tiers: daily huddle, weekly ops, monthly quality, and quarterly stroke executive. Do not treat weekly ops as optional or as a later add-on when the huddle list overflows. Use a single action log across huddle, weekly, and monthly so items do not reset when they change rooms. Put the RACI on the back of the cadence page and tape it in the transfer-center and ED charge station — not only in a governance binder. Schedule executive meetings a year ahead against IR and NSGY block time. If a service never attends, escalate that as a charter problem at the next executive, not as a personality complaint. Train two minute-takers. Practice a 10-minute retrieval drill before every mock survey.
 
 ## How to Do the Work
 

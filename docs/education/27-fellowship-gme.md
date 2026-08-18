@@ -127,11 +127,17 @@ Assign a mentor and a product by August. Acceptable default products: a systemat
 
 Do not consume the entire scholarly requirement with unpaid chart review that only serves a faculty member's promotion. The product must be the fellow's in a way the fellow can describe in a CCC meeting.
 
+### CAST / SNIS interface
+
+The ACGME vascular neurology year is not CAST neuroendovascular training. If the CSC hosts both a vascular fellowship and a CAST or SNIS neuroendovascular pathway, write the seam: which cases belong to which learner, who is the supervisor of record, and how night call is assigned so the vascular fellow is not an unpaid angio extra and the endovascular trainee is not the unsupervised stroke attending. Do not count CAST procedure volume as vascular-fellowship scholarly activity or as a substitute for primary patient-care responsibility.
+
 ### Recruitment, wellness, and site-visit readiness
 
 Recruitment is a year-round system. Confirm the application and matching platform for the upcoming cycle. Publish the night model, case mix, and scholarly expectation honestly. A fellow who expected a research year and received a coverage year is a wellness and accreditation problem.
 
 Wellness is an ACGME requirement and a CSC safety control. Build a backup call schedule that is actually used, a fatigue rule that allows a fellow to come off service without career punishment, and a confidential path to the DIO that does not run through the Medical Director when the Medical Director is the problem. Parental leave, medical leave, and part-time completion (12 months of required rotations over 24 months, ≥6 months per academic year, ABPN approval before a half-time appointment) must be written, not improvised.
+
+Moonlighting, if allowed at all, requires written Program Director permission. Those hours count toward the current ACGME limit (confirm live in the Common Program Requirements). Moonlighting is not the night-coverage model and is not how the CSC fills a hole in the clinical or leadership roster.
 
 Site-visit readiness is a living binder, not a week of theater. Keep current: block diagram and affiliation agreements; rotation goals; supervision and backup policy; CCC and PEC minutes; APE with action plans; fellow files (milestones, evaluations, logs); duty-hour data; ACGME survey action plans; faculty scholarly activity; ABPN take and pass tracking; and a one-page narrative of how CSC case mix supports the curriculum.
 
@@ -199,11 +205,13 @@ For students, define participation. Students may take a history, score an NIHSS 
 
 ### Daily / weekly
 
+Route GME defects on the locked operating rhythm. Night-supervision failures go to the daily huddle the next morning. Duty-hour patterns go to weekly ops. CCC and APE findings go to monthly quality. Program Director FTE fights go to quarterly stroke executive. Do not invent a fifth GME committee to hold what those four forums already own.
+
 Review the overnight code-stroke list each weekday morning with the fellow. Ask what the fellow decided, who was called, and how long it took. Close the loop on any night in which the attending was late, the fellow was used as a messenger, or a resident ran a decision without a named supervisor.
 
 Protect the weekly vascular conference. Require faculty presence. Rotate ownership: imaging, hemorrhage, systems cases, and journal club that cites current AHA/ASA guidelines rather than habit.
 
-Check duty hours weekly. A single 80-hour week is a staffing problem to solve now. Confirm the current ACGME work-hour limits and apply them without local "this is a CSC" exceptions.
+Check duty hours weekly against the current ACGME Common Program Requirements and Vascular Neurology FAQs (confirm live). Any local breach is a staffing problem now — do not invent a CSC exception.
 
 Hold a short coordinator huddle: evaluations due, upcoming CCC, credentialing issues, and any fellow who has gone quiet. Silence is a wellness signal.
 
@@ -357,7 +365,8 @@ Strategy and network chapters (Part VII) determine whether the fellow sees a reg
 ## Sources
 
 - ACGME. Program Requirements and FAQs for Vascular Neurology (version effective 1 July 2026 and successors). Confirm current "must" statements, Program Director FTE, and case-log rules.
-- ACGME. Common Program Requirements (Fellowship), current version.
+- ACGME. Common Program Requirements (Fellowship), current version. Confirm live duty-hour and moonlighting rules; moonlighting hours count toward the limit and require written PD permission.
+- Committee on Advanced Subspecialty Training (CAST) / SNIS neuroendovascular pathway. The ACGME vascular year is not CAST training; write a local seam if the CSC hosts both.
 - ACGME. Vascular Neurology Milestones and Supplemental Guide.
 - ACGME. Frequently Asked Questions: Vascular Neurology (including the 08/2020 set and any 2026 update): 12 months may span 24 months with ≥6 months per year; consult-only models are not sufficient; scholarly activity is required though extensive research is not expected; ABPN exam passage is an important outcome.
 - American Board of Psychiatry and Neurology. Certification in Vascular Neurology. One ACGME year in a continuous block of not less than one-half time; ABPN approval before a half-time appointment.

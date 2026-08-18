@@ -58,7 +58,7 @@ Write one downtime path per failed node. The staff will not read a 40-page plan 
 | ICU | Accept only what the remaining grid can run; move others | "We are the CSC so we never close" | NCC lead plus Medical Director | Network status board |
 | Phones / call system | Backup radios, overhead, designated runners | Assuming a page landed | Hospital command | Regional partners by the analog tree |
 
-Use the agents and windows the 2026 AIS Guideline already set. Downtime is not a moment to invent a new dose. Tenecteplase 0.25 mg/kg IV push, max 25 mg, or alteplase 0.9 mg/kg, max 90 mg, with the usual second-person check on a paper record. ICH reversal follows the 2022 ICH Guideline pathway already stocked in the downtime kit.
+Use the agents and windows the 2026 AIS Guideline already set. Downtime is not a moment to invent a new dose. Tenecteplase 0.25 mg/kg IV push, max 25 mg, or alteplase 0.9 mg/kg, max 90 mg, with the usual second-person check on a paper record. TNK 0.4 mg/kg or any cardiac-strength card — refuse (Class 3 – No Benefit). ICH reversal follows the 2022 ICH Guideline pathway already stocked in the downtime kit.
 
 ```mermaid
 flowchart TB
@@ -111,7 +111,7 @@ Awards and certification do not change these definitions. A Gold GWTG center wit
     Write a one-page downtime card for CT, IR, EHR, pharmacy, and ICU, and place it where the night team actually stands. Pre-designate load-share partners by case type and put their numbers on the same card. Define "open / partial / closed" and the person who may declare each after hours. Put a stroke seat into hospital incident command before the next cyber tabletop. Build a paper code-stroke packet that includes weight, last-known-well, NIHSS, allergy, lytic dose worksheet, reversal worksheet, and a CSTK time-stamp strip. Schedule a tabletop this year that starts with CT plus EHR down, not with a stadium.
 
 !!! abstract "Metrics Targets"
-    Continuity has its own measures. Track minutes from node failure to declared status, minutes to EMS/spoke notification, percent of downtime code strokes with complete paper time stamps, DTN and door-to-device during downtime versus baseline, load-share accept times, and after-action items closed by the promised date. Published clinical benchmarks do not relax: Target: Stroke Elite Plus remains 75% DTN ≤45 min and 50% DTN ≤30 min, and Advanced Therapy remains 50% door-to-device ≤90 min direct / ≤60 min transfer, but downtime months should be analyzed separately so they teach. CSTK-11 and CSTK-12 will expose whether load-share was faster than false hope. Never set a target that staff should "keep the numbers pretty" during a cyber event.
+    Continuity has its own measures. Track minutes from node failure to declared status, minutes to EMS/spoke notification, percent of downtime code strokes with complete paper time stamps, DTN and door-to-device during downtime versus baseline, load-share accept times, and after-action items closed by the promised date. Published award criteria (Chapter 23) do not relax; analyze downtime months separately so they teach. Door-to-device is first device pass, not CSTK-09 puncture. CSTK-11 and CSTK-12 will expose whether load-share was faster than false hope. Never set a target that staff should "keep the numbers pretty" during a cyber event.
 
 !!! warning "Common Pitfalls"
     Writing a mass-casualty annex and skipping CT downtime. Declaring the hub open because the certificate is on the wall. Holding an LVO for an IR repair estimate that is not a clock. Texting images on personal phones because PACS is down. Delaying lytic for the EHR to return. Forgetting ICH reversal kits in the pharmacy downtime plan. Running a tabletop with only day-shift leaders. Failing to tell spokes and EMS. Recovering the machines and forgetting that documentation backfill will steal coordinator time for a week. Counting a blizzard as an excuse rather than as a rehearsal of night staffing.
@@ -162,7 +162,7 @@ Local pharmacy, nursing, and health-IT must approve.
 1. Patient identity, weight, allergy, last-known-well, witness phone.
 2. NIHSS worksheet.
 3. Pregnancy / glucose / anticoagulant / blood-pressure fields.
-4. Lytic worksheet: tenecteplase 0.25 mg/kg max 25 mg **or** alteplase 0.9 mg/kg max 90 mg with bolus/infusion split.
+4. Lytic worksheet: tenecteplase 0.25 mg/kg max 25 mg **or** alteplase 0.9 mg/kg max 90 mg with bolus/infusion split. Checkbox: **[ ] TNK 0.4 / cardiac-card refused** (Class 3 – No Benefit).
 5. ICH reversal worksheet aligned to the local 2022-guideline kit.
 6. Time-stamp strip: door, NIHSS, CT start, read, decision, needle, puncture, reperfusion.
 7. Consent / exception attestation per local policy.
@@ -234,6 +234,6 @@ If emergency-management paperwork and the downtime card disagree, the card that 
 - Hoh BL, et al. 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage. *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436.
 - Joint Commission emergency-management and patient-safety / high-reliability framing; DSC stroke certification standards; active E-App. April 2, 2025 aSAH volume-criterion announcement (10) is a certification floor, not a surge plan.
 - Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B: time-stamped measures remain abstractable after downtime if the paper strip exists.
-- GWTG-Stroke and Target: Stroke published thresholds, used here as benchmarks to be analyzed with a downtime flag.
+- GWTG-Stroke and Target: Stroke **published award criteria** (Chapter 23), used here as benchmarks to be analyzed with a downtime flag — not CSC certification floors.
 - IHI Model for Improvement; AHRQ CUSP; high-reliability organizing principles (preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, deference to expertise).
 - Hospital incident-command system principles as used in U.S. emergency management; localize to the facility plan.

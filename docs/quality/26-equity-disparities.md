@@ -2,9 +2,9 @@
 
 ## Opening
 
-A CSC that posts Elite Plus DTN and Advanced Therapy door-to-device while one language group waits twice as long for a needle has not met its mission. Equity is not a community-affairs appendix. It is a property of the same clocks, the same eligibility decisions, the same 90-day calls, and the same rehab dispositions that Chapters 22–25 already measure. If those measures are not stratified, the program is averaging away harm.
+A CSC that posts Elite Plus DTN and Advanced Therapy door-to-device — **published award criteria**, not proof of fairness — while one language group waits twice as long for a needle has not met its mission. Equity is not a community-affairs appendix. It is a property of the same clocks, the same eligibility decisions, the same 90-day calls, and the same rehab dispositions that Chapters 22–25 already measure. If those measures are not stratified, the program is averaging away harm.
 
-The Medical Director owns stratification, interpreter access in code stroke, review of eligibility bias, community education that changes arrival behavior rather than decorating a lobby, and a standing equity item on the governance agenda. AHA and ASA disparity statements at the field level are consistent on the direction: race, ethnicity, sex, language, insurance, and geography shape stroke incidence, treatment, and outcome. This chapter does not re-litigate that literature. It tells the Medical Director how to see local gaps and close them with the same rigor used on CSTK-11.
+The Medical Director owns stratification, interpreter access in code stroke, review of eligibility bias, community education that changes arrival behavior rather than decorating a lobby, and a standing equity item on monthly quality and quarterly stroke executive. Collect race, ethnicity, and language (REaL) as the stratification frame. AHA and ASA disparity statements at the field level are consistent on the direction: race, ethnicity, sex, language, insurance, and geography shape stroke incidence, treatment, and outcome. This chapter does not re-litigate that literature and does not invent national disparity rates. It tells the Medical Director how to see local gaps and close them with the same rigor used on CSTK-11.
 
 Do not outsource this work to a single "diversity champion" without data rights, without interpreter authority in the first 15 minutes of a code, and without a seat at the scorecard. Performative education — a yearly lecture, a poster in the wrong language, a health-fair booth with no EMS partnership — will not move DTN, EVT access, or 90-day mRS.
 
@@ -16,7 +16,7 @@ EVT access is the second sensitive process. Eligibility for late-window and larg
 
 90-day mRS and rehab disposition are where outcome inequity becomes visible — or is hidden. CSTK-10 among a captured, English-speaking, privately insured clinic population is not the CSC's outcome. It is a convenience sample. Chapter 23 already forbids reading CSTK-10 without CSTK-02. This chapter forbids reading either without strata.
 
-Certification and recognition do not replace this work. SCS26 and GWTG will not hand the Medical Director a finished equity dashboard. Build it from the Chapter 22 spine. Put it on the same monthly book as Elite Plus. If it is a separate annual report to a community board, it will be ignored when IR staffing is discussed.
+Certification and recognition do not replace this work. SCS26 and GWTG will not hand the Medical Director a finished equity dashboard. Build it from the Chapter 22 spine. Put it on the same monthly book as the published Target: Stroke award criteria. If it is a separate annual report to a community board, it will be ignored when IR staffing is discussed.
 
 ## Core Framework
 
@@ -24,8 +24,8 @@ Stratify first. Then fix the mechanism. Then re-measure. Do not start with a cam
 
 | Stratum | Why it moves stroke metrics | Minimum fields (Chapter 22) |
 | --- | --- | --- |
-| Race and ethnicity | Incidence, delay to recognition, treatment rates, outcome | Discrete, patient-identified when possible |
-| Preferred language | Consent, NIHSS validity, education (STK-8), 90-day capture | Language + interpreter used (yes/no/method/time) |
+| Race, ethnicity, language (REaL) | Incidence, delay to recognition, treatment rates, outcome, consent, education | Discrete, patient-identified when possible; language + interpreter used (yes/no/method/time) |
+| Preferred language (LEP vs aphasia) | LEP needs an interpreter; aphasia is a neurologic deficit. Interpreter ≠ a translated NIHSS | Do not invent a NIHSS validated in every language; document language and whether the exam was interpreted |
 | Sex | Presentation, eligibility assumptions, rehab referral | Sex as documented; do not collapse atypical values silently |
 | Insurance | Transfer acceptance, post-acute placement, clinic access | Primary payer category |
 | Rurality / geography | EMS time, transfer delay, CSTK-11 | ZIP or first-hospital ID; rural/urban flag |
@@ -94,13 +94,15 @@ The Medical Director's question is not "is this statistically significant?" It i
 
 Language access is a time intervention. If the interpreter arrives after the bolus or after the puncture decision, it was not access.
 
+Split limited English proficiency (LEP) from aphasia. LEP is a language-access problem: the patient has a preferred language other than English and needs a qualified interpreter. Aphasia is a neurologic deficit. An interpreter does not create a translated NIHSS, and this handbook does not invent a NIHSS validated in every language. Document preferred language, whether a professional interpreter was present for the exam, and the NIHSS value obtained. Do not treat a missing interpreter as if the NIHSS were invalid in a language the program has not validated, and do not treat aphasia as if it were LEP.
+
 Build a code-stroke interpreter standard:
 
-1. Preferred language is a discrete field at first contact, including EMS prenotification when known.
+1. Preferred language is a discrete REaL field at first contact, including EMS prenotification when known.
 2. Activation of professional interpretation is parallel to CT, not sequential after the attending arrives.
 3. Method hierarchy: qualified in-person or video first for examination and consent; telephone if video fails; bilingual staff only if they are qualified interpreters, not "the tech who speaks some."
 4. Time stamps: interpreter requested, interpreter present, first interpreted exchange. These are quality data, not amenities.
-5. NIHSS and consent conducted with the interpreter; document that the NIHSS was interpreted.
+5. NIHSS and consent conducted with the interpreter when LEP is present; document that the exam was interpreted. Do not claim the instrument is validated in that language unless a cited validation exists.
 6. Family interpretation is not the standard for eligibility or consent. Emergency exception pathways remain available and must be written.
 7. After hours is the real test. Video carts in ED, CT, and IR. A backup number that night staff will actually dial.
 8. STK-8 education and 90-day mRS use the same language field. A program that interprets the bolus and then mails English education has not finished.
@@ -146,7 +148,7 @@ GWTG quality measures and Plus awards may include elements that touch smoking, d
 
 ### Equity as a standing agenda item
 
-If equity appears once a year, it is ceremonial. Put it on the monthly scorecard meeting (Chapter 23) as a short, structured item and on the quarterly governance agenda as a decision item.
+If equity appears once a year, it is ceremonial. Put it on monthly quality (Chapter 23) as a short, structured item and on quarterly stroke executive as a decision item.
 
 **Monthly (10 minutes).** One page: DTN and EVT access by language and by arrival mode; interpreter-before-decision rate; 90-day capture by language and payer; any "judgment" EVT decline this month. No slide tour of national statistics.
 
@@ -157,16 +159,16 @@ If equity appears once a year, it is ceremonial. Put it on the monthly scorecard
 Assign a named owner (often the Associate Medical Director plus the program director) who can change the interpreter SOP and can bring a transfer-acceptance script to the CMO. A committee that can only "raise awareness" is not an owner.
 
 !!! tip "Key Actions"
-    Make race/ethnicity, language, interpreter used and time, sex, insurance, rurality, and arrival mode mandatory discrete fields this quarter. Add an interpreter-before-decision process measure to the operational list. Review 100% of EVT "judgment" declines and early comfort-measures cases with language or missing-interpreter flags. Put a 10-minute equity page on the monthly scorecard. Pick one community and one arrival metric for non-performative education. Stop reading CSTK-10 without capture rates by language and payer.
+    Make REaL (race, ethnicity, language), interpreter used and time, sex, insurance, rurality, and arrival mode mandatory discrete fields this quarter. Split LEP from aphasia on the operational list. Add an interpreter-before-decision process measure. Review 100% of EVT "judgment" declines and early comfort-measures cases with language or missing-interpreter flags. Put a 10-minute equity page on monthly quality. Pick one community and one arrival metric for non-performative education. Stop reading CSTK-10 without capture rates by language and payer.
 
 !!! abstract "Metrics Targets"
-    External floors remain Chapter 23 (GWTG 85% achievement; Honor Roll / Elite / Elite Plus DTN cuts; Advanced Therapy 50% door-to-device; CSTK-11 120 min; CSTK-12 60 min). Equity targets are internal and labeled as such: complete equity-field capture near 100%; professional interpretation in place before treatment decision for non-English-preferring codes, with a locally set high target; 90-day contact attempts in the preferred language on 100% of CSTK-02-eligible patients; no unreviewed EVT "judgment" decline. Do not set a CSTK-05 "improvement" target by stratum. Report stratified DTN and EVT access on rolling windows when monthly n is small.
+    Honor Roll / Elite / Elite Plus / Advanced Therapy are **published award criteria** (Chapter 23), not CSC certification floors. CSTK-11 120 min and CSTK-12 60 min are specification clocks. Equity targets are `internal` and labeled as such: complete REaL-field capture near 100%; professional interpretation in place before treatment decision for non-English-preferring codes, with a locally set high target; 90-day contact attempts in the preferred language on 100% of CSTK-02-eligible patients; no unreviewed EVT "judgment" decline. Do not set a CSTK-05 "improvement" target by stratum. Do not invent a disparity rate. Report stratified DTN and EVT access on rolling windows when monthly n is small.
 
 !!! warning "Common Pitfalls"
-    Unstratified averages used as proof of fairness. Percentages on n=3. Adjusting a disparity away in the operations meeting. Family as the default interpreter. Interpreter after the bolus. Eligibility folklore that contradicts "disabling deficit regardless of NIHSS." Insurance questions before last-known-well on transfer calls. 90-day calls only in English, then declaring a racial outcome gap. Community fairs without EMS or arrival metrics. A yearly equity lecture in place of a standing agenda item. Using comfort-measures exclusions as an unreviewed off-ramp. Night video-interpreter carts that live in a locked office.
+    Unstratified averages used as proof of fairness. Percentages on n=3. Adjusting a disparity away in weekly ops. Treating aphasia as LEP, or LEP as a failed NIHSS. Inventing a NIHSS validated in every language. Inventing a disparity rate from n<10. Family as the default interpreter. Interpreter after the bolus. Eligibility folklore that contradicts "disabling deficit regardless of NIHSS." Insurance questions before last-known-well on transfer calls. 90-day calls only in English, then declaring a racial outcome gap. Community fairs without EMS or arrival metrics. A yearly equity lecture in place of a standing agenda item. Using comfort-measures exclusions as an unreviewed off-ramp. Night video-interpreter carts that live in a locked office.
 
 !!! success "Implementation Tips"
-    Fix language access first; it is the fastest mechanism with a clock. Pair every stratified gap with a defect code and a method from Chapter 24. Invite EMS, interpreter services, and a post-acute partner to the quarterly equity item. Have a night nurse, not the coordinator, demonstrate the video-interpreter path during a tracer (Chapter 25). When a community effort starts, pre-register the arrival metrics so no one can later substitute headcount. Publish the equity page in the same packet as Elite Plus so leadership cannot praise one and skip the other.
+    Fix language access first; it is the fastest mechanism with a clock. Pair every stratified gap with a defect code and a method from Chapter 24. Invite EMS, interpreter services, and a post-acute partner to the quarterly equity item. Have a night nurse, not the coordinator, demonstrate the video-interpreter path during a tracer (Chapter 25). When a community effort starts, pre-register the arrival metrics so no one can later substitute headcount. Publish the equity page in the same packet as the published Target: Stroke award criteria so leadership cannot praise one and skip the other. Do not invent a NIHSS validated in every language.
 
 ## How to Do the Work
 
@@ -194,7 +196,7 @@ Assign a named owner (often the Associate Medical Director plus the program dire
 - Align secondary-prevention clinic access (2021 secondary-prevention guideline as the major reference unless a later AHA update is cited) with the same strata: who never reaches clinic, who never starts anticoagulation for AF (STK-3 / GWTG-5).
 - Include equity in fellowship and interprofessional education so July does not reset bias-prone folklore.
 - When adding a site, an MSU, or a telestroke spoke, write the equity effect into the go-live, including language access at the new front door.
-- Report to hospital governance as operations: gaps, mechanisms, standard-work changes — not as a values statement.
+- Report to quarterly stroke executive as operations: gaps, mechanisms, standard-work changes — not as a values statement. Do not invent disparity rates.
 
 ## Ready-to-Adapt Tools
 
@@ -215,7 +217,7 @@ Blank a cell rather than print a percent on a tiny n. Footnote the window.
 
 ### Tool B — Code-stroke interpreter SOP skeleton
 
-**Aim.** Professional interpretation in place before IVT/EVT/ICH decision for patients with a preferred language other than English.
+**Aim.** Professional interpretation in place before IVT/EVT/ICH decision for patients with LEP. Aphasia is not LEP; an interpreter is not a translated NIHSS.
 
 **Activation.** Parallel to code stroke when language is known; immediately when discovered.
 
@@ -280,9 +282,9 @@ Blank a cell rather than print a percent on a tiny n. Footnote the window.
 
 ## Integration With Other Pillars
 
-Chapter 22 must produce complete equity fields or this chapter is rhetoric. Chapter 23 must print the strata beside Elite Plus. Chapter 24 must accept equity/access as a defect family and allow PDSAs that target interpreter time rather than generic "education." Chapter 25 surveyors will ask about interpretation and will notice a binder that only contains English pathways.
+Chapter 22 must produce complete REaL fields or this chapter is rhetoric. Chapter 23 must print the strata beside the published Target: Stroke award criteria. Chapter 24 must accept equity/access as a defect family and allow PDSAs that target interpreter time rather than generic "education." Chapter 25 surveyors will ask about interpretation and will notice a binder that only contains English pathways.
 
-Clinical chapters (EMS, hyperacute, EVT, ICH/aSAH, telestroke, MSU, rehab, clinic) are where disparities are created or prevented. Education chapters must teach interpreted NIHSS and decline-audit habits to fellows. Research chapters must not recruit only the patients who are easy to consent in English and then call the sample the CSC population. Leadership and culture chapters determine whether a night nurse can stop a consent until the interpreter is present. Strategy and network chapters determine whether new spokes inherit the interpreter SOP or inherit the disparity.
+Clinical chapters (EMS, hyperacute, EVT, ICH/aSAH, telestroke, MSU, rehab, clinic) are where disparities are created or prevented. Education chapters must teach LEP-versus-aphasia habits and decline audits to fellows; do not invent a NIHSS validated in every language. Research chapters must not recruit only the patients who are easy to consent in English and then call the sample the CSC population. Leadership and culture chapters determine whether a night nurse can stop a consent until the interpreter is present. Strategy and network chapters determine whether new spokes inherit the interpreter SOP or inherit the disparity.
 
 ## Sources
 
@@ -291,6 +293,6 @@ Clinical chapters (EMS, hyperacute, EVT, ICH/aSAH, telestroke, MSU, rehab, clini
 - 2022 ICH Guideline. DOI 10.1161/STR.0000000000000407. 2023 aSAH Guideline. *Stroke*. 2023;54:e314–e370. 2024 AHA/ASA ICH performance measures.
 - AHA/ASA public statements and scientific writing on stroke disparities (awareness, EMS use, IVT/EVT treatment, rehabilitation, outcomes) — use at high level to justify local measurement; do not substitute for local numerators.
 - CSTK v2026B (CSTK-01, 02, 05, 09, 10, 11, 12) and STK-4, STK-8, STK-10 as the measures most sensitive to language, eligibility, and disposition inequity. CSTK-07 not current.
-- GWTG-Stroke achievement and Target: Stroke public cuts (Chapter 23); Target: Type 2 Diabetes composite ≥80% for 12 months when that track is pursued.
+- GWTG-Stroke achievement and Target: Stroke **published award criteria** (Chapter 23); Target: Type 2 Diabetes composite ≥80% for 12 months when that track is pursued. Do not invent disparity rates.
 - Landmark EVT trials (HERMES 2016; DAWN; DEFUSE 3; SELECT2; ANGEL-ASPECT; RESCUE-Japan LIMIT) as context for expanded eligibility and therefore expanded discretion.
 - The Joint Commission 2026 Stroke Certification Standards (SCS26) and DSC performance-measurement requirement — equity work supports, and is not replaced by, certification.

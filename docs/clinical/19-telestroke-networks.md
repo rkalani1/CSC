@@ -24,7 +24,7 @@ Certification and reputation follow the same failures. Surveyors will ask how th
 
 ### Hub-and-spoke governance
 
-Name the network as a clinical service with a budget, a medical director (often the CSC Medical Director or a designated Telestroke Director who reports to that person), a program manager, and a quality committee that includes spoke voices.
+Name the network as a clinical service with a budget, a medical director (often the CSC Medical Director or a designated Telestroke Director who reports to that person), a program manager, and a seat for spoke voices on **monthly quality**. Network strategy and FTE fights escalate to **quarterly stroke executive**. Do not invent a third "stroke governance committee."
 
 ```mermaid
 flowchart TB
@@ -48,7 +48,7 @@ flowchart TB
 | Licensing | Each physician, tracked centrally | Active license or compact privilege in the spoke state before the shift |
 | Platform and security | Health-system telemedicine + information security | Downtime procedure tested |
 | Transfer agreements | Hospital executives + Medical Director | Written, current, and known to night nursing supervisors |
-| Quality review | Joint hub–spoke committee | Cases, times, misses, and education, not a hub-only M&M |
+| Quality review | Monthly quality (hub + spoke voices) | Cases, times, misses, and education, not a hub-only M&M |
 | Education calendar | Telestroke program manager | Required, recorded, and spoke-attended |
 | Night coverage | Medical Director | Attending-level decision rights 24/7 |
 
@@ -56,9 +56,19 @@ A vendor is a platform supplier. A vendor is not the Medical Director.
 
 ### Credentialing, licensing, and documentation
 
-Credentialing is local. Each spoke medical staff must privilege the hub physicians who will recommend or order thrombolysis and who will direct transfer. Proxy privileging arrangements exist in some systems; they do not erase the need for a current list and a process for new faculty and new fellows.
+Credentialing is local. Each spoke medical staff must privilege the hub physicians who will recommend or order thrombolysis and who will direct transfer.
+
+CMS telemedicine privileging is **confirm-live** against 42 CFR 482.22. The spoke (originating site) may run a full local credentialing file or, by written agreement, a proxy pathway that relies on the distant-site hospital or distant-site telemedicine entity's credentialing and privileging. Either path still requires licensure in the spoke state and a current privilege list before the first call. Focused and ongoing professional practice evaluation (FPPE/OPPE), or the hospital's equivalent, and the performance-information exchange 482.22 requires (adverse events and complaints sent back to the distant site) are medical-staff work. Confirm the live CoP text and the hospital bylaws. Do not invent a surveyor checklist in this chapter.
 
 Licensing is state-based. The Interstate Medical Licensure Compact reduces friction for participating states; it does not create a national license. Maintain a living matrix: physician × state × expiration date. A physician who is perfect on the hub campus and unlicensed at a rural spoke is not covering that spoke.
+
+### EMTALA at the hub — recipient-hospital rule (42 CFR 489.24)
+
+The hub CSC is a **recipient hospital**. Under 42 CFR 489.24, a hospital with specialized capabilities may not refuse an appropriate transfer of a patient who requires those capabilities if it has the capacity to treat. Capacity plus specialized capability is the test. Insurance status is not. Do not screen the inbound transfer for payor, plan, or "out of network."
+
+The spoke emergency department owns the medical screening examination and the physician certification of the transfer. The hub neurologist recommends treatment and destination. Joining the video does **not** make the hub neurologist the spoke EMTALA physician.
+
+Decline-for-capacity is a **named attending** decision with a written log: time, attending, what capacity was missing (ICU bed, IR suite, OR, blood bank), and the redirect offered. An unnamed "we are busy" from the transfer-center agent is not a decline. Review every logged decline at the next weekday huddle; patterns go to monthly quality.
 
 Documentation standards the network should lock:
 
@@ -81,8 +91,9 @@ Write decision rights so a spoke emergency physician and a hub neurologist do no
 | Activate telestroke | Spoke ED physician or approved RN protocol | Activate on suspected stroke within treatment windows, not only on "obvious" cases | Answer within the network time standard |
 | Give TNK 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg (max 90 mg) | Hub neurologist recommends; spoke ED administers under local policy | Maintain drug, mixing competency, and BP control | Complete a video exam and image review before yes |
 | Withhold lytic | Hub neurologist | Document and do not give "a little TNK anyway" | State the reason in the note |
-| Transfer for EVT | Hub neurologist + accepting CSC attending | Call EMS at decision, not after packing | Accept or redirect within a defined number of minutes |
+| Transfer for EVT | Hub neurologist + accepting CSC attending | Call EMS at decision, not after packing | Accept or redirect within a defined number of minutes. No insurance screen (42 CFR 489.24). |
 | Transfer for ICH / aSAH | Hub neurologist + neurosurgery / NCC | Start reversal and BP bundle before the wheels move | Name the receiving unit and surgeon/NIR plan |
+| Decline for capacity | Named hub attending; written log | Do not shop payors while waiting | Log time, attending, missing capacity, redirect. Not a transfer-center solo decision. |
 | Keep at spoke | Hub neurologist | Admit to an agreed pathway; recapture if the exam worsens | Offer a next-day video follow-up for selected keeps |
 | Downgrade a transfer en route | Accepting attending | Update EMS | Never leave EMS without a destination |
 
@@ -151,16 +162,16 @@ Night is the product. If the network is excellent from 08:00 to 16:00 and improv
 - Public reporting inside the network of time-to-answer and time-to-TNK by spoke, including the smallest hospital.
 
 !!! tip "Key Actions"
-    Appoint a Telestroke Director who reports to the CSC Medical Director and give that person protocol authority. Build a physician × state license matrix and a spoke-by-spoke privilege list before the next schedule is published. Write TNK and transfer decision rights on one page and post them at every spoke. Define a video NIHSS standard and audit ten nighttime exams a month. Put spoke leaders on the quality committee. Replace telephone-as-routine with telephone-as-downtime. Measure night answer times separately from daytime answer times.
+    Appoint a Telestroke Director who reports to the CSC Medical Director and give that person protocol authority. Build a physician × state license matrix and a spoke-by-spoke privilege list before the next schedule is published; confirm 42 CFR 482.22 proxy-versus-full and FPPE/OPPE against the live CoP and bylaws. Write TNK and transfer decision rights on one page and post them at every spoke. Write the EMTALA recipient rule (42 CFR 489.24): accept if capacity and specialized capability exist; no insurance screen; decline-for-capacity is a named attending with a written log. Define a video NIHSS standard and audit ten nighttime exams a month. Put spoke leaders on monthly quality. Replace telephone-as-routine with telephone-as-downtime. Measure night answer times separately from daytime answer times.
 
 !!! abstract "Metrics Targets"
-    Answer video requests within an internal standard (commonly ≤10 minutes from request to neurologist on camera; publish the local number and hold it). Door-to-needle at spokes should be managed toward the same Target: Stroke philosophy as the hub — Honor Roll **75%** DTN ≤60 minutes as a starting bar, with elite internal targets labeled as internal. Document a complete video NIHSS on **≥95%** of lytic decisions. Review **100%** of post-telestroke sICH and of LVO patients who arrived at the hub beyond a locally defined acceptable transfer interval. Complete annual education attendance for **≥80%** of spoke ED physicians. Track keep-versus-transfer mix and 90-day mRS for transferred patients as a network outcome, not only a hub outcome.
+    Answer video requests within an internal standard (commonly ≤10 minutes from request to neurologist on camera; publish the local number and hold it). Manage spoke door-to-needle against the same Target: Stroke published cuts as the hub — those cuts live in [Core Metrics](../quality/23-core-metrics.md); label any tighter aim `internal`. Document a complete video NIHSS on **≥95%** of lytic decisions. Review **100%** of post-telestroke sICH, of capacity declines, and of LVO patients who arrived at the hub beyond a locally defined acceptable transfer interval. Complete annual education attendance for **≥80%** of spoke ED physicians. Track keep-versus-transfer mix and 90-day mRS for transferred patients as a network outcome, not only a hub outcome.
 
 !!! warning "Common Pitfalls"
-    Allowing a vendor to own clinical protocols. Scheduling physicians who are not privileged at the spoke that will call. Using telephone consults at night because "video takes too long," which is how eligibility errors are made. Letting fellows give TNK recommendations without a named attending. Transferring every stroke because it is easier than teaching the spoke to keep a non-disabling DAPT patient. Refusing rural transfers at 02:00 and then presenting the CSC as a regional resource at noon. Building a dashboard that averages the flagship spoke with the critical-access hospital. Treating interpreter use as optional.
+    Allowing a vendor to own clinical protocols. Scheduling physicians who are not privileged at the spoke that will call. Using telephone consults at night because "video takes too long," which is how eligibility errors are made. Letting fellows give TNK recommendations without a named attending. Transferring every stroke because it is easier than teaching the spoke to keep a non-disabling DAPT patient. Screening an inbound transfer for insurance. Letting the transfer center decline for capacity without a named attending and a written log. Treating the hub neurologist as the spoke EMTALA physician. Refusing rural transfers at 02:00 and then presenting the CSC as a regional resource at noon. Building a dashboard that averages the flagship spoke with the critical-access hospital. Treating interpreter use as optional.
 
 !!! success "Implementation Tips"
-    Start governance with two documents: decision rights and the license matrix. Visit spokes in person, at night, once. Night visits reveal camera placement, pharmacy friction, and whether the posted algorithm is the real algorithm. Record (with consent and policy) a sample of video exams for coaching, the way simulation is used in the hub ED. Give each spoke a single hub liaison physician so relationships survive shift work. When a spoke repeatedly misses CTA, send a radiology educator, not another memo. Publish a monthly one-page network letter that includes a case, a time metric, and a protocol change.
+    Start governance with three documents: decision rights, the license-and-privilege matrix (482.22 path named: proxy or full), and the EMTALA decline log. Visit spokes in person, at night, once. Night visits reveal camera placement, pharmacy friction, and whether the posted algorithm is the real algorithm. Record (with consent and policy) a sample of video exams for coaching, the way simulation is used in the hub ED. Give each spoke a single hub liaison physician so relationships survive shift work. When a spoke repeatedly misses CTA, send a radiology educator, not another memo. Publish a monthly one-page network letter that includes a case, a time metric, and a protocol change.
 
 ## How to Do the Work
 
@@ -172,7 +183,7 @@ Weekly, the program manager and Telestroke Director walk the license and privile
 
 ### Monthly / quarterly
 
-Monthly, the hub–spoke quality committee reviews volume, times, lytic rates, transfer rates, sICH, LVO arrival intervals, keep-in-place bounce-backs, and education attendance. Spoke clinicians present their own cases. Hub-only review is not network review.
+Monthly quality reviews volume, times, lytic rates, transfer rates, capacity-decline log, sICH, LVO arrival intervals, keep-in-place bounce-backs, and education attendance, with spoke clinicians in the room presenting their own cases. Hub-only review is not network review. FTE, contract, and spoke-addition decisions go to quarterly stroke executive.
 
 Quarterly, re-audit video exam quality with a structured rubric. Quarterly, tabletop the downtime procedure. Quarterly, reconcile the TNK/alteplase inventory list so the protocol first page matches what is in each Pyxis. Quarterly, review equity: answer times and transfer accept times for the smallest and most rural spokes compared with the busiest suburban spoke.
 
@@ -218,6 +229,7 @@ Multi-year, treat the network as a regional system-of-care instrument (see the n
 - Spokes privileged, with expiration
 - DEA if locally required for the role
 - Status this month (green / expiring 90 days / blocked)
+- 482.22 path at each spoke (full local file vs proxy) — confirm live
 - Backup physician if blocked
 
 ### Tool D — Night coverage RACI
@@ -227,13 +239,14 @@ Multi-year, treat the network as a regional system-of-care instrument (see the n
 | Answer the consult | R / A | C | R (activates) | I | I |
 | Lytic decision | A | R (exam) | R (gives) | I | I |
 | EVT transfer | C | C | R (packages) | R | A |
+| Capacity decline | I | I | I | R (logs) | A (named attending) |
 | ICH / aSAH transfer | C | C | R | R | A (NSGY/NCC) |
 | Note in spoke EHR | A | R | C | I | I |
 | Next-morning review | A | C | I | I | C |
 
 ### Tool E — Monthly network quality agenda (45 minutes)
 
-1. Safety events and sICH (15 minutes)
+1. Safety events, sICH, and EMTALA capacity-decline log (15 minutes)
 2. Times: request-to-camera, door-to-needle, decision-to-EMS (10)
 3. Transfer and keep mix, including bounce-backs (5)
 4. Video-exam audit themes (5)
@@ -263,5 +276,7 @@ Credentialing and FTE belong to [Governance Architecture](../leadership/07-gover
 - Müller-Barna P, et al. and subsequent telestroke outcome syntheses cited in the 2026 guideline supportive text on mortality and access.
 - American Heart Association/American Stroke Association policy and systems-of-care statements on telemedicine in stroke (use the current AHA policy page when refreshing).
 - Interstate Medical Licensure Compact Commission — current participating-state list and the fact that compact privilege is not a national license.
+- 42 CFR 489.24 (EMTALA): recipient-hospital duty to accept an appropriate transfer if capacity and specialized capability exist; no delay of screening, treatment, or transfer to inquire about payment or insurance. Spoke ED owns the medical screening examination and transfer certification.
+- 42 CFR 482.22 (CMS Condition of Participation: Medical staff): telemedicine privileging — full local file versus written-agreement proxy through a distant-site hospital or distant-site telemedicine entity; licensure in the originating-site state; performance-information exchange for FPPE/OPPE. Confirm live CoP text; do not invent a surveyor checklist.
 - Joint Commission stroke certification standards (SCS26) and the active DSC manual for any telemedicine-related expectations. Confirm current language; do not invent numeric volume requirements.
-- Target: Stroke honor-roll thresholds (75% DTN ≤60 minutes Honor Roll; 85% Elite; Elite Plus 75% ≤45 and 50% ≤30) as published GWTG public criteria.
+- Target: Stroke published cuts — see [Core Metrics](../quality/23-core-metrics.md); do not restate Honor Roll / Elite / Elite Plus numbers here as if they were CSC certification floors.

@@ -2,9 +2,9 @@
 
 ## Opening
 
-An academic Comprehensive Stroke Center is judged, internally and externally, on what it does with hemorrhage and with the lesions that cause it. Ischemic reperfusion is necessary. It is also increasingly distributed. What remains concentrated at the CSC is the 24/7 ability to reverse coagulopathy, run an ICH care bundle, secure a ruptured aneurysm, manage delayed cerebral ischemia, and treat the uncommon vascular lesions — arteriovenous malformation, dural arteriovenous fistula, moyamoya — that community hospitals will never staff.
+An academic Comprehensive Stroke Center is judged, internally and externally, on what it does with hemorrhage and with the lesions that cause it. Ischemic reperfusion is necessary. It is also increasingly distributed. What remains concentrated at the CSC is the 24/7 ability to reverse coagulopathy, run an ICH care bundle, secure a ruptured aneurysm, manage delayed cerebral ischemia, and receive ruptured AVM, ruptured dAVF, and moyamoya presenting as stroke. Elective unruptured work lives in [Elective Cerebrovascular Program](46-elective-cerebrovascular.md).
 
-The Medical Director does not have to be the operating neurosurgeon or the neurointerventionalist. The Medical Director does have to build shared governance between neurosurgery and neurointervention, a single hemorrhage pathway that the emergency department cannot freelance, and a quality system that treats CSTK-03 (severity measurement for SAH and ICH), CSTK-04 (procoagulant reversal for ICH), and CSTK-06 (nimodipine for aSAH) as operational clocks rather than abstractor chores.
+The Medical Director does not have to be the operating neurosurgeon or the neurointerventionalist. The Medical Director does have to build shared governance between neurosurgery and neurointervention, a single hemorrhage pathway that the emergency department cannot freelance, and a quality system that treats CSTK-03, CSTK-04, and CSTK-06 as operational clocks rather than abstractor chores. CSTK-03 is Hunt and Hess for SAH and the ICH Score for ICH, documented before surgery or within 6 hours of arrival if there is no surgery. CSTK-04 is PCC, FFP, or rFVIIa for ICH with arrival INR ≥1.4 — not the entire 2022 reversal SOP. CSTK-06 is first enteral nimodipine within 24 hours of arrival.
 
 Two documents set the clinical floor: the 2022 AHA/ASA ICH guideline and the 2023 AHA/ASA aSAH guideline. A third document, the 2024 AHA/ASA performance and quality measures for spontaneous ICH, converts the 2022 guideline into a measure set the CSC should adopt even where Joint Commission does not yet require every element. A fourth fact changes the certification conversation: the April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10 (announced with AHA/ASA; the official manual update followed in January 2026). That change lowers a historic barrier. It does not lower the obligation to secure aneurysms around the clock or to keep a hemorrhage service that is actually used.
 
@@ -12,85 +12,102 @@ Two documents set the clinical floor: the 2022 AHA/ASA ICH guideline and the 202
 
 ICH remains among the deadliest stroke types the CSC will admit this year. Outcome is determined in the first hours by hematoma expansion, airway, blood pressure, and coagulopathy — and then by days of neurocritical care, venous prophylaxis, swallow, and honest goals-of-care work. INTERACT3 showed that a goal-directed bundle (early systolic blood-pressure lowering, glucose control, temperature control, and rapid reversal of warfarin-related anticoagulation) can improve functional outcome. That is an operations trial as much as a physiology trial. A CSC that "knows the guideline" and cannot execute the bundle at 03:00 has not implemented INTERACT3.
 
-Aneurysmal SAH is the original CSC differentiator. The 2023 guideline replaced the 2012 document and remains the operational source for nimodipine, early aneurysm securing, hydrocephalus, and delayed cerebral ischemia. CSTK-06 will reveal whether nimodipine is actually administered. CSTK-03 will reveal whether anyone scored the patient. Neither measure will reveal whether a night-time rupture waited until the morning elective board. That is a governance measure, and the Medical Director owns it.
+Aneurysmal SAH is the original CSC differentiator. The 2023 guideline replaced the 2012 document and remains the operational source for nimodipine, early aneurysm securing, hydrocephalus, and delayed cerebral ischemia. CSTK-06 will reveal whether the first enteral nimodipine dose landed inside 24 hours of arrival. CSTK-03 will reveal whether Hunt and Hess (SAH) or the ICH Score (ICH) was recorded before surgery or within 6 hours if no surgery. Neither measure will reveal whether a night-time rupture waited until the morning elective board. That is a governance measure, and the Medical Director owns it.
 
-The April 2, 2025 volume change will tempt two errors. The first is complacency: "we only need 10" as an excuse to let the aneurysm service thin out. The second is predatory marketing: declaring CSC readiness on the basis of the new floor without 24/7 securing, without neurocritical care, and without a reversal pathway. Use 10 as the certification floor. Use 24/7 securing, bundle reliability, and shared NSGY–NIR governance as the academic standard.
-
-Complex cerebrovascular disease — AVM, dural fistula, moyamoya, cavernous malformation with repetitive hemorrhage, and the rare vasculopathies — is how an academic CSC remains a referral destination after ischemic thrombectomy has commoditized. These programs require a multidisciplinary conference, a prospective registry, and a call schedule that does not depend on one famous operator. They are not a side clinic. They are part of the CSC's reason to exist.
+The April 2, 2025 volume change will tempt two errors: complacency ("we only need 10") and predatory marketing (declaring CSC readiness on the new floor without 24/7 securing). Use 10 as the certification floor. Use 24/7 securing, bundle reliability, and shared NSGY–NIR governance as the academic standard. Elective unruptured aneurysm, AVM, and dAVF program-building lives in [Elective Cerebrovascular Program](46-elective-cerebrovascular.md). This chapter keeps the ruptured and acute-hemorrhage operating system.
 
 ## Core Framework
 
 ### One hemorrhage door, two diseases, one command
 
 ```mermaid
-flowchart TB
-    A[ED or transfer: suspected hemorrhage] --> B[NCCT plus vascular imaging when indicated]
-    B --> C{Diagnosis}
-    C -->|ICH| D[Severity score CSTK-03]
-    C -->|aSAH| E[Severity scores CSTK-03]
-    D --> F[INTERACT3-style bundle]
-    F --> G[Reversal CSTK-04]
-    G --> H[NCC admission + surgery decision]
-    E --> I[Airway BP glucose]
-    I --> J[Nimodipine CSTK-06]
-    J --> K[Secure aneurysm 24/7]
-    K --> L[DCI surveillance]
-    H --> M[Joint NSGY-NIR-NCC board]
-    L --> M
-    M --> N[AVM dAVF moyamoya conference]
+flowchart TD
+    A[ICH on NCCT T=0] --> B[T+5 airway / NPO / ICH Score CSTK-03]
+    B --> C[T+10 name anticoagulant class]
+    C --> D[T+15 reversal started]
+    D --> E[T+15 SBP less than 140 stop at 130]
+    E --> F[Same hour disease-specific glucose + temp treat above 37.5]
+    F --> G[NSGY triage + NCC bed]
+    G --> H{Any element missed at 60 min?}
+    H -->|Yes| I[After-action + AUD-04 + bundle audit]
+    H -->|No| J[ICU INTERACT3 board]
 ```
 
-Do not run separate, conflicting ED pathways for "stroke" and "neurosurgery bleed." The first hour is the same team. Ownership splits after the diagnosis is named, under a written rule.
+Do not run separate, conflicting ED pathways for "stroke" and "neurosurgery bleed." The first hour is the same team. Ownership splits after the diagnosis is named, under a written rule. Blood on NCCT plus a venous syndrome (progressive headache, seizure at onset, infarcts that do not respect an arterial territory) is **not** this reversal card — follow the 2024 CVT algorithm in [Special Populations](42-special-populations.md). Do not withhold anticoagulation as folklore because there is blood on the scan.
 
 ### ICH: 2022 guideline into an operating bundle
 
 The 2022 ICH guideline is the clinical source. The 2024 ICH performance and quality measure set (Ruff and colleagues) translates that guideline into 15 performance measures and 5 quality measures spanning prehospital through post-hospital care. Adopt the set as a local scorecard. Do not invent unofficial measure IDs. Map each operational step below to the current published measure name when the abstraction vendor is configured.
 
+INTERACT3 trial-bundle targets (confirm in Ma et al., Lancet 2023 appendix); local order-set follows 2022 ICH tables.
+
 | Bundle element | Operational target | Source logic | Owner |
 | --- | --- | --- | --- |
-| Severity score | ICH score (or an equivalent the hospital standardizes) documented early | CSTK-03; 2024 ICH PM domain | ED APP + neurology |
+| Severity score | **ICH Score** documented prior to surgery, or within **6 hours of arrival** if no surgery (CSTK-03b). Do not substitute WFNS or modified Fisher for the measure. | CSTK-03 (ER-CSTK-03T); 2024 ICH PM domain | ED APP + neurology |
 | Airway and swallowing | Protect the airway; no PO until screen | 2022 guideline supportive care | ED + RN |
 | Blood pressure | Time-stamped intensive lowering toward SBP <140 mm Hg when the presenting SBP is in the treatable range, with a floor that avoids overshoot (INTERACT3 used <140 with a 130 cessation threshold) | INTERACT2 / INTERACT3; 2022 guideline | ED + NCC |
-| Glucose | Protocolized control; INTERACT3 used 6.1–7.8 mmol/L (110–140 mg/dL) without diabetes and 7.8–10.0 mmol/L (140–180 mg/dL) with diabetes | INTERACT3; do not import AIS intensive-insulin thinking | RN-driven protocol |
-| Temperature | Treat to ≤37.5 °C and find the source | INTERACT3; 2022 guideline | RN-driven protocol |
-| Reversal | Agent chosen by anticoagulant class; clock starts at diagnosis | CSTK-04; INTERACT3 INR <1.5 within 1 hour for warfarin | Pharmacy + ED |
+| Glucose | INTERACT3 bands: 110–140 mg/dL without diabetes, 140–180 with diabetes. AIS uses a different card (140–180 reasonable; 80–130 not recommended). Shared fever number; disease-specific glucose order-sets. | INTERACT3; do not import the AIS glucose card onto ICH | RN-driven protocol |
+| Temperature | INTERACT3 trial-bundle: treat to **≤37.5 °C** and find the source. The 2026 AIS guideline also treats temperatures **>37.5 °C**. The number is shared; the order-set is not. Do not put a second AIS cut of 38.0 on the same board. | INTERACT3 trial-bundle; ER-AIS-2026-09 | RN-driven protocol |
+| Reversal | Class-specific clinical SOP (below). CSTK-04 is a narrower measure: INR ≥1.4 → PCC, FFP, or rFVIIa. | CSTK-04 (ER-CSTK-04D) plus 2022 ICH SOP; INTERACT3 INR <1.5 within 1 hour for warfarin | Pharmacy + ED |
 | VTE | IPC immediately; pharmacologic prophylaxis when the hemorrhage is stable | 2022 guideline; STK-1 still applies | NCC / unit |
 | Surgery / MIS | Written indications for cerebellar decompression and for consideration of minimally invasive evacuation | 2022 guideline; evolving trial evidence | NSGY |
 | Goals of care | Full intensive care unless and until a structured conversation says otherwise; avoid early nihilism | 2022 guideline | Attending, not the night intern |
 
 Write blood-pressure agents and reversal agents in the order-set. "Lower the BP" is not a bundle. Nicardipine, clevidipine, or the hospital's equivalent, with a start-time field, is a bundle.
 
-### Reversal operations (CSTK-04)
+### Reversal operations — CSTK-04 is not the whole SOP
 
-CSTK-04 measures initiation of a procoagulant reversal agent for ICH. Build a class-specific pathway so initiation is fast and correct.
+**The measure (v2026B).** Denominator: ICH with **INR ≥1.4 at arrival**. Numerator: initiation of **PCC, FFP, or rFVIIa**. That is what the abstractor scores. Andexanet, idarucizumab, and protamine are **not** CSTK-04 numerator agents. Do not teach abstractors that giving andexanet or idarucizumab "is CSTK-04." CSTK-04 does not apply to post-IVT hemorrhagic transformation (that is CSTK-05). Confirm live MIF0289 before each submission cycle.
 
-| Antithrombotic | First-line reversal (operational default) | Parallel actions | Do not |
+**The clinical SOP (2022 ICH guideline), run in parallel.** Every ICH patient still gets a class-specific reversal path. Warfarin / VKA with INR ≥1.4 is both the CSTK-04 population and a clinical emergency — give PCC (preferred) plus intravenous vitamin K; FFP or rFVIIa count for the measure if PCC is not the agent used. Dabigatran gets idarucizumab. Factor Xa inhibitors get andexanet where available and indicated, or PCC per the written local protocol. Heparin and LMWH get protamine. Those last three are clinical care. They are not the measure.
+
+| Antithrombotic | Clinical first-line (2022 SOP) | Does this satisfy CSTK-04? | Do not |
 | --- | --- | --- | --- |
-| Vitamin K antagonist | Four-factor PCC plus intravenous vitamin K; INR target <1.5 | Hold warfarin; repeat INR | Lead with FFP if PCC is available |
-| Dabigatran | Idarucizumab | Time of last dose; consider charcoal if hyperacute ingestion | Guess that PCC is equivalent |
-| Factor Xa inhibitor | Andexanet where available and indicated, or PCC per the written local protocol | Time of last dose | Debate at the bedside without a default |
-| Unfractionated heparin | Protamine | Stop the infusion | Partial-dose guesswork |
-| LMWH | Protamine per dose-and-time table | Record last injection time | Treat like UFH |
-| Antiplatelet only | Usually no routine platelet transfusion | Discuss only in the operating patient per guideline nuance | Transfuse platelets as a reflex |
-| Unknown anticoagulant | PCC while the medication list is being confirmed | Call the pharmacy and the family | Wait an hour for a perfect history |
+| Vitamin K antagonist, INR ≥1.4 | Four-factor PCC plus intravenous vitamin K; INR target <1.5 | **Yes** if PCC, FFP, or rFVIIa is started | Lead with FFP if PCC is available; skip vitamin K |
+| Dabigatran | Idarucizumab | **No** — not a numerator agent | Tell the abstractor this "is CSTK-04" |
+| Factor Xa inhibitor | Andexanet where available and indicated, or PCC per the written local protocol | **Only if PCC** (or FFP / rFVIIa) is the agent started | Debate at the bedside without a default |
+| Unfractionated heparin | Protamine | **No** | Partial-dose guesswork |
+| LMWH | Protamine per dose-and-time table | **No** | Treat like UFH |
+| Antiplatelet only | Usually no routine platelet transfusion | Not in the measure | Transfuse platelets as a reflex |
+| Unknown anticoagulant | PCC while the medication list is being confirmed | **Yes** if PCC / FFP / rFVIIa started and arrival INR ≥1.4 | Wait an hour for a perfect history |
 
-Stock the agents where ICH arrives, including the transfer dock. A reversal agent that lives only in the main pharmacy basement is not a CSTK-04 pathway.
+Stock the agents where ICH arrives, including the transfer dock. A PCC that lives only in the main pharmacy basement is not a CSTK-04 pathway. Idarucizumab and andexanet belong on the same map because the patient needs them — not because they score the measure.
 
 ### aSAH: 2023 guideline into a 24/7 service
 
 | Element | Operational standard | Measure |
 | --- | --- | --- |
 | Diagnosis | NCCT; LP only when suspicion survives a negative CT and the story is still SAH | Door-to-imaging |
-| Severity | Hunt and Hess or WFNS, plus a radiographic grade (modified Fisher) | CSTK-03 |
+| Severity | **Hunt and Hess** documented prior to surgery, or within **6 hours of arrival** if no surgery (CSTK-03a). WFNS and modified Fisher are clinical adjuncts. They are **not** the measure. Sampling: Yes. | CSTK-03 (ER-CSTK-03T) |
 | Blood pressure | Written pre-securing parameters; avoid both extreme hypertension and casual hypotension | Local bundle |
-| Nimodipine | Enteral nimodipine as standard; 60 mg every 4 hours is the historical and still-typical regimen, adjusted for hypotension; continue for the guideline course (classically 21 days) | CSTK-06 |
+| Nimodipine | First **enteral** dose within **24 hours of arrival** (CSTK-06). **Never give nimodipine intravenously** (U.S. boxed warning). Clinical course commonly 60 mg every 4 hours; hypotension adjustment is local. Continue for the guideline course (classically 21 days). | CSTK-06 (ER-CSTK-06T) |
 | Hydrocephalus | EVD indications written; do not delay for the daylight attending if the patient is declining | Time-to-EVD |
 | Aneurysm securing | 24/7 capability by clip, coil, or both, with a named decision process | Decision-to-secure clock |
-| DCI surveillance | Clinical plus a locally chosen tool (TCD, CTA, perfusion, or a combination) | Daily DCI huddle |
-| Rescue | Induced hypertension for symptomatic DCI after the aneurysm is secure; endovascular rescue under the joint protocol | Rescue log |
-| Sodium and volume | Avoid hypovolemia; treat hyponatremia as a monitored pathway | NCC protocol |
+| DCI surveillance | Daily exam plus a locally chosen tool (TCD, CTA, CTP, or a combination). Write the local clock; do not invent TCD velocity cutoffs as a national rule. | Daily DCI huddle |
+| Rescue | Induced hypertension for symptomatic DCI **only after the aneurysm is secured**; endovascular rescue under the joint protocol | Rescue log |
+| Sodium and volume | Euvolemia. No prophylactic triple-H. Treat hyponatremia as a monitored pathway. | NCC protocol |
 
 ULTRA and related work refined antifibrinolytic timing; they did not retire nimodipine. The 2023 aSAH guideline is the operational source. Do not run a local custom that quietly omits nimodipine because someone read a trial abstract on the antifibrinolytic question.
+
+### Delayed cerebral ischemia — local clock, not a folklore board
+
+Write a DCI product. Do not leave "watch for vasospasm" as a night-nurse proverb.
+
+Surveillance typically runs **days 3–14**, with a peak commonly **days 7–10**. Those numbers are a local clock to write, not a national mandate and not a reason to stop looking on day 2 or day 15. The daily product is a documented neurologic exam plus a locally chosen adjunct — TCD, CTA, CTP, or a combination the NCC and NIR services can actually staff. Do **not** invent TCD velocity or Lindegaard-ratio cutoffs in this handbook.
+
+Induced hypertension is a rescue for symptomatic DCI **after the aneurysm is secured**. Euvolemia is the volume default. Do not run prophylactic triple-H. Nimodipine continues (enteral) through the surveillance window unless a documented hypotension protocol holds or adjusts it. Rescue endovascular therapy (intra-arterial vasodilator, angioplasty, or the joint-protocol equivalent) is a named NIR pathway, not a 02:00 improvisation.
+
+```mermaid
+flowchart TD
+    A[Aneurysm secured] --> B[Enteral nimodipine continues]
+    B --> C[Local DCI clock: typically days 3–14, peak commonly 7–10]
+    C --> D[Daily exam + locally chosen TCD / CTA / CTP]
+    D --> E{New deficit not hydrocephalus or rebleed?}
+    E -->|No| F[Euvolemia; no prophylactic triple-H]
+    E -->|Yes| G[Induced HTN only after secured]
+    G --> H[Rescue endovascular under the joint protocol]
+    F --> C
+```
 
 ### Volume, 24/7 securing, and the April 2025 change
 
@@ -102,21 +119,11 @@ Ten is a certification floor. It is not a staffing model. A CSC that sees 10 rup
 - The two services share a single accept call, not two competing pagers.
 - If the on-call operator cannot secure the aneurysm, a documented backup (second operator, partner hospital, or transfer-out under a written exception) exists. Transfer-out of a ruptured aneurysm from a CSC should be a reportable event.
 - Diagnostic catheter angiography and operating-room / angiography-suite readiness are night-capable, including anesthesia and nursing.
-- Unruptured aneurysm and elective AVM work does not consume the night team to the point that a rupture waits.
+- Unruptured aneurysm and elective AVM / dAVF work does not consume the night team to the point that a rupture waits. Build that elective program in [Chapter 46](46-elective-cerebrovascular.md).
 
-### AVM, dural fistula, and moyamoya as CSC differentiators
+### Elective unruptured aneurysm, AVM, and dAVF — pointer
 
-These programs are how the academic CSC remains irreplaceable.
-
-| Program | What "a program" means | Minimum governance |
-| --- | --- | --- |
-| Brain AVM | Multidisciplinary conference (NSGY, NIR, radiation oncology, neurology); ruptured versus unruptured pathway; prospective registry | Every new AVM on the weekly conference before elective treatment |
-| Dural AV fistula | Same conference; cortical-venous drainage treated as an emergency-adjacent lesion | Named NIR ± NSGY pair |
-| Moyamoya | Direct and indirect revascularization capability; stroke neurology peri-operative ownership; blood-pressure and volume rules | Joint NSGY–neurology peri-op order-set |
-| Cavernous malformation | Surgery criteria for repetitive hemorrhage or aggressive location; genetic counseling when indicated | Conference, not a single-surgeon list |
-| Pediatric crossover | A written path to the pediatric hospital or service | Do not improvise on an adult table |
-
-A quarterly brochure and an annual case do not make a moyamoya program. Staffing, conference minutes, and outcomes do.
+Ruptured AVM and ruptured dAVF stay on this chapter's hemorrhage pathway. **Elective** unruptured aneurysm, AVM, and dAVF program design lives in [Elective Cerebrovascular Program](46-elective-cerebrovascular.md). Moyamoya or cavernoma that presents as hemorrhage uses the same single accept number. A quarterly brochure is not a program.
 
 ### NSGY–NIR shared governance
 
@@ -145,32 +152,32 @@ flowchart LR
 ```
 
 !!! tip "Key Actions"
-    Publish a single ICH bundle order-set that includes severity score, SBP target and agent, glucose, temperature, and class-specific reversal. Stock reversal agents at the point of arrival. Make nimodipine a hard-stop on every aSAH admission. Create one accept number for ruptured aneurysms with a 10-minute attending-of-record rule. Write the clip-versus-coil default table and the 24/7 backup rule. Put AVM, dAVF, and moyamoya on a standing multidisciplinary conference with minutes. Adopt the 2024 ICH performance-measure domains onto the local scorecard. Brief the executive team on the April 2, 2025 aSAH volume change without using it as an excuse to thin the service.
+    Publish a single ICH bundle order-set that includes ICH Score (or Hunt and Hess for SAH) inside the CSTK-03 window, SBP target and agent, disease-specific glucose, temperature treat-above-37.5, and class-specific reversal. Teach abstractors that CSTK-04 is PCC / FFP / rFVIIa for INR ≥1.4 — not andexanet or idarucizumab. Stock reversal agents at the point of arrival. Make first **enteral** nimodipine within 24 hours a hard-stop; never give it IV. Write the DCI clock (typically days 3–14) and the no-prophylactic-triple-H rule. Create one accept number for ruptured aneurysms with a 10-minute attending-of-record rule. Point elective unruptured / AVM / dAVF work at [Chapter 46](46-elective-cerebrovascular.md). Adopt the 2024 ICH performance-measure domains onto the local scorecard. Brief the executive team on the April 2, 2025 aSAH volume change without using it as an excuse to thin the service.
 
 !!! abstract "Metrics Targets"
-    CSTK-03 (severity score for ICH and aSAH): internal target **≥95%** documented within the locally defined early window. CSTK-04 (reversal initiation): internal target **≥90%**, with a process timer from CT diagnosis to first agent. CSTK-06 (nimodipine): internal target **≥95%** of eligible aSAH patients. INTERACT3-style bundle reliability: all applicable elements completed on **≥80%** of ICH arrivals as a build target, then raise it. Decision-to-secure for ruptured aneurysms: define a local clock (commonly inside 24 hours, faster when the patient is unstable or the anatomy is straightforward) and review every outlier. Transfer-out of a ruptured aneurysm from the CSC: target zero except under the written backup exception. Conference completion: **100%** of elective AVM, dAVF, and moyamoya cases before treatment.
+    CSTK-03: Hunt and Hess (SAH) or ICH Score (ICH) before surgery or within **6 hours of arrival** if no surgery — internal target **≥95%**. CSTK-04: PCC, FFP, or rFVIIa started for arrival INR **≥1.4** — internal target **≥90%**, with a process timer from CT to first numerator agent. Do not score andexanet or idarucizumab as CSTK-04. CSTK-06: first enteral nimodipine within **24 hours of arrival** — internal target **≥95%**. INTERACT3-style bundle reliability: all applicable elements completed on **≥80%** of ICH arrivals as a build target, then raise it. Decision-to-secure for ruptured aneurysms: define a local clock (commonly inside 24 hours) and review every outlier. Transfer-out of a ruptured aneurysm from the CSC: target zero except under the written backup exception. DCI: daily exam documented on **100%** of aSAH patients through the local days 3–14 clock; rescue log complete. Elective conference completion is a Chapter 46 metric.
 
 !!! warning "Common Pitfalls"
-    Separate ED pathways that delay reversal while "neurosurgery is on the way." PCC sitting in a locked central pharmacy. Declaring the ICH "nonsurvivable" before the bundle and a structured conversation. Dropping nimodipine for hypotension without a dose-adjustment protocol. Two pagers for one rupture. Elective aneurysm cases crowding the night team. Using the April 2025 reduction to 10 as a reason to stop recruiting cerebrovascular surgeons. Building an AVM clinic around one operator with no conference and no radiation-oncology partner. Ignoring the 2024 ICH measure set because "we already submit CSTK." Allowing antiplatelet-associated ICH to trigger automatic platelet transfusion.
+    Separate ED pathways that delay reversal while "neurosurgery is on the way." Teaching abstractors that andexanet or idarucizumab "is CSTK-04." Scoring WFNS or modified Fisher as CSTK-03. Giving nimodipine intravenously. Missing the 24-hour arrival clock because "we were waiting for the NG tube." PCC sitting in a locked central pharmacy. Declaring the ICH "nonsurvivable" before the bundle and a structured conversation. Dropping nimodipine for hypotension without a local dose-adjustment protocol. Inventing a TCD velocity cutoff as a national rule. Running prophylactic triple-H. Induced hypertension before the aneurysm is secured. Two pagers for one rupture. Elective cases crowding the night team. Using the April 2025 reduction to 10 as a reason to stop recruiting cerebrovascular surgeons. Ignoring the 2024 ICH measure set because "we already submit CSTK." Allowing antiplatelet-associated ICH to trigger automatic platelet transfusion. Putting two different fever numbers on one board.
 
 !!! success "Implementation Tips"
-    Launch the ICH bundle as a 90-day PDSA in the ED and NCC, not as a 40-page protocol. Pair pharmacy with the ED nurse manager on reversal-stock locations. Sit NSGY and NIR in the same M&M for six months before rewriting the service line — shared cases change politics faster than shared org charts. Use the weekly cerebrovascular conference as the moyamoya and AVM intake, not as a lecture. When CSTK-04 fails, walk the minutes from CT to drug, not the abstraction definition. Tell executives that 10 is the floor and 24/7 securing is the product.
+    Launch the ICH bundle as a 90-day PDSA in the ED and NCC, not as a 40-page protocol. Pair pharmacy with the ED nurse manager on reversal-stock locations. Sit NSGY and NIR in the same M&M for six months before rewriting the service line — shared cases change politics faster than shared org charts. Put the DCI clock on the NCC board the morning after securing. When CSTK-04 fails, walk the minutes from CT to a **numerator** agent and check the arrival INR, not the abstraction slogan. Tell executives that 10 is the floor and 24/7 securing is the product. Send elective program design to Chapter 46 so this chapter stays a hemorrhage operating system.
 
 ## How to Do the Work
 
 ### Daily / weekly
 
-Every ICH and aSAH admission appears on the morning board with bundle status: score done, BP trajectory, reversal given or not applicable, nimodipine given, securing plan, DCI watch list. The Medical Director or associate scans that board the way they scan the EVT list.
+Every ICH and aSAH admission appears on the morning board with bundle status: Hunt and Hess or ICH Score inside the CSTK-03 window, BP trajectory, CSTK-04 numerator agent if INR ≥1.4, class-specific SOP if another anticoagulant, first enteral nimodipine time, securing plan, DCI watch list. The Medical Director or associate scans that board the way they scan the EVT list.
 
-Daily, pharmacy confirms reversal-agent stock at the ED and the transfer dock. Daily, the aSAH list includes nimodipine administration times and any held doses.
+Daily, pharmacy confirms reversal-agent stock at the ED and the transfer dock. Daily, the aSAH list includes first-dose clock (24 hours from arrival), subsequent nimodipine administration times, and any held doses.
 
 Weekly, a joint NSGY–NIR–NCC huddle reviews every unsecured aneurysm, every rebleed, every EVD infection signal, and every ICH surgical decision. Weekly, the stroke coordinator reviews CSTK-03, CSTK-04, and CSTK-06 fallouts while the chart is still alive.
 
 ### Monthly / quarterly
 
-Monthly, the hemorrhage scorecard goes to stroke operations and to the NSGY–NIR joint committee: CSTK-03/04/06, bundle reliability, diagnosis-to-reversal time, decision-to-secure time, rebleeds, DCI-related infarcts, EVD infections, and 90-day mRS for ICH and aSAH. Invite the ED director. Most reversal delays start in the first 20 minutes.
+Monthly, the hemorrhage scorecard goes to monthly quality and to the NSGY–NIR joint committee: CSTK-03/04/06 (instruments and clocks as specified), bundle reliability, diagnosis-to-numerator-agent time, decision-to-secure time, rebleeds, DCI-related infarcts, EVD infections, and 90-day mRS for ICH and aSAH. Invite the ED director. Most reversal delays start in the first 20 minutes.
 
-Quarterly, audit ten ICH charts against the 2024 ICH performance-measure domains, not only against CSTK. Quarterly, audit clip-versus-coil decisions against the written default table. Quarterly, review elective AVM / dAVF / moyamoya conference compliance and outcomes. Quarterly, tabletop a Sunday-night rupture with both operators "already in a case."
+Quarterly, audit ten ICH charts against the 2024 ICH performance-measure domains, not only against CSTK. Quarterly, audit clip-versus-coil decisions against the written default table. Quarterly, send elective unruptured / AVM / dAVF conference compliance to the Chapter 46 owner. Quarterly, tabletop a Sunday-night rupture with both operators "already in a case."
 
 ### Annual / multi-year
 
@@ -183,13 +190,14 @@ Multi-year, recruit so that aneurysm securing and complex cerebrovascular surger
 ### Tool A — ICH first-hour checklist
 
 - Time of last known well and time of CT diagnosis
-- ICH score (or local equivalent) entered — CSTK-03
+- ICH Score entered prior to surgery or within 6 hours of arrival — CSTK-03b
 - Airway plan; head-of-bed; no PO
 - SBP target and agent started; next BP in 5 minutes
-- Glucose protocol activated
-- Temperature recorded; treat if >37.5 °C
-- Anticoagulant class named
-- Reversal agent ordered and **started** — CSTK-04
+- ICH glucose protocol activated (not the AIS 140–180 card)
+- Temperature recorded; treat if >37.5 °C (shared number; ICH order-set)
+- Anticoagulant class named; arrival INR recorded
+- If INR ≥1.4: PCC, FFP, or rFVIIa **started** — that is CSTK-04
+- Class-specific SOP in parallel (idarucizumab / andexanet or PCC / protamine) — not the measure
 - Repeat INR / specific labs timed
 - NSGY notified; NCC bed requested
 - Family located; early nihilism deferred
@@ -198,15 +206,15 @@ Multi-year, recruit so that aneurysm securing and complex cerebrovascular surger
 ### Tool B — aSAH securing clock (SOP skeleton)
 
 1. Diagnosis time (CT or LP).
-2. Severity scores entered (CSTK-03).
-3. Nimodipine ordered (CSTK-06) unless a documented contraindication.
+2. Hunt and Hess entered prior to surgery or within 6 hours of arrival (CSTK-03a). WFNS / modified Fisher are adjuncts.
+3. First **enteral** nimodipine within 24 hours of arrival (CSTK-06). Never IV.
 4. Single accept attending named within 10 minutes.
 5. Vascular imaging completed or scheduled immediately.
 6. Clip-versus-coil default applied or huddle called.
 7. Suite or OR hold placed.
 8. Secure time recorded.
 9. If not secured inside the local clock, the exception is written and reviewed the next weekday.
-10. Post-secure DCI plan posted on the NCC board.
+10. Post-secure DCI plan posted on the NCC board: local days 3–14 clock, daily exam, locally chosen TCD/CTA/CTP, euvolemia, no prophylactic triple-H, induced HTN only after secured, rescue endovascular under the joint protocol.
 
 ### Tool C — Reversal stock map
 
@@ -217,14 +225,14 @@ Multi-year, recruit so that aneurysm securing and complex cerebrovascular surger
 | NCC | Full set | Daily | NCC pharmacist |
 | Main pharmacy backup | Full set plus extras | Per pharmacy policy | Pharmacy director |
 
-A hole on this map is a CSTK-04 defect waiting to happen.
+A hole in PCC / FFP / rFVIIa is a CSTK-04 defect waiting to happen. A hole in idarucizumab, andexanet, or protamine is a clinical defect. Score them separately.
 
 ### Tool D — Weekly cerebrovascular conference agenda
 
-1. Every new AVM, dAVF, moyamoya, and complex aneurysm (15–20 minutes)
-2. Every ruptured aneurysm secured in the past week, with anatomy and choice (10)
-3. Pending electives that lack a documented conference note — hard stop (5)
-4. Radiation-oncology coordination (5)
+1. Every ruptured aneurysm, ruptured AVM, and hemorrhagic dAVF from the past week (15)
+2. DCI watch list and rescue log (5)
+3. Elective unruptured / AVM / dAVF cases — route the conference product to [Chapter 46](46-elective-cerebrovascular.md); hard-stop if no minutes (5)
+4. Moyamoya or cavernous cases that presented as hemorrhage (5)
 5. Trial screening (5)
 6. Decisions, owners, dates (5)
 
@@ -245,8 +253,10 @@ Joint R on securing defaults is intentional. If only one service "owns" the tabl
 ### Tool F — Quarterly hemorrhage M&M packet
 
 - All in-hospital rebleeds
-- All CSTK-04 misses
-- All nimodipine misses
+- All CSTK-04 misses (INR ≥1.4 and no PCC / FFP / rFVIIa)
+- All class-specific SOP misses scored separately (idarucizumab, andexanet, protamine)
+- All nimodipine misses (no enteral dose inside 24 hours of arrival, or any IV dose)
+- All DCI-surveillance gaps and rescue-log gaps
 - All securing-clock outliers
 - All transfer-outs of ruptured aneurysms
 - All ICH patients labeled comfort-care in the first 12 hours (review for nihilism)
@@ -255,7 +265,7 @@ Joint R on securing defaults is intentional. If only one service "owns" the tabl
 
 ## Integration With Other Pillars
 
-Hemorrhage care starts in [Prehospital Systems](10-prehospital-ems.md) and [Hyperacute Pathways](11-hyperacute-pathways.md) and lives in [Neurocritical Care Integration](15-neurocritical-care.md). Reversal and the ICH bundle must be identical in the ED, the unit, and the ICU. [Inpatient Stroke Unit Operations](16-inpatient-stroke-unit.md) and [Rehabilitation and Post-Acute Continuum](18-rehabilitation-continuum.md) must include ICH and aSAH rather than treating them as neurosurgery-only patients. [Telestroke Network Operations](19-telestroke-networks.md) and [Mobile Stroke Units](20-mobile-stroke-units.md) need the same reversal and destination rules.
+Hemorrhage care starts in [Prehospital Systems](10-prehospital-ems.md) and [Hyperacute Pathways](11-hyperacute-pathways.md) and lives in [Neurocritical Care Integration](15-neurocritical-care.md). Reversal and the ICH bundle must be identical in the ED, the unit, and the ICU. [Inpatient Stroke Unit Operations](16-inpatient-stroke-unit.md) and [Rehabilitation and Post-Acute Continuum](18-rehabilitation-continuum.md) must include ICH and aSAH rather than treating them as neurosurgery-only patients. [Telestroke Network Operations](19-telestroke-networks.md) and [Mobile Stroke Units](20-mobile-stroke-units.md) need the same reversal and destination rules. Elective unruptured aneurysm, AVM, and dAVF program operations live in [Elective Cerebrovascular Program](46-elective-cerebrovascular.md).
 
 CSTK measurement lives in [Core Metrics](../quality/23-core-metrics.md). Survey language lives in [Certification Readiness](../quality/25-certification-readiness.md). Shared service-line politics live in [Governance Architecture](../leadership/07-governance-architecture.md) and [Culture of Excellence](../leadership/09-culture-of-excellence.md). Complex-lesion research and device governance live in [Clinical Trials, Registries, and Research Operations](../research/29-trials-registries.md) and [Innovation, AI, and Decision-Support Governance](../research/31-innovation-ai.md). Volume strategy after the April 2025 change lives in [Strategy, Growth, Volume, and Complexity](../strategy/32-strategy-growth.md). Do not let marketing use the new floor of 10 to advertise a capability the night team cannot deliver.
 
@@ -266,7 +276,9 @@ CSTK measurement lives in [Core Metrics](../quality/23-core-metrics.md). Survey 
 - Ruff IM, et al. 2024 AHA/ASA Performance and Quality Measures for Spontaneous Intracerebral Hemorrhage. *Stroke*. 2024;55:e199–e230. DOI 10.1161/STR.0000000000000464. Fifteen performance measures and five quality measures based on the 2022 ICH guideline.
 - Ma L, et al. The third Intensive Care Bundle with Blood Pressure Reduction in Acute Cerebral Haemorrhage Trial (INTERACT3). *Lancet*. 2023. Bundle: SBP <140 mm Hg, glucose bands as above, temperature ≤37.5 °C, warfarin reversal to INR <1.5 within 1 hour.
 - Anderson CS, et al. Rapid blood-pressure lowering in patients with acute intracerebral hemorrhage (INTERACT2). *N Engl J Med*. 2013;368:2355–2365.
-- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges): CSTK-03 severity measurement for SAH and ICH; CSTK-04 procoagulant reversal for ICH; CSTK-06 nimodipine treatment. CSTK-07 is not in the current set.
+- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges). CSTK-03 (MIF0288): Hunt and Hess for SAH (03a); ICH Score for ICH (03b); prior to surgical intervention or within 6 hours of arrival if no surgery; WFNS and modified Fisher are not the measure; sampling yes. CSTK-04 (MIF0289): denominator ICH with INR ≥1.4 at arrival; numerator PCC, FFP, or rFVIIa. CSTK-06 (MIF0293): first nimodipine within 24 hours of arrival. CSTK-07 is not in the current set.
+- FDA boxed warning: nimodipine is not for intravenous administration. Enteral only.
+- 2023 aSAH guideline supportive text on delayed cerebral ischemia: surveillance, euvolemia, induced hypertension after the aneurysm is secured, no prophylactic triple-H as a standing bundle. Local TCD/CTA/CTP choice; do not invent velocity cutoffs from this handbook.
 - Joint Commission Online, April 2, 2025: annual aSAH volume criterion for CSC certification reduced from 20 to 10 (announced with AHA/ASA; official manual update January 2026). Confirm the live E-App / DSC table at each application.
 - Joint Commission 2026 Stroke Certification Standards (SCS26) and the active DSC manual. Confirm current numeric volume requirements for other procedures; do not invent them.
 - Alberts MJ, et al. Recommendations for comprehensive stroke centers. *Stroke*. 2005. Foundational CSC expectations for neurosurgery and interventional capability; not a substitute for current Joint Commission standards.

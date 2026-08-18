@@ -14,7 +14,7 @@ Reperfusion is a time-limited procedure. Recovery is a multi-day physiologic arg
 
 ICH and aSAH are CSC-defining. The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10 (official manual update January 2026). That change does not reduce the ICU standard. CSTK-03 (severity measurement for SAH and ICH), CSTK-04 (procoagulant reversal initiation for ICH), and CSTK-06 (nimodipine) are public measures. The 2022 ICH guideline, the 2024 ICH performance measures, the 2023 aSAH guideline, and INTERACT3-style care bundles are the practice spine. A CSC that reverses coagulopathy slowly, gives nimodipine late, or cannot get an aneurysm secured because the ICU cannot take the patient is not a hemorrhagic center.
 
-The 2026 AIS guideline updated glucose and dysphagia management. Those updates are operational checklists, not nutrition footnotes. Airway and temperature belong in the same bundle. Blood-pressure targets remain the current AHA/ASA tables for AIS, ICH, and aSAH — not memory, not a 2015 slide, and not a number invented in this handbook.
+The 2026 AIS guideline updated glucose and dysphagia management. Those updates are operational checklists, not nutrition footnotes. AIS glucose is **140–180 mg/dL**; 80–130 is not recommended; treat <60 (ER-AIS-2026-GLU). AIS fever is treat temperatures **>37.5 °C** (ER-AIS-2026-09). After successful EVT, intensive SBP <140 is harmful and not recommended even with TICI 3 (ER-AIS-2026-BP). Do not import INTERACT3 110–140 onto AIS. Do not put 38.0 on an AIS board.
 
 Goals of care are a neuro ICU procedure. Large-core EVT, severe ICH, and high-grade aSAH produce survival with disability that families did not imagine at 02:00. If the triad does not lead that conversation, someone else will — usually late, usually without the time-limited trial the team actually intended.
 
@@ -87,9 +87,9 @@ Build one AIS physiologic bundle that the 2026 guideline updates can sit inside.
 | Domain | Operations (not invented numbers) | Common defect |
 | --- | --- | --- |
 | Airway | Pre-intubation plan for deteriorating NIHSS, post-EVT GA emergence, ICH/aSAH; extubation readiness is a daily triad item | "Watchful waiting" until aspiration |
-| Blood pressure | Separate AIS post-IVT/EVT, ICH, and aSAH tables in the EHR, each dated to the current guideline | One SBP order for the whole unit |
-| Glucose | Apply the 2026 AIS glucose recommendations as the order set; hypo- and hyperglycemia both have a first-line action | Old sliding-scale folklore |
-| Temperature | Measure on a published interval; treat fever as a neurologic emergency, not as comfort care only | First fever at 02:00 ignored |
+| Blood pressure | Separate AIS post-IVT/EVT, ICH, and aSAH tables in the EHR, each dated to the current guideline. Post-EVT: intensive SBP **<140 is harmful and not recommended**, even with TICI 3 (ER-AIS-2026-BP). Incomplete reperfusion is a written triad exception — do not invent a second mmHg number here. | One SBP order for the whole unit; “TICI 3 so run them under 140” |
+| Glucose | AIS: treat <60 mg/dL; persistent hyperglycemia **140–180 mg/dL**; intensive 80–130 is not recommended; treat marked hyperglycemia commonly >180 (ER-AIS-2026-GLU). ICH: INTERACT3 bands in [Hemorrhagic Stroke](21-hemorrhagic-complex.md). Do not import INTERACT3 110–140 onto AIS. | Old sliding-scale folklore; ICH band copied onto AIS |
+| Temperature | AIS: treat temperatures **>37.5 °C** to achieve normothermia (ER-AIS-2026-09). ICH: INTERACT3 ≤37.5 °C trial-bundle ([Hemorrhagic Stroke](21-hemorrhagic-complex.md)). Same number; do not invent 38.0. No induced hypothermia as routine neuroprotection. | First fever at 02:00 ignored; a 38.0 AIS card still posted |
 | Dysphagia | Apply the 2026 AIS dysphagia updates; no oral intake, including meds, until the screen; SLP pathway for fails | Water in the ED after TNK |
 | VTE | STK-1 still applies; timing after IVT/ICH is a safety decision, not a core-measure panic | Chemical prophylaxis before the hemorrhage is stable |
 
@@ -100,13 +100,39 @@ The bundle is a checklist on admission to the unit and a checklist every shift. 
 | Situation | Operational default |
 | --- | --- |
 | First night after severe AIS, ICH, or high-grade aSAH | Stabilize and gather prognosis; avoid irreversible non-beneficial procedures that only clear beds |
-| Large-core EVT offered | Time-limited ICU trial stated out loud, with a review hour |
+| Large-core EVT offered or failed recanalization | Time-limited ICU trial stated out loud, with a review hour; start the hemicraniectomy clock |
 | Brain-death possible | Follow hospital policy; stroke Medical Director does not freelance |
 | Conflict among triad | Escalate to the compact; ethics on a published trigger |
 | Language / culture | Interpreter; do not use family as the only voice for the patient and the only interpreter |
 | Discharge to comfort | CSTK exclusions may apply (CSTK-01 excludes comfort measures day of / after arrival among other criteria); document timing honestly |
 
 Goals of care are not the opposite of aggressive care. They are how aggressive care stays honest.
+
+### Malignant edema and decompressive surgery
+
+Failed recanalization, large-core presentations, and large cerebellar infarcts start an edema clock on arrival, not when the pupil changes. DESTINY, DECIMAL, and HAMLET are landmark context. The 2026 AIS guideline §§6.1–6.4 is the practice authority. Do not treat hour-48 as a Joint Commission certification number; it is a common operating clock to write locally against that text.
+
+| Row | Operational rule | Who decides | Do not |
+| --- | --- | --- | --- |
+| Hemispheric hemicraniectomy | Early NSGY alert on large territorial infarct — do not wait for herniation. Time-limited decision. Age-stratified counseling per 2026 AIS §§6.1–6.4; do not invent age cutoffs as local requirements. | Triad + family; NSGY owns the OR decision | A night fellow declaring “too old” without the written counseling page |
+| Cerebellar infarct decompression | A distinct row from hemispheric surgery. Hydrocephalus and brainstem compression are not the MCA script. EVD ± suboccipital decompression per 2026 AIS §6.4. | NSGY + NCC; stroke does not freelance the posterior fossa | Treating cerebellar mass effect as “watch overnight on the floor” |
+| Who may decline | Named attending pair (NSGY + stroke or NCC) after the counseling script; Medical Director if the pair disagrees | Documented on the admission note | Silence, or a family hallway conversation with no note |
+| Documented decline | Reason, who spoke, interpreter if needed, medical pathway that follows | Same pair | “Family not ready” as a missing note |
+
+```mermaid
+flowchart TD
+    A[Onset: large territorial or cerebellar infarct] --> B[Early NSGY alert]
+    B --> C[Triad + family: age-stratified counseling per 2026 AIS 6.1 to 6.4]
+    C --> D{Time-limited decision: write the local clock}
+    D -->|Accept surgery| E[OR: hemicraniectomy or suboccipital decompression]
+    D -->|Decline| F[Documented decline; medical edema pathway]
+    D -->|Cerebellar hydrocephalus| G[EVD ± decompression as a distinct row]
+    E --> H[NCC pathway; 90-day mRS]
+    F --> H
+    G --> H
+```
+
+Point failed EVT at this subsection from [Endovascular Therapy](14-endovascular-therapy.md). The stop-rule in the suite is not the end of the case.
 
 ### Bed access as a Medical Director problem
 
@@ -127,7 +153,7 @@ flowchart TD
     B -->|Yes uncomplicated IVT| C[Monitored stroke unit + AIS bundle]
     B -->|No or high acuity| D[Dedicated neuro ICU]
     D --> E[Triad compact: NCC + stroke + NSGY]
-    C --> F[Airway / BP table / glucose 2026 / temperature / dysphagia 2026]
+    C --> F[Airway / BP table / glucose 140 to 180 / temp over 37.5 / dysphagia]
     E --> F
     F --> G{Diagnosis class}
     G -->|AIS post-reperfusion| H[Hemorrhage watch; CSTK-05; edema clock]
@@ -145,16 +171,16 @@ flowchart TD
 ```
 
 !!! tip "Key Actions"
-    Sign a one-page NCC–stroke–NSGY compact. Write the acuity rule that sorts post-IVT/EVT patients to the dedicated neuro ICU versus the stroke unit. Build a single AIS physiologic bundle that points at 2026 glucose and dysphagia text and at current BP tables — no memorized mmHg. Make ICH reversal and aSAH nimodipine automatic order-set items (CSTK-04, CSTK-06). Publish bed-state rules and take diversion authority back from an unnamed bed meeting. Measure boarder hours. Require a time-limited-trial sentence on every large-core and severe-ICH admission.
+    Sign a one-page NCC–stroke–NSGY compact. Write the acuity rule that sorts post-IVT/EVT patients to the dedicated neuro ICU versus the stroke unit. Build one AIS physiologic bundle: glucose **140–180**, treat <60, do not target 80–130; treat temps **>37.5 °C**; post-EVT intensive SBP <140 is harmful even with TICI 3. Make ICH reversal and aSAH nimodipine automatic order-set items. Publish the hemicraniectomy clock and the EVD card. Publish bed-state rules. Measure boarder hours. Require a time-limited-trial sentence on every large-core, failed-EVT, and severe-ICH admission.
 
 !!! abstract "Metrics Targets"
-    CSTK-03 severity measurement for SAH and ICH. CSTK-04 procoagulant reversal initiation for ICH. CSTK-05 hemorrhagic transformation. CSTK-06 nimodipine. CSTK-01 NIHSS when the patient is ischemic. CSTK-02 / CSTK-10 90-day mRS. STK-1 VTE prophylaxis. Target: Stroke clocks remain upstream; they do not excuse a missing ICU bed. Internal sample posture: zero oral intake before dysphagia screen; 2026 glucose order-set compliance; fever-response interval defined locally and audited; ICH reversal started on a timed pathway (use the 2024 ICH measures, not an invented minute); nimodipine unless contraindicated; boarder hours near zero for intubated stroke/ICH/aSAH; dedicated-unit competency roster complete. aSAH volume: confirm the active manual; the April 2, 2025 announcement reduced the annual criterion to 10.
+    CSTK-03/04/05/06 and STK-1 IDs live in [Core Metrics](../quality/23-core-metrics.md). Internal sample: zero oral intake before dysphagia screen; AIS glucose 140–180 compliance with zero unprotocolized <60 events; fever >37.5 °C to first treatment on a local interval; no AIS 38.0 card on the wall; post-EVT SBP <140 not used as a TICI-3 trophy; ICH reversal on a timed 2024-measure pathway; nimodipine unless contraindicated; NSGY alert time on every large territorial / cerebellar infarct; documented decline when surgery is not done; boarder hours near zero for intubated stroke/ICH/aSAH. aSAH volume: the April 2, 2025 announcement reduced the annual criterion to 10 — confirm the active manual.
 
 !!! warning "Common Pitfalls"
-    Calling any ICU with a monitor a neuro ICU. Three BP goals in three notes. Water in the ED after lytic. ICH reversal waiting for a confirmatory "daytime" conversation. Nimodipine delayed for a swallow evaluation that has not happened — use an allowable route. Medical Director treating beds as someone else's problem until diversion is already on. Goals-of-care conversation led by the most junior person because attendings left. Overflow unit that does not know the post-EVT puncture-site rule. Using CSTK-01 comfort-measures exclusion as a documentation trick. Pretending the 2026 glucose and dysphagia updates are "nursing issues."
+    Calling any ICU with a monitor a neuro ICU. Three BP goals in three notes. Running AIS patients to SBP <140 because TICI was 3. Copying INTERACT3 110–140 glucose onto AIS. Leaving a 38.0 AIS fever card on the board. Waiting for herniation before paging NSGY. Treating cerebellar mass effect as the hemispheric script. An unsigned EVD clamp for transport. Water in the ED after lytic. ICH reversal waiting for a daytime conversation. Nimodipine delayed for a swallow evaluation — use an allowable route. Goals-of-care led by the most junior person.
 
 !!! success "Implementation Tips"
-    Co-write the compact in a single sitting with the three chiefs; do not circulate it for a month of redlines. Put the physiologic bundle on one EHR sidebar, not five policies. Give the NCC charge a direct line to the Medical Director delegate for Red state — not a voicemail. Walk the overflow unit at night and ask a nurse to name the post-IVT BP table. Combine ICH reversal drills with IVT rescue drills (Chapter 13). Invite NCC to the hyperacute huddle whenever a receiving-bed defect appears. When chiefs change, re-sign the compact in the first two weeks.
+    Co-write the compact in a single sitting with the three chiefs. Put the physiologic bundle on one EHR sidebar: 140–180, >37.5 °C, post-EVT not <140. Walk the overflow unit at night and ask a nurse to name the post-EVT BP table and the fever cut. Drill the hemicraniectomy clock with the same seriousness as ICH reversal. Keep the EVD card on the charge clipboard. Invite NCC to the hyperacute huddle whenever a receiving-bed defect appears. When chiefs change, re-sign the compact in the first two weeks.
 
 ## How to Do the Work
 
@@ -162,19 +188,20 @@ flowchart TD
 
 - Know the dedicated-bed state before the morning hyperacute huddle.
 - Review every ED/PACU boarder and every overflow admission for bundle fidelity.
-- Review every post-IVT/EVT worsening and every ICH reversal interval.
+- Review every post-IVT/EVT worsening, every ICH reversal interval, and every large territorial / cerebellar infarct for NSGY-alert time.
 - Confirm nimodipine status on every aSAH patient (CSTK-06).
 - Confirm nothing-by-mouth until dysphagia screen on every new AIS admission.
-- Triad board: one plan for BP, airway, and goals of care.
+- Confirm the AIS board reads treat >37.5 °C and glucose 140–180 — not 38.0, not 80–130, not INTERACT3 110–140.
+- Triad board: one plan for BP (including the post-EVT <140 prohibition), airway, edema clock, and goals of care.
 
 ### Monthly / quarterly
 
-- Scorecard: boarder hours, overflow hours, diversion hours, CSTK-03/04/05/06, bundle audit (glucose, temperature, dysphagia), VTE (STK-1), 90-day mRS for ICU survivors.
+- Scorecard: boarder hours, overflow hours, diversion hours, CSTK-03/04/05/06, bundle audit (glucose 140–180, treat <60, temp >37.5 °C, dysphagia), VTE (STK-1), 90-day mRS for ICU survivors, hemicraniectomy-clock misses, EVD-transport defects.
 - Competency roster for dedicated and overflow nurses.
-- Goals-of-care audit: time-limited trials documented vs not.
-- Equity: language access for ICU family meetings; night reversal times vs day.
-- Joint M&M: malignant edema decompression delays, rebleeds, aspiration after a failed screen.
-- Reconcile order sets to the 2026 AIS glucose and dysphagia text if a local patch is still older.
+- Goals-of-care audit: time-limited trials documented vs not; documented surgical declines.
+- Equity: language access for ICU family meetings; night reversal and night NSGY-alert times vs day.
+- Joint M&M: malignant edema decompression delays, rebleeds, aspiration after a failed screen, post-EVT SBP <140 used as a reflex.
+- Reconcile order sets to 2026 AIS glucose (140–180; not 80–130) and temperature (>37.5 °C; retire 38.0).
 
 ### Annual / multi-year
 
@@ -196,7 +223,7 @@ Samples to adapt with NCC, NSGY, nursing, SLP, and counsel.
 
 1. **Acuity rule.** List who goes to dedicated neuro ICU vs monitored stroke unit.
 2. **Handoff strip.** LKW, NIHSS, agent/dose, TICI, anesthesia, BP table, NPO, glucose, temperature, family, goals.
-3. **Bundle.** Airway, current AHA/ASA BP table for the diagnosis, 2026 glucose orders, temperature protocol, 2026 dysphagia screen before any oral intake.
+3. **Bundle.** Airway; current AHA/ASA BP table (post-EVT: intensive SBP <140 not recommended even with TICI 3); AIS glucose 140–180, treat <60, do not target 80–130; treat temps >37.5 °C; 2026 dysphagia screen before any oral intake.
 4. **Worsening.** Stat NCCT + rescue / edema pathway.
 5. **VTE.** STK-1 with a timed safety decision after IVT or hemorrhage.
 6. **Disposition.** Written step-down criteria.
@@ -216,8 +243,18 @@ Samples to adapt with NCC, NSGY, nursing, SLP, and counsel.
 2. Nimodipine (CSTK-06) by an allowable route if swallow is unsafe.
 3. Securement plan and time goal with NSGY/IR.
 4. BP and vasospasm recognition per 2023 aSAH guideline tables.
-5. EVD rules.
+5. EVD card below.
 6. Dedicated ICU or documented equivalent.
+
+### Sample EVD card
+
+| Action | Who | Do not |
+| --- | --- | --- |
+| Place | NSGY attending, or privileged fellow under attending presence | A covering resident “because the kit is there” |
+| Clamp | Named NSGY or NCC attending order, timed and written | Informal clamp “for the trip” |
+| Transport | Trained RN + documented open/clamp state on the ticket | Sending an unsigned EVD with the transporter |
+
+The same card covers cerebellar-infarct hydrocephalus and aSAH. Who places, who clamps, and who transports is not a night-shift negotiation.
 
 ### Sample SOP skeleton — bed state and overflow
 
@@ -233,11 +270,12 @@ Samples to adapt with NCC, NSGY, nursing, SLP, and counsel.
 | Event | Floor / measure | Sample internal rule |
 | --- | --- | --- |
 | ICH reversal initiation | CSTK-04; 2024 ICH measures | Timed pathway; same-week review of delays |
-| aSAH nimodipine | CSTK-06 | Unless contraindicated, first-shift administration |
+| aSAH nimodipine | CSTK-06 | Unless contraindicated, first dose at diagnosis / before leaving the ED (allowable route if NPO) |
 | Dysphagia screen before oral intake | 2026 AIS update as operations | Any oral intake first is a defect |
 | Post-EVT arrival to ICU bed | Local | Boarder hours visible on the huddle |
-| Fever to first treatment | Local interval | Audit night vs day |
-| Time-limited trial review | Local | Hour written on admission for large-core / severe ICH |
+| Fever >37.5 °C to first treatment | Local interval | Audit night vs day; retire any 38.0 AIS card |
+| NSGY alert for large territorial / cerebellar infarct | Local operating clock (48 h is a common clock to write, not a certification number) | Same-week review of late pages |
+| Time-limited trial review | Local | Hour written on admission for large-core / failed EVT / severe ICH |
 
 ### Sample role card — NCC attending
 
@@ -254,7 +292,7 @@ Samples to adapt with NCC, NSGY, nursing, SLP, and counsel.
 
 ### Sample role card — neurosurgery attending
 
-- Owns securement, decompression, and EVD decisions on a clock.
+- Owns securement, decompression, and EVD decisions on a clock. Joins the hemicraniectomy page early; does not wait for herniation.
 - Joins the compact rather than leaving a postoperative note that rewrites BP.
 
 ### Sample role card — CSC Medical Director (beds)
@@ -285,11 +323,11 @@ Samples to adapt with NCC, NSGY, nursing, SLP, and counsel.
 
 - Destination matches acuity rule.
 - Handoff strip complete.
-- Correct BP table selected (AIS vs ICH vs aSAH) and dated.
-- 2026 glucose orders active.
-- Temperature protocol active.
+- Correct BP table selected (AIS vs ICH vs aSAH) and dated. Post-EVT: intensive SBP <140 not used as the default, even if TICI 3.
+- AIS glucose 140–180 active; treat <60; 80–130 not a target. ICH uses the INTERACT3 bands — not this row.
+- Temperature protocol: treat AIS **>37.5 °C**; ICH INTERACT3 ≤37.5 °C. No 38.0 AIS card.
 - NPO until dysphagia screen; screen ordered.
-- ICH: CSTK-03 and reversal launched if indicated.
+- ICH: CSTK-03 and reversal launched if indicated. ICH SBP, glucose, and temperature follow the INTERACT3 operationalization in [Hemorrhagic Stroke](21-hemorrhagic-complex.md). Do not apply 2026 AIS glucose tables to ICH.
 - aSAH: CSTK-03 and nimodipine ordered by an allowable route.
 - Goals-of-care status written.
 - Family contact and interpreter need written.
@@ -302,12 +340,12 @@ Quality: CSTK-03/04/05/06, STK-1, 90-day mRS ([Core Metrics](../quality/23-core-
 
 ## Sources
 
-- 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Glucose and dysphagia updates; post-reperfusion physiologic care; pediatric AIS implications for ICU addenda.
+- 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. §§6.1–6.4 brain swelling and decompressive surgery; glucose **140–180**, 80–130 not recommended, treat <60 (ER-AIS-2026-GLU); treat temps **>37.5 °C** (ER-AIS-2026-09); post-EVT intensive SBP <140 harmful / not recommended even with TICI 3 (ER-AIS-2026-BP).
+- DESTINY, DECIMAL, and HAMLET as landmark hemicraniectomy context; 2026 AIS is the practice authority. Hour-48 is a common operating clock to write locally, not a certification number.
 - 2022 AHA/ASA ICH Guideline. *Stroke*. DOI 10.1161/STR.0000000000000407.
 - 2024 AHA/ASA Performance and Quality Measures for Spontaneous ICH.
 - 2023 AHA/ASA aSAH Guideline. *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436 (replaces 2012).
-- INTERACT2 / ENCHANTED2 / INTERACT3 as ICH care-bundle operations inputs; use guideline tables for numeric targets.
-- CSTK v2026B: CSTK-03, CSTK-04, CSTK-05, CSTK-06; CSTK-01, CSTK-02, CSTK-10 as relevant. STK-1 VTE prophylaxis. CSTK-07 is not in the current set.
+- INTERACT2 / ENCHANTED2 / INTERACT3 as ICH care-bundle operations inputs (ICH temperature ≤37.5 °C trial-bundle; ICH glucose bands — do not import 110–140 onto AIS).
+- CSTK v2026B IDs: [Core Metrics](../quality/23-core-metrics.md). CSTK-07 is not in the current set.
 - Joint Commission CSC dedicated neuro ICU capability language; April 2, 2025 announcement reducing the annual aSAH volume criterion to 10 (manual update January 2026). Confirm current E-App tables.
-- Target: Stroke and HERMES as the upstream reason the ICU must not erase reperfusion gains.
 - IHI Model for Improvement and high-reliability organizing for bed-access and bundle failures.

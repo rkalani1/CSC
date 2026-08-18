@@ -11,12 +11,12 @@ A practical operating system for Medical Directors and Associate Medical Directo
 <a class="secondary" href="#choose-a-route">Choose by role</a>
 </div>
 
-<p class="meta">Eight parts · operational playbooks · evidence register · living monthly update protocol</p>
+<p class="meta">Eight parts · 46 chapters · operational playbooks · evidence register · living monthly update · version 2026.08.2</p>
 </div>
 
 ## Opening
 
-An academic Comprehensive Stroke Center is not a certificate on a wall. It is a 24/7 regional capability: hyperacute reperfusion, hemorrhagic and complex cerebrovascular care, neurocritical care, a dedicated stroke unit, a telestroke and transfer network, a quality system that can see itself in near real time, a training pipeline, and a research enterprise that changes practice. The Medical Director is the person who must hold those pieces as one system.
+An academic Comprehensive Stroke Center is not a certificate on a wall. It is a 24/7 regional capability: hyperacute reperfusion, hemorrhagic and complex cerebrovascular care, neurocritical care, a dedicated stroke unit, a telestroke and transfer network, a quality system that can see itself in near real time, a training pipeline, and a research enterprise that changes practice. The same system owns four designed products that academic CSCs often leave implicit: in-hospital and perioperative stroke, goals-of-care and death-by-neurologic-criteria pathways, a TIA and minor-stroke clinic, and an elective cerebrovascular program. The Medical Director is the person who must hold those pieces as one system.
 
 This handbook is written for that job. It treats certification as a floor, not a destination. It treats volume as a responsibility, not a trophy. It treats academic productivity as part of the clinical mission, not a weekend hobby. Every chapter is designed to be used in a meeting, a huddle, a survey week, a budget cycle, or a 90-day turnaround.
 
@@ -29,7 +29,7 @@ This handbook is written for that job. It treats certification as a floor, not a
 <a href="strategy/36-elite-performance.html"><span class="route-kicker">Elite status</span><strong>Become hard to equal</strong><span>Benchmarking, network leadership, academic presence, and sustained excellence.</span></a>
 </div>
 
-## The eight-pillar operating system
+## The CSC operating system
 
 ```mermaid
 flowchart TB
@@ -49,6 +49,18 @@ flowchart TB
     E --> R
     R --> C
     S --> L
+```
+
+```mermaid
+flowchart LR
+    EMS[EMS] --> Door[Door]
+    Door --> Image[Image]
+    Image --> Reperf[IVT/EVT]
+    Image --> Hem[Hemorrhage]
+    Reperf --> NCC[NCC]
+    Hem --> NCC
+    NCC --> Unit[Unit]
+    Unit --> Rehab[Rehab]
 ```
 
 <div class="pillar-grid" markdown="1">
@@ -86,7 +98,7 @@ Network leadership, financial stewardship, surge readiness, and multi-year strat
 
 | Domain | Floor | Elite practice |
 | --- | --- | --- |
-| Reperfusion speed | Meet Target: Stroke Honor Roll thresholds | Treat DTN and door-to-device as a daily management system, not an annual award |
+| Reperfusion speed | Meet published Target: Stroke tiers (Honor Roll is a published award cut (75% DTN ≤60), not a CSC certification floor; Elite / Elite Plus / Advanced Therapy are published award cuts, not CSC floors) | Treat DTN and door-to-device as a daily management system, not an annual award |
 | Hemorrhagic care | Reverse coagulopathy and secure aneurysms | Time-stamped ICH and aSAH bundles with 24/7 neurosurgery and neurointervention |
 | Quality | Submit required CSTK/STK and GWTG data | Real-time dashboards, weekly defect review, equity stratification |
 | People | Cover the roster | Dyad/triad leadership, FTE model, succession, psychological safety |
@@ -120,6 +132,11 @@ Network leadership, financial stewardship, surge readiness, and multi-year strat
 <li><a href="clinical/19-telestroke-networks.html"><span class="num">19</span><span>Telestroke Network Operations</span></a></li>
 <li><a href="clinical/20-mobile-stroke-units.html"><span class="num">20</span><span>Mobile Stroke Units</span></a></li>
 <li><a href="clinical/21-hemorrhagic-complex.html"><span class="num">21</span><span>Hemorrhagic Stroke and Complex Cerebrovascular Programs</span></a></li>
+<li><a href="clinical/42-special-populations.html"><span class="num">42</span><span>Special Populations: CVT, Maternal Stroke, and Pediatric Receiving</span></a></li>
+<li><a href="clinical/43-in-hospital-stroke.html"><span class="num">43</span><span>In-Hospital and Perioperative Stroke</span></a></li>
+<li><a href="clinical/44-goals-of-care.html"><span class="num">44</span><span>Goals of Care, Palliative Pathways, and Death by Neurologic Criteria</span></a></li>
+<li><a href="clinical/45-tia-minor-stroke.html"><span class="num">45</span><span>TIA and Minor-Stroke Clinic</span></a></li>
+<li><a href="clinical/46-elective-cerebrovascular.html"><span class="num">46</span><span>Elective Cerebrovascular Program</span></a></li>
 <li class="part">IV · Quality, safety, and data</li>
 <li><a href="quality/22-quality-data-infrastructure.html"><span class="num">22</span><span>Quality System and Data Infrastructure</span></a></li>
 <li><a href="quality/23-core-metrics.html"><span class="num">23</span><span>Core Metrics: GWTG, STK, and CSTK</span></a></li>

@@ -16,7 +16,7 @@ A new Medical Director is a high-reliability risk. Coverage grids loosen while p
 
 Patients do not pause for onboarding. Eligible disabling ischemic stroke still needs intravenous thrombolysis within 4.5 hours, with tenecteplase 0.25 mg/kg IV push (max 25 mg) or alteplase 0.9 mg/kg (max 90 mg), and dual-eligible patients still need both IVT and EVT without delay. ICH still needs procoagulant reversal on the CSTK-04 pathway. aSAH still needs nimodipine on the CSTK-06 pathway. The 90-day plan is worthless if those clocks slip while the Medical Director is in welcome meetings.
 
-The first year also sets the external story. GWTG achievement at 85% on each of seven measures, Target: Stroke tier, Advanced Therapy, and the rolling aSAH volume against the live E-App table will be the numbers the chair and CMO remember. A first survey year that scrapes by without a working cadence produces a second year of hidden defects. A build year that chases awards before the huddle exists produces the same result with better slides.
+The first year also sets the external story. GWTG and Target: Stroke published award criteria (Chapter 23), plus rolling aSAH volume against the live E-App table, will be the numbers the chair and CMO remember. A first survey year that scrapes by without a working cadence produces a second year of hidden defects. A build year that chases awards before the huddle exists produces the same result with better slides.
 
 ## Core Framework
 
@@ -93,14 +93,15 @@ flowchart TB
 
 ### First-year scorecard (agree in week 4, score in week 52)
 
-| Domain | Floor (do not go below) | Year-one internal target | Owner |
+| Domain | Award (published criteria) | Internal | Owner |
 | --- | --- | --- | --- |
-| DTN | Honor Roll floor: 75% ≤60 min | Elite: 85% ≤60 min; stretch Elite Plus | MD + ED |
-| Door-to-device | Measure and report CSTK-09/11/12 | Advanced Therapy: 50% ≤90 min direct / ≤60 min transfer | MD + NIR |
-| GWTG achievement | 85% on each of 7 measures | Plus award quality measures in range | Quality lead |
+| DTN | Honor Roll 75% ≤60 min; Elite 85% ≤60 min | Elite as labeled internal aim; Elite Plus stretch | MD + ED |
+| Door-to-device | Advanced Therapy 50% ≤90 min direct / ≤60 min transfer (first device pass; ≠ CSTK-09 puncture) | Local stretch; report CSTK-09/11/12 | MD + NIR |
+| GWTG achievement | 85% on each of 7 measures | Plus-award quality measures in range | Quality lead |
 | CSTK-01 NIHSS | Specification-compliant | ≥95% internal | Analyst + ED/VN |
-| CSTK-04 ICH reversal | Specification-compliant | 100% eligible initiation tracked | NCC + pharmacy |
-| CSTK-06 nimodipine | Specification-compliant | 100% eligible | NCC + NSGY |
+| CSTK-03 severity SAH/ICH | Specification-compliant (Hunt-Hess SAH; ICH Score ICH) | ≥95% internal (100% stretch) | NCC + NSGY |
+| CSTK-04 ICH reversal | Specification-compliant | ≥90% initiation (100% eligible tracked is a different metric) | NCC + pharmacy |
+| CSTK-06 nimodipine | Specification-compliant | ≥95% eligible | NCC + NSGY |
 | CSTK-02 / CSTK-10 90-day mRS | Process in place | ≥80% contact attempt; favorable-outcome cohort complete | Clinic / caller |
 | Swallow before oral intake | No unscreened oral intake events | 100% | Unit nursing |
 | After-action on trigger cases | Started | 100% | AMD |
@@ -116,7 +117,7 @@ flowchart TB
 
 !!! abstract "Metrics Targets"
 
-    Day-90 success is process integrity, not an award. Targets: huddle documented ≥90% of days; after-action on 100% of DTN >45 min cases from week 3 onward; no unfilled 24/7 vascular neurology slot; GWTG achievement measures each at or above 85% or a dated recovery plan for any measure below; Target: Stroke tier known and honest; CSTK-04 and CSTK-06 defects each have an owner; 90-day mRS workflow assigned; research clock-interference events = 0; three bets written with owners and dates. Elite Plus and Advanced Therapy are year-one stretch only if the floors are already met. Volume criteria are confirmed against the current E-App / CSC eligibility table, not memory.
+    Day-90 success is process integrity, not an award. Targets: huddle documented ≥90% of days; after-action on 100% of DTN >45 min cases from week 3 onward; no unfilled 24/7 vascular neurology slot; GWTG achievement measures each at or above the 85% published award cut or a dated recovery plan for any measure below; Target: Stroke published award tier known and honest (Chapter 23); CSTK-03 ≥95%, CSTK-04 ≥90% initiation, and CSTK-06 ≥95% each have an owner; 90-day mRS workflow assigned; research clock-interference events = 0; three bets written with owners and dates. Elite Plus and Advanced Therapy published award criteria are year-one stretch only if the labeled internal Elite aim is already met. Volume criteria are confirmed against the current E-App / CSC eligibility table, not memory.
 
 !!! warning "Common Pitfalls"
 
@@ -356,7 +357,7 @@ Peer-review path tested
 ```
 0–5    Sponsor opens: decisions we will make today
 5–15   Diagnosis then vs now (MD)
-15–25  Scorecard (quality lead) — floors only, then stretch
+15–25  Scorecard (quality lead) — published award cuts first, then internal
 25–35  Three bets: product, not narrative
 35–45  Survey posture and volume vs live tables
 45–55  Asks and decisions (sponsor + chair)
@@ -404,7 +405,7 @@ Converted to after-action or PDSA? [ ] Y [ ] N  ID: ____
 ### Tool 8 — First-year scorecard worksheet
 
 ```
-METRIC                    BASELINE (day 14)   DAY 90   Q2   Q3   Q4   FLOOR   TARGET
+METRIC                    BASELINE (day 14)   DAY 90   Q2   Q3   Q4   AWARD   INTERNAL
 DTN % ≤60
 DTN % ≤45
 DTN % ≤30
@@ -412,6 +413,7 @@ DTD % ≤90 direct
 DTD % ≤60 transfer
 GWTG 7 at ≥85% (Y/N + weakest)
 CSTK-01
+CSTK-03
 CSTK-04
 CSTK-06
 CSTK-09 median
@@ -436,7 +438,7 @@ Is DSC activity ≤9 months away?
           No, unless the spoke already sends patients and the issue is safety.
         What are the three bets?
           Binder, data validation, coverage documentation, or one safety defect.
-  NO  → Is the clock unstable (DTN or DTD failing floors for 30 days)?
+  NO  → Is the clock unstable (DTN or DTD missing the labeled internal aim for 30 days)?
           YES → Act as survey year until 30 stable days, then convert.
           NO  → Build year. Three bets may include redesign, network, awards.
 ```
@@ -468,5 +470,5 @@ Hand this chapter to the incoming Associate Medical Director as well. The AMD wh
 - 2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage. *Stroke*. DOI 10.1161/STR.0000000000000407.
 - 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage. *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436.
 - Joint Commission DSC / CSC standards and SCS26; CSTK Specifications Manual v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges). The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10. Confirm live E-App tables for other volumes.
-- GWTG-Stroke recognition criteria (AHA, last reviewed 9 September 2022): 85% achievement-measure floor; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy.
+- GWTG-Stroke recognition criteria (AHA, last reviewed 9 September 2022): 85% achievement-measure award cut; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy as **published award criteria** (Chapter 23), not CSC certification floors.
 - High-reliability organizing and IHI Model for Improvement — used here as onboarding discipline, not as slogans.

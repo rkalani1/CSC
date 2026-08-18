@@ -58,7 +58,7 @@ Capability without a time is a brochure. Publish SLAs that radiology and stroke 
 | MRI tech for wake-up / unknown onset | On-call presence within a published interval, 24/7 | Request-to-first-DWI | "MRI starts at 07:00" |
 | Image ingest from referring sites | Before the transfer wheels stop | Images available at accept | Repeat entire stack |
 
-Do not invent a Joint Commission minute standard that the briefing does not contain. Write local SLAs that make Target: Stroke Phase III and CSTK-11 physically possible, then hold radiology to them as a Medical Director metric.
+Do not invent a Joint Commission minute standard that the briefing does not contain. Write local SLAs that make the published Target: Stroke award criteria and CSTK-11 physically possible, then hold radiology to them as a Medical Director metric. Award criteria are not CSC floors ([Core Metrics](../quality/23-core-metrics.md)).
 
 ### Contrast, kidneys, and the mythology that burns windows
 
@@ -66,8 +66,24 @@ CTA contrast is a stroke-treatment drug. The protocol should say so.
 
 - Screen for known severe contrast allergy and for dialysis-dependence as operational facts, not as reasons to skip vascular imaging by default. Have a prewritten premedication and alternative-path (MRA without gadolinium where appropriate, or noncontrast MRA) rather than improvising.
 - Do not delay CTA in a disabling 4.5-hour candidate for a serum creatinine that will not return before the lytic decision. Follow current radiology and AHA/ASA contrast guidance as the written rule; do not run an older "creatinine first on everyone" local habit.
-- Pregnancy testing, when required by local policy, is a parallel task, not a gate that sends the stretcher back to the bay.
+- Pregnancy testing, when required by local policy, is a parallel task, not a gate that sends the stretcher back to the bay. See the maternal box below.
 - Metformin and other ancillary medication rules belong in the contrast SOP so the CT tech is not the attending.
+
+### Maternal neuroimaging
+
+Do not withhold neuroimaging because of pregnancy ([ER-MAT-2026-02](../evidence-register.md); program compact in [Special Populations](42-special-populations.md)).
+
+| Rule | Operational meaning |
+| --- | --- |
+| Imaging is not optional because of pregnancy | NCCT, CTA, and MRI proceed on the adult clock. Do not wait for MFM physical presence. |
+| CT with or without contrast | Considered safe in pregnancy. Use iodinated contrast when the benefit outweighs the risk (vascular imaging that will change reperfusion). |
+| MRI without contrast | Considered safe. Use gadolinium only when benefits outweigh risks. |
+| Lead shielding of the gravid uterus | **Not recommended.** Shielding may increase dose or reduce image quality. Do not make an apron a condition of scanning. |
+| β-hCG | Parallel draw. Not a CTA gate. Not a bolus gate. |
+
+### Posterior circulation / BAO imaging
+
+Suspected basilar-artery occlusion is an NCCT + CTA problem. PC-ASPECTS is a local imaging adjunct — do not invent a mandatory numeric cut in this chapter. Do **not** require DAWN/DEFUSE perfusion maps to offer 2026-eligible BAO EVT ([ER-AIS-2026-BAO](../evidence-register.md)). Effectiveness is not well established for NIHSS 6–9; that decision and the GA default live in [Endovascular Therapy](14-endovascular-therapy.md), not in a night CTP habit.
 
 ### Radiation and access equity
 
@@ -127,13 +143,13 @@ flowchart TD
 ```
 
 !!! tip "Key Actions"
-    Publish the door stack (NCCT+CTA ± CTP) and the selection stack (MRI DWI-FLAIR / perfusion) on one page with launch authority. Sign 24/7 tech and read SLAs with radiology, including night MRI or an explicit CTP backup. Forbid creatinine-first CTA in early-window disabling stroke. Write the AI intended-use statement before the next vendor renewal. Measure door-to-CT and unjustified repeat imaging weekly. Name who may launch CTP at night and put that name in the order set.
+    Publish the door stack (NCCT+CTA ± CTP) and the selection stack (MRI DWI-FLAIR / perfusion) on one page with launch authority. Sign 24/7 tech and read SLAs with radiology, including night MRI or an explicit CTP backup. Forbid creatinine-first CTA in early-window disabling stroke. Write the maternal imaging rule (ER-MAT-2026-02) onto the tech script: no withheld scan, no β-hCG gate, no uterine shield default. Do not require DAWN/DEFUSE maps for 2026-eligible BAO EVT. Write the AI intended-use statement before the next vendor renewal. Measure door-to-CT and unjustified repeat imaging weekly. Name who may launch CTP at night and put that name in the order set.
 
 !!! abstract "Metrics Targets"
-    Door-to-CT start: no national award number in this briefing — set a local median that makes Elite Plus DTN (75% ≤45 min and 50% ≤30 min) possible. Percent of 4.5-hour IVT-eligible patients whose bolus waited on CTP or MRI: internal target zero. Percent of unknown-onset / 4.5–9 h candidates who received a documented selection stack (MRI or CTP): internal target near 100% of MRI- or CTP-eligible patients. Preliminary human LVO read within the local SLA. AI–human discordance log complete. Transfer-in repeat NCCT rate with no decision change: drive down. CSTK-01 still requires NIHSS, not an ASPECTS substitute. Target: Stroke and CSTK-09/11/12 remain the downstream clocks imaging must serve.
+    Door-to-CT start: no national award number in this briefing — set a local median that makes the published Elite Plus DTN criteria possible (full table in [Core Metrics](../quality/23-core-metrics.md); awards are not floors). Percent of 4.5-hour IVT-eligible patients whose bolus waited on CTP or MRI: internal target zero. Percent of unknown-onset / 4.5–9 h candidates who received a documented selection stack (MRI or CTP): internal target near 100% of MRI- or CTP-eligible patients. Preliminary human LVO read within the local SLA. AI–human discordance log complete. Transfer-in repeat NCCT rate with no decision change: drive down. CSTK-01 still requires NIHSS, not an ASPECTS substitute. Do not hold BAO EVT for DAWN/DEFUSE maps. CSTK-09 (puncture) and door-to-device (first pass) remain the downstream clocks imaging must serve — they are not the same clock.
 
 !!! warning "Common Pitfalls"
-    "We always do CTP" in the early window. "We never do MRI at night," therefore unknown-onset patients go untreated. Launch authority that exists only in a chief's head. AI pages IR while the human read sits for 40 minutes. Creatinine theater. Repeating the entire PSC stack on every transfer. A second scanner with a different contrast protocol. Fellows who cannot read a CTA without the heatmap. Radiology and stroke meetings that never share a slide. Treating ASPECTS or an AI core volume as a secret EVT veto without a program-level large-core policy (Chapter 14).
+    "We always do CTP" in the early window. "We never do MRI at night," therefore unknown-onset patients go untreated. Holding CTA for β-hCG or a uterine shield debate. Requiring DAWN/DEFUSE perfusion maps before offering 2026-eligible BAO EVT. Launch authority that exists only in a chief's head. AI pages IR while the human read sits for 40 minutes. Creatinine theater. Repeating the entire PSC stack on every transfer. A second scanner with a different contrast protocol. Fellows who cannot read a CTA without the heatmap. Radiology and stroke meetings that never share a slide. Treating ASPECTS or an AI core volume as a secret EVT veto without a program-level large-core policy (Chapter 14).
 
 !!! success "Implementation Tips"
     Build the order set so the default code-stroke click is NCCT+CTA, with CTP as a single additional click that records the indication. Put the indication list on the tech's script so "who ordered perfusion?" is answerable. Co-locate the preliminary read — even a phone — with the team, not in an anonymous queue. If nighthawk is used, require a named local over-read and a discordance file. Walk a wake-up-stroke MRI path at 02:00 once a quarter. When a new AI version deploys, treat it like a formulary change: downtime plan, re-validation, training note. Give neuroradiology a seat on the hyperacute huddle for any week with an SLA breach.
@@ -176,10 +192,10 @@ Samples to adapt with radiology, medical physics, and counsel.
 **Review:** Semiannual  
 
 1. **Door stack.** NCCT + CTA for every ischemic-appearing code unless a documented contraindication exists.
-2. **CTP indication list.** Unknown onset or >4.5 h when MRI is not used; late-window EVT selection; large-core program entry if locally adopted; uncertain need after CTA. Not indicated solely because "we always do it" in a witnessed <4.5 h disabling stroke.
+2. **CTP indication list.** Unknown onset or >4.5 h when MRI is not used; late-window **anterior** EVT selection (DAWN 6–24 h / DEFUSE 3 6–16 h analogues); large-core program entry if locally adopted; uncertain need after CTA. Not indicated solely because "we always do it" in a witnessed <4.5 h disabling stroke. Not required to offer 2026-eligible BAO EVT.
 3. **MRI indication list.** Unknown onset / wake-up / 4.5–9 h IVT selection when the patient is MRI-safe and the SLA can be met; otherwise CTP.
 4. **Launch authority.** Named roles above. Order set enforces the names.
-5. **Contrast.** Follow current institutional contrast policy aligned with AHA/ASA and radiology society guidance; no creatinine gate for early-window CTA.
+5. **Contrast.** Follow current institutional contrast policy aligned with AHA/ASA and radiology society guidance; no creatinine gate for early-window CTA. Maternal imaging per ER-MAT-2026-02: do not withhold; β-hCG is parallel; no uterine lead-shield default.
 6. **AI.** Adjunct only; human read required; downtime procedure.
 7. **Repeats.** Transfer images reviewed against adequacy checklist before a repeat is ordered.
 8. **Refusal.** Tech or nighthawk refusal escalates immediately to radiology attending; timestamped.
@@ -242,6 +258,18 @@ Samples to adapt with radiology, medical physics, and counsel.
 - If late window, perfusion or MRI present or explicitly waived with a reason.
 - If inadequate: repeat plan chosen before wheels down.
 
+```mermaid
+flowchart LR
+    A[Transfer accept] --> B{Images on the wire?}
+    B -->|No| C[Transfer-center defect; IR still staged]
+    B -->|Yes| D{Adequacy checklist pass?}
+    D -->|Yes| E[No ritual repeat; suite or CT-direct]
+    D -->|No| F[Named repeat only: inadequate / stale / incompatible]
+    C --> F
+```
+
+Inbound imaging is a transfer-center product. Ritual repeat NCCT is a defect.
+
 ## Integration With Other Pillars
 
 Imaging is how [Hyperacute Pathways](11-hyperacute-pathways.md) stay honest. It is the selection engine for [Intravenous Thrombolysis](13-iv-thrombolysis.md) in the extended window and for [Endovascular Therapy](14-endovascular-therapy.md) in late-window and large-core patients. [Prehospital](10-prehospital-ems.md) prenotification is what makes a held scanner possible. [Neurocritical Care](15-neurocritical-care.md) needs a next-day imaging rule that does not reinvent the acute stack.
@@ -251,8 +279,10 @@ Quality and equity: door-to-CT and missed selection imaging belong on the same b
 ## Sources
 
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. No delay of 4.5-hour IVT for advanced imaging; DWI-FLAIR or perfusion mismatch for selected unknown-onset and 4.5–9 h patients.
-- DAWN and DEFUSE 3 late-window EVT imaging logic; early-window EVT trials and HERMES as the reason CTA must be same-session, not next-shift.
+- [ER-AIS-2026-BAO](../evidence-register.md): EVT for BAO within 24 h if NIHSS ≥10; do not apply DAWN/DEFUSE perfusion maps. PC-ASPECTS is a local adjunct. Program rule in [Endovascular Therapy](14-endovascular-therapy.md).
+- [ER-MAT-2026-02](../evidence-register.md): do not withhold neuroimaging because of pregnancy; CT ± contrast and MRI without contrast considered safe; contrast when benefits outweigh risks; lead shielding of the gravid uterus not recommended; β-hCG is parallel, not a CTA/bolus gate.
+- DAWN (6–24 h) and DEFUSE 3 (6–16 h) late-window **anterior** EVT imaging logic — do not collapse them, and do not export them onto BAO. Early-window EVT trials and HERMES as the reason CTA must be same-session, not next-shift.
 - Joint Commission CSC advanced-imaging and 24/7 neuroradiology capability expectations; 2026 Stroke Certification Standards (SCS26). Confirm current E-App language.
-- CSTK v2026B reperfusion-time measures (CSTK-09, CSTK-11, CSTK-12) as downstream clocks; CSTK-01 NIHSS, not imaging severity, as the required clinical score.
-- Target: Stroke Elite / Elite Plus / Advanced Therapy and Phase III goals as the performance envelope imaging must enable.
+- CSTK v2026B reperfusion-time measures (CSTK-09 puncture; CSTK-11, CSTK-12) as downstream clocks; CSTK-01 NIHSS, not imaging severity, as the required clinical score.
+- Target: Stroke published award criteria (not floors) — see [Core Metrics](../quality/23-core-metrics.md).
 - Local contrast and MRI-safety policies to be aligned with current radiology society and AHA/ASA statements; do not freeze older creatinine-first rules without a documented reconciliation.

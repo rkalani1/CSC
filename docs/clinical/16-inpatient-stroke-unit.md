@@ -14,9 +14,9 @@ Do not wait for a new building to professionalize the unit. Geography helps. Com
 
 Organized inpatient stroke-unit care is one of the few interventions in cerebrovascular medicine with a decades-long evidence base for reducing death and dependency. The Cochrane synthesis of organized stroke-unit care (Langhorne and colleagues) remains the operational justification for concentrating patients, staff, and protocols rather than distributing stroke admissions across general medicine. The effect is not a single drug. It is a place that does the same right things, every shift.
 
-Joint Commission inpatient stroke (STK) measures convert that principle into a scorecard the CSC cannot ignore. STK-1 (VTE prophylaxis) and STK-5 (antithrombotic by the end of hospital day 2) live or die on the unit, not in the angiography suite. GWTG-Stroke achievement awards require **85%** compliance on each of seven achievement measures; two of those seven — early antithrombotics and VTE prophylaxis — are unit products. Fail them and the Gold award is gone regardless of door-to-needle performance.
+Joint Commission inpatient stroke (STK) measures convert that principle into a scorecard the CSC cannot ignore. STK-1 (VTE prophylaxis) and STK-5 (antithrombotic by the end of hospital day 2) live or die on the unit, not in the angiography suite. Award floors live in [Core Metrics](../quality/23-core-metrics.md); they are not the unit design spec.
 
-The 2026 AHA/ASA Guideline for the Early Management of Patients With Acute Ischemic Stroke updates two unit-owned physiologic domains. Intensive glucose control to 80–130 mg/dL is not recommended to improve outcome and increases severe hypoglycemia; treat hypoglycemia below 60 mg/dL and treat marked hyperglycemia (commonly operationalized above 180 mg/dL) without chasing intensive targets. Temperature management belongs on the same board: treat fever, identify the source, and do not induce hypothermia in otherwise normothermic patients as a neuroprotectant. Dysphagia screening and management are explicit 2026 updates. A unit that cannot execute swallow, glucose, and temperature as a nurse-driven bundle is not executing the current guideline.
+The 2026 AHA/ASA Guideline for the Early Management of Patients With Acute Ischemic Stroke updates two unit-owned physiologic domains. Name the AIS glucose band: **140–180 mg/dL**. Intensive control to 80–130 mg/dL is not recommended (Class 3 — no outcome benefit; more severe hypoglycemia). Treat hypoglycemia below 60 mg/dL and treat marked hyperglycemia (commonly >180 mg/dL). Temperature: treat temps **>37.5 °C** to achieve normothermia (ER-AIS-2026-09). Delete ≥38.0 from the AIS unit. ICH still uses the INTERACT3 ≤37.5 °C trial-bundle — see [Hemorrhagic Stroke](21-hemorrhagic-complex.md). Do not induce hypothermia in otherwise normothermic patients as a neuroprotectant. Dysphagia screening and management are explicit 2026 updates. A unit that cannot execute swallow, glucose, and temperature as a nurse-driven bundle is not executing the current guideline.
 
 Weekend and holiday discharge is an equity and length-of-stay problem disguised as a staffing inconvenience. Patients ready for home or inpatient rehabilitation on Saturday who wait until Tuesday accumulate hospital-acquired harm, lose rehabilitation days, and generate family distrust. Academic CSCs that tolerate a Friday-to-Monday discharge cliff are choosing a lower-reliability product for half the calendar.
 
@@ -56,11 +56,11 @@ Build one bundle. Teach one bundle. Audit one bundle. Do not let each attending 
 | Bundle element | Operational standard | Owner on the unit | Failure mode to watch |
 | --- | --- | --- | --- |
 | Swallow screen before oral intake | Validated screen (nursing) before any PO medication, including aspirin; failed screens go to speech-language pathology the same shift | Bedside RN; SLP for failed screens | "Just the home meds" exceptions at 03:00 |
-| Mobilization | Out-of-bed assessment within 24 hours when medically eligible; avoid the AVERT pattern of very-early, high-dose mobilization in unstable patients | PT/OT with RN partnership | Confusing "early" with "immediate and intense" |
+| Mobilization | Out-of-bed assessment within 24 hours when medically eligible. That is not the AVERT high-dose very-early protocol. | PT/OT with RN partnership | Treating “out of bed within 24 h” as AVERT intensity |
 | VTE prophylaxis (STK-1) | Mechanical prophylaxis at arrival to the unit if not already on; pharmacologic prophylaxis when the attending documents that hemorrhage risk allows it | RN + covering APP | SCD tubing on the floor; "ambulatory" used as a false exclusion |
 | Early antithrombotic (STK-5) | Documented antithrombotic by the end of hospital day 2 unless a contraindication is written | Covering APP with pharmacy double-check | Post-thrombolysis 24-hour hold that silently becomes a 48-hour hold |
-| Glycemic control | Correct glucose <60 mg/dL; treat marked hyperglycemia (commonly >180 mg/dL); do not target 80–130 mg/dL as a quality goal | RN-driven protocol with hospitalist/endocrine backup | Insulin drips ordered as a reflex after one reading of 200 |
-| Temperature | Treat temperature >37.5 °C; find the source; no induced hypothermia as routine neuroprotection | RN-driven protocol | Acetaminophen given, source workup skipped |
+| Glycemic control | AIS target **140–180 mg/dL**. Treat <60. Treat >180. Class 3 against 80–130 (ER-AIS-2026-GLU). Do not import INTERACT3 110–140 onto AIS. | RN-driven protocol with hospitalist/endocrine backup | Insulin drips ordered as a reflex after one reading of 200 |
+| Temperature | Treat AIS temps **>37.5 °C**. Find the source. No induced hypothermia as routine neuroprotection. ICH uses the INTERACT3 ≤37.5 °C bundle — see [Hemorrhagic Stroke](21-hemorrhagic-complex.md). Delete ≥38.0. | RN-driven protocol | Acetaminophen given, source workup skipped; a 38.0 AIS card still posted |
 | Blood pressure parameters | Written parameters within 1 hour of unit arrival, matched to reperfusion, ICH, or aSAH pathway | Covering APP | "Keep BP normal" as a verbal order |
 | Stroke education (STK-8) | Personal risk factors, warning signs, activation of EMS, follow-up, and medications taught and documented before discharge | RN + teach-back | Packet handed over without teach-back |
 
@@ -90,19 +90,19 @@ A unit dashboard is not the hospital's monthly GWTG extract. It is a short list 
 | SCD in place at the moment of audit | Daily | STK-1 is a process you can see |
 | Antithrombotic ordered for hospital day 2 | Daily | STK-5 is lost in the afternoon, not at coding |
 | Expected discharges in the next 36 hours | Daily | Weekend cliff prevention |
-| Glucose <60 events and temperature >38.0 °C untreated >60 min | Daily | 2026 physiologic standards |
+| Glucose <60 events and temperature **>37.5 °C** untreated >60 min | Daily | 2026 AIS (ER-AIS-2026-09 / ER-AIS-2026-GLU); ICH uses INTERACT3 ≤37.5 °C (Ch 21) |
 | Falls, restraint-hours, hospital-acquired infection | Weekly | Unit harm that stroke metrics miss |
 | STK-1, STK-5, STK-8, STK-10 rolling 30-day | Weekly | Connect the huddle to the award set |
 | Weekend versus weekday length of stay | Monthly | Exposes the discharge cliff |
 
 !!! tip "Key Actions"
-    Designate a single geographically defined stroke unit and write a bed-hold / overflow rule this month. Stand up a three-tier nurse competency with observed NIHSS and swallow-screen sign-off. Convert swallow, SCD application, day-2 antithrombotic, glucose, and temperature into EHR hard-stops rather than pocket-card suggestions. Install a 07:00 charge huddle and a 15:00 discharge sweep that run Saturday and Sunday. Put a six-signal unit board in the hallway the charge nurse owns, and review weekend-versus-weekday length of stay at the next stroke operations meeting.
+    Designate a single geographically defined stroke unit and write a bed-hold / overflow rule this month. Stand up a three-tier nurse competency with observed NIHSS and swallow-screen sign-off. Convert swallow, SCD application, day-2 antithrombotic, glucose **140–180**, and treat temps **>37.5 °C** into EHR hard-stops rather than pocket-card suggestions. Install a 07:00 charge huddle and a 15:00 discharge sweep that run Saturday and Sunday. Put a six-signal unit board in the hallway the charge nurse owns, and review weekend-versus-weekday length of stay at the next monthly quality meeting.
 
 !!! abstract "Metrics Targets"
-    Treat STK-1 and STK-5 as unit-owned measures with an internal target of **≥95%**, above the GWTG achievement floor of **85%**. Track swallow screen before first oral intake at **≥98%**, including night and weekend admissions. Target documented out-of-bed assessment within 24 hours for medically eligible patients at **≥90%**. Hold severe hypoglycemia (<60 mg/dL) events to a reviewed count of zero unprotocolized cases per month. Set an internal target that weekend discharges equal at least **80%** of the weekday discharge rate for patients already dispositioned by Friday 12:00. Report STK-8 and STK-10 on the same unit scorecard so education and rehabilitation assessment cannot be treated as case-management afterthoughts.
+    Treat STK-1 and STK-5 as unit-owned measures with an internal target of **≥95%** (award floors: Chapter 23). Track swallow screen before first oral intake at **≥98%**, including night and weekend admissions. Target documented out-of-bed assessment within 24 hours for medically eligible patients at **≥90%** — that is not an AVERT high-dose protocol. Hold severe hypoglycemia (<60 mg/dL) events to a reviewed count of zero unprotocolized cases per month. AIS glucose in **140–180**; treat >180; do not target 80–130. Treat temps **>37.5 °C**. Set an internal target that weekend discharges equal at least **80%** of the weekday discharge rate for patients already dispositioned by Friday 12:00. Report STK-8 and STK-10 on the same unit scorecard.
 
 !!! warning "Common Pitfalls"
-    Calling a mixed neuro floor a stroke unit while allowing spine and overflow medicine to set the culture. Allowing "the patient is ambulatory" to exempt sequential compression devices without a documented walking assessment. Letting the post-thrombolysis 24-hour imaging hold erase STK-5 because no one re-orders the antithrombotic after the scan. Using intensive insulin protocols leftover from older ICU culture, which the 2026 guideline now explicitly does not support for outcome improvement. Closing case management and therapy services at 15:00 Friday and then declaring Monday a capacity crisis. Publishing a beautiful monthly dashboard that averages away nights, weekends, and the overflow floor.
+    Calling a mixed neuro floor a stroke unit while allowing spine and overflow medicine to set the culture. Allowing "the patient is ambulatory" to exempt sequential compression devices without a documented walking assessment. Letting the post-thrombolysis 24-hour imaging hold erase STK-5 because no one re-orders the antithrombotic after the scan. Using intensive insulin protocols leftover from older ICU culture (80–130 is Class 3). Leaving a ≥38.0 AIS fever card on the wall. Closing case management and therapy services at 15:00 Friday and then declaring Monday a capacity crisis. Publishing a beautiful monthly dashboard that averages away nights, weekends, and the overflow floor. Selecting the ICH BP table for an AIS patient, or the reverse.
 
 !!! success "Implementation Tips"
     Start with geography and the charge nurse, not with a construction request. Pair the nurse manager with the Medical Director as a visible dyad on the unit twice a week for 20 minutes; presence changes SCD compliance faster than a memo. Build the day-2 antithrombotic as an order-set that fires at 18 hours after arrival and again at 36 hours, with a required contraindication if not given. Train every night-shift RN on the swallow screen before expanding the day-shift education calendar. Negotiate a Saturday therapy and case-management block as a capacity investment, not a courtesy. When census forces overflow, send a resource nurse with the patient and keep the patient on the unit locator list until repatriation.
@@ -121,13 +121,13 @@ Once a week, the nurse manager and stroke coordinator audit ten charts and ten b
 
 ### Monthly / quarterly
 
-Present the unit scorecard at the stroke operations committee: STK-1, STK-5, STK-8, STK-10, swallow before PO, weekend-versus-weekday length of stay, overflow-bed hours, hypoglycemia events, and unplanned ICU transfers from the unit. Stratify by night versus day and by home unit versus overflow. Unstratified success is not success.
+Present the unit scorecard at **monthly quality**: STK-1, STK-5, STK-8, STK-10, swallow before PO, weekend-versus-weekday length of stay, overflow-bed hours, hypoglycemia events, and unplanned ICU transfers from the unit. Stratify by night versus day and by home unit versus overflow. Unstratified success is not success.
 
 Review every STK-1 and STK-5 fallout within 14 days using a short defect worksheet: which shift, which order-set, which documentation gap, which attending. Assign a single owner and a due date. Do not let fallouts accumulate into a year-end abstract.
 
 Quarterly, recertify a sample of nurses on NIHSS and swallow screening with an observed encounter. Quarterly, walk the overflow plan: how many hours did stroke patients spend off-unit, and did the repatriation rule hold. Quarterly, sit with pharmacy and review antithrombotic timing after intravenous thrombolysis so the 24-hour hold cannot silently become a missed STK-5.
 
-Use the monthly meeting to retire local customs that conflict with the 2026 physiologic guidance. If an attending still writes for intensive insulin to 110 mg/dL, correct it in the order-set, not in an email chain.
+Use the monthly meeting to retire local customs that conflict with the 2026 physiologic guidance. If an attending still writes for intensive insulin to 110 mg/dL or a fever cut of 38.0 °C, correct it in the order-set, not in an email chain.
 
 ### Annual / multi-year
 
@@ -146,10 +146,17 @@ Multi-year, decide whether the academic CSC needs a step-down cluster inside the
 | 0–1 | Census, overflow locations, expected arrivals | Charge RN | Locator list matches the EHR |
 | 1–3 | Swallow, SCD, day-2 antithrombotic exceptions | Charge RN + APP | Every exception has a named plan |
 | 3–5 | Discharges in the next 36 hours, including Saturday | Case management | Barriers listed, not adjectives |
-| 5–6 | Watches: fever, glucose, neurochange, family conflict | Charge RN | Resource nurse assigned |
+| 5–6 | Watches: fever >37.5 °C, glucose 140–180, neurochange, family conflict | Charge RN | Resource nurse assigned |
 | 6–7 | Staffing and competency gaps this shift | Nurse manager or charge | Escalation called or explicitly deferred |
 
 ### Tool B — STK-5 rescue order-set logic (SOP skeleton)
+
+```mermaid
+flowchart LR
+    A[Post-IVT 24 h scan resulted] --> B{Hemorrhage?}
+    B -->|No| C[STK-5 restart: Tool B]
+    B -->|Yes| D[Hold; document contraindication]
+```
 
 1. At 18 hours after arrival, the EHR asks: antithrombotic ordered, held for post-thrombolysis imaging, held for hemorrhagic diagnosis, or contraindicated with reason.
 2. At 36 hours, if no antithrombotic and no documented contraindication, a interruptive alert fires to the covering APP and the unit pharmacist.
@@ -190,9 +197,9 @@ Audit ten occupied stroke-unit beds each week. Score yes / no / not applicable.
 - Current diet matches the latest swallow recommendation
 - SCD on and functioning, or pharmacologic VTE documented
 - Neurocheck frequency matches the pathway
-- Blood-pressure parameters written and the last three readings are inside them
-- Glucose protocol followed for the last 24 hours
-- Temperature >37.5 °C acted on within 60 minutes
+- Correct BP table selected (AIS vs ICH vs aSAH) and the last three readings are inside it
+- Glucose protocol followed for the last 24 hours (AIS 140–180; treat <60; treat >180; not 80–130)
+- Temperature **>37.5 °C** (AIS) acted on within 60 minutes; ICH uses INTERACT3 ≤37.5 °C (Ch 21)
 - Patient or caregiver can name the stroke warning signs (if education already given)
 - White-board disposition matches the case-management note
 - No undocumented overflow off the home unit
@@ -207,13 +214,12 @@ Quality ownership sits with [Core Metrics: GWTG, STK, and CSTK](../quality/23-co
 
 ## Sources
 
-- 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Glucose, dysphagia, temperature, and stroke-unit supportive care updates.
+- 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Glucose **140–180**, 80–130 not recommended, treat <60 and >180 (ER-AIS-2026-GLU); treat temps **>37.5 °C** (ER-AIS-2026-09); high-dose very-early mobilization not recommended.
 - Langhorne P, Ramachandra S; Stroke Unit Trialists' Collaboration. Organised inpatient (stroke unit) care for stroke: network meta-analysis. *Cochrane Database Syst Rev*. 2020.
-- AVERT Trial Collaboration group. Efficacy and safety of very early mobilisation within 24 h of stroke onset (AVERT). *Lancet*. 2015;386:46–55.
+- AVERT Trial Collaboration group. Efficacy and safety of very early mobilisation within 24 h of stroke onset (AVERT). *Lancet*. 2015;386:46–55. Out-of-bed within 24 h when eligible ≠ AVERT high-dose very-early protocol.
 - Middleton S, et al. Implementation of evidence-based treatment protocols to manage fever, hyperglycaemia, and swallowing dysfunction in acute stroke (QASC). *Lancet*. 2011;378:1699–1706.
 - Dennis M, et al. Effectiveness of intermittent pneumatic compression in reduction of risk of deep vein thrombosis in patients who have had a stroke (CLOTS 3). *Lancet*. 2013;382:516–524.
 - Johnston KC, et al. Intensive vs standard treatment of hyperglycemia and functional outcome in patients with acute ischemic stroke (SHINE). *JAMA*. 2019;322:326–335.
-- Specifications Manual for Joint Commission National Quality Measures, STK set (current version; confirm v2026B and successor). STK-1 VTE prophylaxis; STK-5 antithrombotic by end of hospital day 2; STK-8 stroke education; STK-10 assessed for rehabilitation.
-- AHA Get With The Guidelines–Stroke achievement award criteria (public criteria last reviewed on the AHA page September 9, 2022, and still the published bar): **85%** on each of seven achievement measures, including early antithrombotics and VTE prophylaxis.
+- Specifications Manual for Joint Commission National Quality Measures, STK set (current version; confirm v2026B and successor). STK-1, STK-5, STK-8, STK-10. Award floors: [Core Metrics](../quality/23-core-metrics.md).
 - Joint Commission 2026 Stroke Certification Standards (SCS26) and the active DSC manual / E-App eligibility table. Confirm current numeric volume requirements rather than relying on historical summaries.
 - Alberts MJ, et al. Recommendations for comprehensive stroke centers: a consensus statement from the Brain Attack Coalition. *Stroke*. 2005. Foundational CSC unit expectations; not a substitute for current Joint Commission CSC standards.

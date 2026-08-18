@@ -119,7 +119,7 @@ The Medical Director should keep a one-page capability statement that executives
 
 Walk the pathway, not the office. Once a week, at an unannounced hour that includes at least one night or weekend sample each month, the Medical Director or designee should be able to answer four questions from the current roster: who is giving thrombolysis, who is puncturing for EVT, who is taking an aneurysm to the room, and who is managing the neuro ICU. If any answer is a name that is not actually on call, the specification is already false.
 
-Review the last seven days of reperfusion and hemorrhage cases in a short huddle with the stroke coordinator and the quality abstractor. Look at door-to-needle, door-to-puncture, TICI grade, reversal start time, nimodipine start, NIHSS documentation, and any transfer that was declined or delayed. This is not the monthly committee. It is a preoccupation with failure. Escalate a coverage hole the day it appears; do not wait for the quarterly professional-practice review.
+Review the last seven days of reperfusion and hemorrhage cases in a short huddle with the stroke coordinator and the quality abstractor. Look at door-to-needle, door-to-puncture, TICI grade, reversal start time, nimodipine start, NIHSS documentation, and any transfer that was declined or delayed. This is weekly ops, not monthly quality. It is a preoccupation with failure. Escalate a coverage hole the day it appears; do not wait for quarterly stroke executive.
 
 Hold a 15-minute standing conversation with the transfer-center lead. The academic CSC is defined as much by what it accepts as by what it treats. A week of silent declines is a capability event.
 
@@ -129,7 +129,7 @@ Protect one teaching touchpoint that is about the live pathway: a brief case at 
 
 Run a capability audit against the specification, not against last month’s volume. Confirm that the on-call panels for vascular neurology, neurosurgery, neurointervention, neuroradiology, and neurocritical care were fully staffed. Confirm imaging SLA exceptions. Confirm pharmacy availability of tenecteplase and alteplase and that the current dosing policy matches the 2026 AIS guideline. Confirm that the trial list the night team uses is the same list the research office claims.
 
-Take the certified-floor versus elite scorecard to the stroke operations committee. CSTK, STK, and GWTG numbers belong on that scorecard, labeled as floor or elite. So do fellow staffing, coordinator FTE, declined transfers, and repatriation delays. If the committee only discusses door-to-needle, it is managing a PSC with a CSC certificate.
+Take the certified-floor versus elite scorecard to **monthly quality**; escalate charter and FTE fights to **quarterly stroke executive**. Do not invent a third “stroke operations committee.” CSTK, STK, and GWTG numbers belong on that scorecard, with published award criteria and `internal` aims labeled. So do fellow staffing, coordinator FTE, declined transfers, and repatriation delays. If monthly quality only discusses door-to-needle, it is managing a PSC with a CSC certificate.
 
 Once a quarter, meet the EMS medical directors and the referring-hospital CMOs or stroke leads. Ask them what they believe the academic CSC can finish at night. If their belief exceeds the roster, correct the belief in writing and fix the roster. Regional leadership begins with honest destination language.
 
@@ -178,7 +178,8 @@ Use this with the CNO and the transfer-center director.
 | Certificate status | Current CSC, no open RFI that blocks recertification | | Surveyors can trace any case to a living SOP | | Program director |
 | GWTG achievement | 85 percent on each of 7 measures | | Gold plus Target: Stroke Elite or better | | Quality lead |
 | Door to needle | Award-eligible distribution | | Elite Plus split: 75 percent at or under 45 min and 50 percent at or under 30 min | | Hyperacute lead |
-| Door to device | CSTK-09 / 11 / 12 reviewed | | Advanced Therapy: 50 percent at or under 90 min direct and 60 min transfer | | IR / stroke lead |
+| Door to device (first pass) | Advanced Therapy award cut reviewed | | 50 percent at or under 90 min direct and 60 min transfer | | IR / stroke lead |
+| Puncture / reperfusion clocks | CSTK-09 / 11 / 12 reviewed | | Same-week review of every miss | | IR / stroke lead |
 | Hemorrhage process | CSTK-03, 04, 06 submitted | | Bundle reliability with case review | | NCC lead |
 | 90-day mRS | CSTK-02 collected | | Completeness adequate for outcome review | | Coordinator |
 | Teaching | Fellows on service | | Night pathway run with defined autonomy | | Fellowship director |
@@ -194,7 +195,7 @@ Publish these as a one-page SOP. Edit the brackets.
 - If a spoke transfer and a direct-arrival LVO compete for the same room, the patient with the better expected time-to-reperfusion given current location wins; the loser gets a timestamped recovery plan.
 - If research screening would delay IVT or EVT, screening waits.
 - If repatriation would place a patient in a hospital that cannot manage the current complication, repatriation waits.
-- Exceptions are written, dated, and reviewed at the next operations committee.
+- Exceptions are written, dated, and reviewed at weekly ops (same-week collisions) or monthly quality (measure and policy collisions) by function.
 
 ### Tool 5. Capability language audit
 
@@ -206,6 +207,8 @@ This chapter is the specification that the rest of the handbook implements. Lead
 
 Do not let later chapters become a collection of departmental manuals. If a clinical SOP, a GME policy, and a research SOP describe three different night programs, the academic CSC has already failed its definition.
 
+See also: [Certification Landscape](02-certification-landscape.md) · [Systems of Care](03-systems-of-care.md) · [Day One](04-day-one-briefing.md) · [Medical Director Role](../leadership/05-medical-director-role.md) · [Governance](../leadership/07-governance-architecture.md) · [Core Metrics](../quality/23-core-metrics.md) · [Special Populations](../clinical/42-special-populations.md)
+
 ## Sources
 
 - Alberts MJ, et al. Recommendations for comprehensive stroke centers: a consensus statement from the Brain Attack Coalition. *Stroke*. 2005. Foundational CSC concept; not a substitute for current certification standards.
@@ -215,7 +218,7 @@ Do not let later chapters become a collection of departmental manuals. If a clin
 - 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage. *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436.
 - 2024 AHA/ASA Performance and Quality Measures for Spontaneous ICH.
 - Joint Commission Disease-Specific Care Certification: standards, clinical practice guidelines, and performance measurement. Advanced stroke programs: ASRH, PSC, TSC, CSC. 2026 Stroke Certification Standards (SCS26). Confirm current eligibility tables in the live E-App and active DSC manual.
-- Joint Commission announcement, April 2, 2025: annual aSAH volume criterion reduced to 10; official manual update January 2026.
+- The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10. Official manual update January 2026.
 - Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges).
 - STK inpatient stroke measure set; STK-OP v2026B. Confirm current CMS OQR composition rather than assuming historical OP-23 remains mandatory.
 - AHA Get With The Guidelines–Stroke achievement and quality awards; Target: Stroke and Target: Type 2 Diabetes public criteria (AHA page last reviewed September 9, 2022, still the public criteria at last verification).

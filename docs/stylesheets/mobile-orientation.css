@@ -8,23 +8,39 @@
     display: none;
   }
 
+  .md-header__title {
+    min-width: 0;
+  }
+
   .mobile-page-orientation {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
     min-height: 44px;
+    min-width: 0;
+    max-width: 46vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: #f8fafc !important;
     font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
     font-size: 0.82rem;
     font-weight: 500;
-    text-decoration: none !important;
     letter-spacing: 0.01em;
+  }
+
+  .mobile-page-orientation__title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .mobile-page-orientation strong {
     color: #99f6e4;
     font-weight: 700;
     letter-spacing: 0.08em;
+    flex-shrink: 0;
   }
 
   .mobile-route-strip {
@@ -51,5 +67,10 @@
   .mobile-route-strip a[aria-current="page"] {
     background: rgba(45, 212, 191, 0.22);
     border-color: rgba(45, 212, 191, 0.5);
+  }
+
+  .mobile-route-strip a:focus-visible {
+    outline: 2px solid #99f6e4;
+    outline-offset: 2px;
   }
 }

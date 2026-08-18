@@ -93,7 +93,7 @@ Practical consequences for a CSC:
 
 - LVO, ICH, and perfusion-analysis software that reads images is on the device side of the line. Demand the clearance pathway, intended-use statement, and labeled limitations. Do not let a sales slide relabel it as "just CDS."
 - An EHR alert that restates a guideline from structured chart data, and that shows the clinician the data and the rule, may be non-device CDS. It can still be dangerous.
-- Time-critical recommendations, opaque models, and image-derived outputs push toward device oversight even when a vendor prefers the other story.
+- Image-derived LVO/ICH/perfusion software remains on the device (SaMD) side. The January 2026 FDA CDS guidance no longer treats “time-critical” as an automatic Criterion 3 device trigger; it is a Criterion 4 review factor. Confirm the live FDA text before telling purchasing that a stroke alert is “obviously a device” solely because it is fast. Opacity and image inputs still matter. Clearance is still not local validation.
 - Clearance is not a local safety case. 510(k) comparison devices were not the CSC's night scanner.
 
 Keep intended use honest. If the staff behavior is "we wait to activate until the algorithm fires," the tool is driving diagnosis, whatever the label says.
@@ -206,7 +206,7 @@ Treat tool downtime like CT downtime: notify, revert, record duration.
 
 ### Monthly / quarterly
 
-Governance huddle (or a standing slot on the stroke operations agenda): volume of flags, predictive value, overrides, incidents, version changes, alert action rates, ambient-documentation incidents.
+Governance huddle (or a standing slot on the weekly ops agenda): volume of flags, predictive value, overrides, incidents, version changes, alert action rates, ambient-documentation incidents.
 
 Quarterly equity and drift report for each production algorithm. Include scanner identity. Present it with the clinical equity report, not in an IT subcommittee that clinicians skip.
 
@@ -321,7 +321,7 @@ Strategy, finance, and surge (Part VII) decide whether a subscription is worth m
 
 ## Sources
 
-- U.S. FDA. Clinical Decision Support Software guidance, including the January 2026 update that supersedes the 2022 guidance. Interprets section 520(o)(1)(E) of the FD&C Act (21st Century Cures Act §3060), including the exclusion of software that analyzes medical images or signals.
+- U.S. FDA. Clinical Decision Support Software guidance, including the January 2026 update that supersedes the 2022 guidance ([ER-FDA-CDS-2026](../evidence-register.md)). Interprets section 520(o)(1)(E) of the FD&C Act (21st Century Cures Act §3060), including the exclusion of software that analyzes medical images or signals. Time-critical decision-making is a Criterion 4 review factor, not an automatic Criterion 3 device trigger.
 - U.S. FDA. Device software functions / SaMD materials. Clearance is not local validation.
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513.
 - DAWN, DEFUSE 3, and large-core trial families (SELECT2, ANGEL-ASPECT, RESCUE-Japan LIMIT). A vendor perfusion map is not automatically trial-equivalent.

@@ -245,6 +245,8 @@ Not eligible when any is true: unrepaired aneurysm with high rerupture risk, unt
 
 Systems of care sit on top of the CSC specification and the certification ladder. A hub that is not actually comprehensive at night cannot write an honest destination card. Leadership chapters must give the Medical Director authority over transfer policy, not merely over neurology clinic. Clinical chapters on EMS, hyperacute pathways, telestroke, mobile stroke units, and hemorrhagic programs are the detailed manuals for the rows in this chapter’s tables. Quality chapters must display network measures beside CSTK and GWTG, or the hub will optimize itself and starve the region. Education chapters should send fellows to spokes and bring spoke nurses into hub simulation. Research chapters should screen the transferred population. Strategy chapters decide how large a network the academic center can honestly lead. The next chapter tells a new Medical Director how to learn this map in the first week, before changing it.
 
+See also: [What an Academic CSC Must Be](01-what-academic-csc-must-be.md) · [Certification Landscape](02-certification-landscape.md) · [Prehospital](../clinical/10-prehospital-ems.md) · [Telestroke](../clinical/19-telestroke-networks.md) · [Special Populations](../clinical/42-special-populations.md) · [Network Leadership](../strategy/33-network-leadership.md)
+
 ## Sources
 
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. MSU endorsement; refined EMS triage; consideration of direct transport to the closest EVT-capable hospital when transfer is not reliably fast; dual IVT and EVT; first pediatric AIS recommendations.

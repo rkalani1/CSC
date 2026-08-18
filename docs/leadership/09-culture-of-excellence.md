@@ -46,6 +46,14 @@ Peer review and M&M must use this algorithm in the minutes. If every case is tre
 
 CUSP-style learning from defects asks four questions after a stroke defect: what happened, why did it happen (system), what did we do to reduce risk, and how will we know it worked. Those questions belong in weekly ops, not only in a formal RCA.
 
+### Second victim
+
+After sICH, failed reperfusion with a process delay, or a death the team owns, someone on that team will carry the case home. That person is a second victim. The program owes a named check-in within 72 hours. The check-in is not the AAR, not the AAR scribe, and not the public lesson. It is a private, scheduled contact by a named peer or leader who is not running the review.
+
+Do not invent a national second-victim program, a mandatory counseling pathway, or a CSC-specific therapy product. Use the hospital’s existing peer-support or employee-assistance route if one exists. If none exists, the Medical Director or AMD still makes the 72-hour call and documents that it happened — not what was said.
+
+Add one row to every AAR: “Who needs second-victim support?” If the room cannot name anyone after a death or a sICH, the AAR is incomplete.
+
 ### Speaking up in code stroke
 
 Speaking up is a designed behavior. Train it, script it, and reward it in the same week a delay occurs.
@@ -219,6 +227,7 @@ Multi-year, watch attrition of night talent and of people who spoke up. If they 
 5. Two actions, owners, dates (5).
 6. Thanks for specific speaking-up (2).
 7. Who is missing from this room, and how we will hear them (2).
+8. Who needs second-victim support? Named check-in within 72 h; not the AAR scribe; not the public lesson.
 
 ### Just-culture sort card
 

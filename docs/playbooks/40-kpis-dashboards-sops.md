@@ -2,9 +2,9 @@
 
 ## Opening
 
-A Comprehensive Stroke Center that cannot name its measures will be named by someone else's. The Medical Director needs a KPI library that distinguishes certification floors from internal elite targets, a dashboard that fits on one screen, an FTE worksheet that can survive a budget meeting, and SOP skeletons that staff can adapt without inventing a pathway in the hallway.
+A Comprehensive Stroke Center that cannot name its measures will be named by someone else's. The Medical Director needs a KPI library that distinguishes published award criteria from internal aims, a dashboard that fits on one screen, an FTE worksheet that can survive a budget meeting, and SOP skeletons that staff can adapt without inventing a pathway in the hallway.
 
-This chapter is a sample kit. Every threshold that is a published GWTG or Target: Stroke criterion is labeled as such. Every other number is an internal management target or a local operationalization and must be ratified by stroke governance. SOP text is original and generic. It is not a substitute for pharmacy, nursing, radiology, medical-staff, or legal approval.
+This chapter is a sample kit. Every threshold that is a published GWTG or Target: Stroke criterion is labeled **Award**. Every other number is an internal management target or a local operationalization and must be ratified by monthly quality. Honor Roll / Elite / Elite Plus / Advanced Therapy are published award criteria, not CSC certification floors. SOP text is original and generic. It is not a substitute for pharmacy, nursing, radiology, medical-staff, or legal approval.
 
 Do not build a second measurement system. GWTG-Stroke, STK, and CSTK already define the external file. The library below adds balancing, equity, and academic measures so the program does not optimize DTN by harming something unseen.
 
@@ -29,7 +29,7 @@ SOPs are how new fellows, locums, and night pharmacists avoid improvisation. A s
 | Process | Did the right action happen on time? | DTN, CSTK-09, STK-5 | Weekly ops, GWTG/STK/CSTK |
 | Outcome | Did the patient do better? | CSTK-10 favorable 90-day mRS; symptomatic HT (CSTK-05) | Monthly quality |
 | Balancing | Did we break something else to win the process? | Door-to-CT for non-stroke; futile transfers; pharmacy error | Monthly quality |
-| Equity | Is reliability the same across groups? | Night vs day DTN; language; transfer vs direct | Monthly quality, quarterly executive |
+| Equity | Is reliability the same across groups? | Night vs day DTN; language; transfer vs direct | Monthly quality, quarterly stroke executive |
 | Academic | Are we building capability, not only volume? | StrokeNet screens, fellow procedure logs, peer-reviewed output | Quarterly, annual |
 | Structural | Can the system still run Tuesday night? | Unfilled call; reversal-agent stock-outs; abstractor backlog | Daily huddle, weekly ops |
 
@@ -37,46 +37,61 @@ SOPs are how new fellows, locums, and night pharmacists avoid improvisation. A s
 
 **Process — hyperacute**
 
-| ID | KPI | Numerator / denominator (management level) | Floor | Internal target | Source family |
+| ID | KPI | Numerator / denominator (management level) | Award | Internal | Source family |
 | --- | --- | --- | --- | --- | --- |
-| P-01 | DTN ≤60 min | Applicable IVT cases ≤60 / applicable IVT | 75% Honor Roll | 85% Elite | Target: Stroke |
-| P-02 | DTN ≤45 min | Applicable ≤45 / applicable | — | 75% Elite Plus | Target: Stroke |
-| P-03 | DTN ≤30 min | Applicable ≤30 / applicable | — | 50% Elite Plus | Target: Stroke |
+| P-01 | DTN ≤60 min | Applicable IVT cases ≤60 / applicable IVT | Honor Roll 75%; Elite 85% | Elite as labeled internal aim | Target: Stroke |
+| P-02 | DTN ≤45 min | Applicable ≤45 / applicable | Elite Plus 75% | Internal stretch set locally | Target: Stroke |
+| P-03 | DTN ≤30 min | Applicable ≤30 / applicable | Elite Plus 50% | Internal stretch set locally | Target: Stroke |
 | P-04 | Arrive by 3.5 h / treat by 4.5 h | GWTG achievement measure 1 | 85% | ≥90% | GWTG achievement |
-| P-05 | Door-to-device ≤90 direct | Applicable direct EVT | — | 50% Advanced Therapy | Target: Stroke |
-| P-06 | Door-to-device ≤60 transfer | Applicable transfer EVT | — | 50% Advanced Therapy | Target: Stroke |
-| P-07 | CSTK-09 arrival to skin puncture | Per v2026B spec | Spec | Monthly review of median + outliers | CSTK |
+| P-05 | Door-to-device ≤90 direct | Applicable direct EVT; first device pass, not puncture | Advanced Therapy 50% | Internal stretch set locally | Target: Stroke |
+| P-06 | Door-to-device ≤60 transfer | Applicable transfer EVT; first device pass, not puncture | Advanced Therapy 50% | Internal stretch set locally | Target: Stroke |
+| P-07 | CSTK-09 arrival to skin puncture | Per v2026B spec; ≠ Advanced Therapy door-to-device | Spec | Monthly review of median + outliers | CSTK |
 | P-08 | CSTK-11 TICI ≥2B ≤120 from arrival | Per v2026B spec | Spec | Internal stretch set locally | CSTK |
 | P-09 | CSTK-12 TICI ≥2B ≤60 from puncture | Per v2026B spec | Spec | Internal stretch set locally | CSTK |
 | P-10 | CSTK-08 TICI documented | Per v2026B spec | Spec | 100% of MER cases | CSTK |
 | P-11 | CSTK-01 NIHSS | Per v2026B spec and exclusions | Spec | ≥95% internal | CSTK |
-| P-12 | Prenotification captured | Codes with EMS prenote / EMS arrivals | Local | ≥80% | Ops |
-| P-13 | Door-to-CT ≤20 min | Management operationalization | Local | Set locally; do not invent a national floor | Ops |
+| P-12 | Prenotification captured | Codes with EMS prenote / EMS arrivals | — | ≥80% | Ops |
+| P-13 | Door-to-CT ≤15 min (local management) | Management operationalization | — | Review every case >15 min | Ops |
+
+P-14–P-19 are reserved for internal sample metrics, not national floors. P-18 is unused; ICH temperature lives in P-36.
+
+| ID | KPI | Notes | Award | Internal | Source family |
+| --- | --- | --- | --- | --- | --- |
+| P-14 | In-hospital DTN | Separate denominator from ED arrivals; dual page RRT + code stroke (Ch 43) | — | Local sample | Ops |
+| P-15 | Telestroke request-to-camera | Spoke request to CSC camera | — | Local sample | Network |
+| P-16 | Telestroke door-to-recommendation | Spoke door to documented recommendation | — | Local sample | Network |
+| P-17 | AIS fever response | Treat temperature **>37.5 °C**; time-to-treatment (2026 AIS §4.4) | — | Local sample | 2026 AIS |
+| P-19 | MSU on-scene-to-needle | Scene arrival to lytic if MSU treats | — | Local sample | Ops |
 
 **Process — hemorrhage, unit, prevention**
 
-| ID | KPI | Notes | Floor | Internal target | Source family |
+| ID | KPI | Notes | Award | Internal | Source family |
 | --- | --- | --- | --- | --- | --- |
-| P-20 | CSTK-03 severity score SAH/ICH | Hunt-Hess, WFNS, ICH score, or local allowed tool as specified | Spec | 100% eligible | CSTK |
-| P-21 | CSTK-04 procoagulant reversal initiation | Follow v2026B exactly | Spec | 100% eligible tracked | CSTK |
-| P-22 | CSTK-06 nimodipine administered | Follow v2026B exactly | Spec | 100% eligible | CSTK |
+| P-20 | CSTK-03 severity score SAH/ICH | Hunt and Hess for SAH; ICH Score for ICH. Prior to surgery or within 6 h of arrival if no surgery. WFNS and modified Fisher are clinical adjuncts, not the measure | Spec | ≥95% (100% stretch) | CSTK |
+| P-21 | CSTK-04 procoagulant reversal initiation | Follow v2026B exactly | Spec | ≥90% initiation (100% eligible tracked is a different metric) | CSTK |
+| P-22 | CSTK-06 nimodipine administered | First dose within 24 h of arrival; enteral only; never IV | Spec | ≥95% eligible | CSTK |
 | P-23 | Swallow screen before oral intake | Local safety measure | Zero unscreened PO events | 100% | Safety |
 | P-24 | STK-1 VTE prophylaxis | Longstanding STK | 85% if used as GWTG-aligned | ≥95% | STK / GWTG |
 | P-25 | STK-2 discharge antithrombotic | | 85% GWTG-aligned | ≥95% | STK / GWTG |
 | P-26 | STK-3 anticoagulation AF/flutter | | 85% GWTG-aligned | ≥95% | STK / GWTG |
 | P-27 | STK-4 thrombolytic therapy | Inpatient STK construct; do not confuse with DTN | Spec | Monthly review | STK |
 | P-28 | STK-5 antithrombotic by end of HD2 | GWTG achievement #2 | 85% | ≥95% | STK / GWTG |
-| P-29 | STK-6 intensive statin at discharge | GWTG achievement #7 uses intensive statin | 85% | ≥95% | STK / GWTG |
+| P-29 | STK-6 discharged on statin | Spec-defined statin at discharge — not the same as intensive | As specified | ≥95% | STK |
+| P-29b | GWTG achievement #7 intensive statin at discharge | High-intensity agent (or documented contraindication) | 85% | ≥95% | GWTG |
 | P-30 | STK-8 stroke education | | Spec | ≥95% | STK |
 | P-31 | STK-10 rehab assessment | | Spec | ≥95% | STK |
 | P-32 | Smoking cessation | GWTG achievement #6 | 85% | ≥95% | GWTG |
 | P-33 | Target: Type 2 Diabetes composite | If program pursues the award | 80% for 12 months | ≥80% | GWTG |
 | P-34 | 90-day mRS contact attempt | Process under CSTK-02 / CSTK-10 | Spec | ≥80% attempts; complete favorable-outcome cohort | CSTK |
 | P-35 | DIDO at referring sites (network) | Transfers in | Local | Review outliers every week | Network |
+| P-36 | INTERACT3 ICH bundle complete at 60 min | Includes ICH temp ≤37.5 °C (P-18 unused; fold here). AIS fever is P-17 (>37.5 °C; same number, different order-set) | Local | Build ≥80% then raise | Ch 21 |
+| P-37 | aSAH diagnosis → first nimodipine | Eligible aSAH with documented first dose | CSTK-06 adjacent | 100% eligible; minutes reviewed | CSTK-06 adjacent |
+| P-38 | aSAH diagnosis → secure | Local ≤24 h aim; 100% outliers reviewed | Local | Local | Ch 21 |
+| P-39 | Large-core offer/decline reviewed | Judgment declines + offers | Local | 100% | Ch 14 |
 
 **Outcome**
 
-| ID | KPI | Notes | Floor | Internal target |
+| ID | KPI | Notes | Award | Internal |
 | --- | --- | --- | --- | --- |
 | O-01 | CSTK-05 hemorrhagic transformation | Overall as specified | Spec; review all sICH | Case review 100% |
 | O-02 | CSTK-10 favorable 90-day mRS | Favorable-outcome construct | Spec | Trend; do not punish small n |
@@ -89,7 +104,7 @@ SOPs are how new fellows, locums, and night pharmacists avoid improvisation. A s
 | ID | KPI | Why it exists |
 | --- | --- | --- |
 | B-01 | Stroke-alert overtriage / mimic rate | Protects ED and CT from a DTN-only culture |
-| B-02 | Pharmacy mixing errors / near misses | Speed cannot tax dose safety (TNK 0.25/25; alteplase 0.9/90) |
+| B-02 | Pharmacy mixing errors / near misses | Speed cannot tax dose safety (TNK 0.25/25 only; 0.4 mg/kg is Class 3 – No Benefit; alteplase 0.9/90) |
 | B-03 | Futile long-distance transfer without imaging | Protects spokes and aircraft |
 | B-04 | Fellow duty-hour violations tied to code volume | Education balancing |
 | B-05 | Research protocol deviations that touched a code | Clock protection |
@@ -132,22 +147,23 @@ SOPs are how new fellows, locums, and night pharmacists avoid improvisation. A s
 
 One screen. Monthly packet may go deeper. Weekly ops uses the 7-day strip, not this full wireframe.
 
-| | This week | Last 30 d | Last 90 d | Floor | Internal | Status |
+| | This week | Last 30 d | Last 90 d | Award | Internal | Status |
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | **CLOCK** | | | | | | |
 | n IVT | | | | | | |
 | DTN median (min) | | | | — | local | |
-| % DTN ≤60 | | | | 75% HR | 85% Elite | |
-| % DTN ≤45 | | | | — | 75% EP | |
-| % DTN ≤30 | | | | — | 50% EP | |
+| % DTN ≤60 | | | | HR 75%; Elite 85% | Elite as internal aim | |
+| % DTN ≤45 | | | | EP 75% | local stretch | |
+| % DTN ≤30 | | | | EP 50% | local stretch | |
 | n EVT (direct / xfer) | | | | | | |
-| % DTD ≤90 direct | | | | — | 50% AT | |
-| % DTD ≤60 transfer | | | | — | 50% AT | |
+| % DTD ≤90 direct | | | | AT 50% | local stretch | |
+| % DTD ≤60 transfer | | | | AT 50% | local stretch | |
 | CSTK-11 | | | | spec | local | |
 | CSTK-12 | | | | spec | local | |
 | **HEMORRHAGE / UNIT** | | | | | | |
-| CSTK-04 | | | | spec | 100% tracked | |
-| CSTK-06 | | | | spec | 100% | |
+| CSTK-03 | | | | spec | ≥95% (100% stretch) | |
+| CSTK-04 | | | | spec | ≥90% initiation | |
+| CSTK-06 | | | | spec | ≥95% | |
 | Swallow before PO | | | | 100% | 100% | |
 | **PREVENTION / GWTG** | | | | | | |
 | 7 achievement ≥85% (Y/N + weakest) | | | | 85% each | all ≥90% | |
@@ -172,21 +188,21 @@ flowchart LR
     AC[Academic log] --> Q[Quarterly packet]
     M --> Q
     W --> OPS[Weekly ops decisions]
-    M --> QC[Quality committee PDSAs]
+    M --> QC[Monthly quality PDSAs]
     Q --> EX[Executive resource decisions]
 ```
 
 !!! tip "Key Actions"
 
-    Adopt the library IDs (P-01, O-01, B-01, E-01, A-01, S-01) so every meeting cites the same code. Build the one-screen dashboard before any visual redesign. Label every cell as floor, internal, or specification-defined. Complete the FTE worksheet with the program manager before the next budget cycle. Place the six SOP skeletons on the governance agenda as samples — not as policy — and assign a clinical owner to each. Remove CSTK-07 from every scorecard if it is still hanging around.
+    Adopt the library IDs (P-01, O-01, B-01, E-01, A-01, S-01) so every meeting cites the same code. Build the one-screen dashboard before any visual redesign. Label every cell as award, internal, or specification-defined. Complete the FTE worksheet with the program manager before the next budget cycle. Place the seven SOP skeletons on the monthly quality agenda as samples — not as policy — and assign a clinical owner to each. Remove CSTK-07 from every scorecard if it is still hanging around.
 
 !!! abstract "Metrics Targets"
 
-    External floors: GWTG 85% on each of seven achievement measures; Bronze 90 consecutive days, Silver 12 months, Gold 24 months; Target: Stroke Honor Roll 75% DTN ≤60, Elite 85% DTN ≤60, Elite Plus 75% DTN ≤45 and 50% DTN ≤30 (minimum 6 patients); Advanced Therapy 50% door-to-device ≤90 direct / ≤60 transfer; Target: Type 2 Diabetes composite ≥80% for 12 months. CSTK/STK: report to current specifications (v2026B). Internal management: after-action 100% on triggers; research clock events 0; abstractor backlog 0 charts older than 14 days; 90-day contact attempts ≥80%. Volume: confirm live E-App tables; aSAH criterion announced as 10 on 2 April 2025.
+    Published award criteria live in Chapter 23 (GWTG 85% achievement; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy). They are not CSC certification floors. Elite may be labeled the internal DTN aim. CSTK/STK: report to current specifications (v2026B). CSTK-03 ≥95% internal (100% stretch); CSTK-04 ≥90% initiation (100% eligible tracked is a different metric); CSTK-06 ≥95% internal. Internal management: after-action 100% on triggers; research clock events 0; abstractor backlog 0 charts older than 14 days; 90-day contact attempts ≥80%. Volume: confirm live E-App tables; aSAH criterion announced as 10 on 2 April 2025. Door-to-device (first device pass) ≠ CSTK-09 puncture.
 
 !!! warning "Common Pitfalls"
 
-    Displaying 40 KPIs and managing none. Setting an internal DTN target looser than Honor Roll. Mixing STK-4 with Target: Stroke DTN. Publishing risk-unadjusted mortality as if it were a league table. Hiding night and transfer slices because they look bad. Counting research enrollments without a clock-interference measure. Writing SOPs that copy guideline prose instead of local roles and time stamps. Staffing FTE by historical habit rather than by CSTK-02 caller workload and 24/7 screen coverage. Inventing an EVT volume requirement from memory.
+    Displaying 40 KPIs and managing none. Setting an internal DTN target looser than the Honor Roll published award cut. Mixing STK-4 with Target: Stroke DTN. Collapsing door-to-device into CSTK-09 puncture. Publishing risk-unadjusted mortality as if it were a league table. Hiding night and transfer slices because they look bad. Counting research enrollments without a clock-interference measure. Writing SOPs that copy guideline prose instead of local roles and time stamps. Staffing FTE by historical habit rather than by CSTK-02 caller workload and 24/7 screen coverage. Inventing an EVT volume requirement from memory.
 
 !!! success "Implementation Tips"
 
@@ -196,11 +212,11 @@ flowchart LR
 
 ### Daily / weekly
 
-Update time stamps every morning before huddle. Weekly ops sees P-01 through P-09, P-21, P-22, P-23, B-05, S-04, S-05. Do not present the full library weekly.
+Update time stamps every morning before huddle. Weekly ops sees P-01 through P-09, P-20, P-21, P-22, P-23, B-05, S-04, S-05. Do not present the full library weekly.
 
 ### Monthly / quarterly
 
-Monthly quality sees the full process and outcome set, the equity slice, and balancing measures. Quarterly executive sees the wireframe plus S-01–S-03 confirmed against live tables, A-01–A-06, and any FTE ask tied to a red cell.
+Monthly quality sees the full process and outcome set, the equity slice, and balancing measures. Quarterly stroke executive sees the wireframe plus S-01–S-03 confirmed against live tables, A-01–A-06, and any FTE ask tied to a red cell.
 
 ### Annual / multi-year
 
@@ -219,8 +235,8 @@ Definition source: [ ] GWTG [ ] STK [ ] CSTK v2026B [ ] local
 Numerator:
 Denominator:
 Exclusions:
-Floor (published): ________
-Internal target: ________  Approved by quality committee: [date]
+Award (published criteria): ________
+Internal: ________  Approved by monthly quality: [date]
 Night/weekend/transfer slices required? [ ] Y [ ] N
 Review cadence: [ ] weekly [ ] monthly
 Retirement rule: delete if no decision in 12 months
@@ -270,6 +286,8 @@ Status: SAMPLE TO ADAPT — not in force until governance, nursing, ED, pharmacy
 
 2. SCOPE
    ED, MSU (if any), inpatient codes, telestroke-activated arrivals.
+   In-house stroke: dual page RRT + code stroke; elevator override;
+   separate denominator from ED DTN. See Chapter 43.
 
 3. ACTIVATION
    Who may activate: any clinician or EMS prenotification.
@@ -300,6 +318,7 @@ Status: SAMPLE TO ADAPT — not in force until governance, nursing, ED, pharmacy
 
 8. RELATED
    SOP-CSC-TNK-001, SOP-CSC-EVT-001, after-action checklist.
+   In-house pathway: Chapter 43 (dual page; elevator override; separate denominator).
 ```
 
 ### Tool 4 — SOP skeleton: tenecteplase administration (sample to adapt)
@@ -341,6 +360,7 @@ Status: SAMPLE TO ADAPT — requires P&T, nursing, ED, and medical staff approva
 7. STOP-THE-LINE
    Dose card mismatch, weight unknown, agent unlabeled, patient no longer
    eligible, or any request to “just give the cardiac dose.”
+   TNK 0.4 mg/kg or any cardiac-strength card — refuse (2026 AIS Class 3 – No Benefit).
 
 8. AFTER-ACTION
    Mandatory if DTN >45 min or any mixing / dosing near miss (B-02).
@@ -379,8 +399,9 @@ performance measures, CSTK-04 v2026B specifications, and P&T.
    After-action if initiation misses the local operationalization of CSTK-04.
 
 7. CONCURRENT CARE
-   BP pathway per 2022 ICH guideline local order set.
-   Airway, glucose, dysphagia, VTE plan, goals of care.
+   INTERACT3 trial-bundle (confirm in Ma et al. Lancet 2023 / 2022 ICH tables):
+   SBP <140 stop at 130 / glucose band / temp ≤37.5 / INR <1.5 by 60 min if VKA.
+   Airway, dysphagia, VTE plan, goals of care.
    Do not delay reversal for non-urgent imaging.
 
 8. DOCUMENTATION
@@ -389,6 +410,37 @@ performance measures, CSTK-04 v2026B specifications, and P&T.
 9. STOP-THE-LINE
    Agent stock-out: house supervisor + MD. Comfort-measures decision
    must be explicit before excluding reversal.
+```
+
+### Tool 5b — SOP skeleton: aSAH nimodipine and securing (sample to adapt)
+
+```
+TITLE: aSAH Nimodipine and Aneurysm Securing
+ID: SOP-CSC-SAH-001     Version: YYYY.MM     Owner: NSGY + NIR + NCC + Medical Director
+Status: SAMPLE TO ADAPT — align to 2023 AHA/ASA aSAH guideline, CSTK-03 / CSTK-06
+v2026B, and medical staff. Enteral nimodipine only. Never give nimodipine IV
+(U.S. boxed warning).
+
+SECURING CLOCK
+1. Diagnosis time (CT or LP).
+2. CSTK-03 Hunt and Hess entered (WFNS and modified Fisher are clinical
+   adjuncts, not the measure). Prior to surgery or within 6 hours of
+   arrival if no surgery.
+3. First nimodipine within 24 hours of arrival (CSTK-06). Enteral only —
+   NG if NPO. Never IV. Clinical course commonly 60 mg q4h; hypotension
+   adjustment is local.
+4. Named accept attending within 10 minutes.
+5. Vascular imaging completed or scheduled immediately.
+6. Clip-versus-coil default applied or huddle called.
+7. Suite or OR hold placed.
+8. Secure time recorded (local ≤24 h aim; review every outlier).
+9. If not secured inside the local clock, the exception is written and
+   reviewed the next weekday.
+10. Post-secure DCI plan posted on the NCC board.
+
+STOP-THE-LINE
+Held nimodipine without a hypotension protocol. Any request to give
+nimodipine IV. Elective case blocking the night rupture.
 ```
 
 ### Tool 6 — SOP skeleton: EVT activation (sample to adapt)
@@ -412,10 +464,11 @@ Status: SAMPLE TO ADAPT
 
 4. CLOCK
    Document door, imaging, decision, team notification, room ready,
-   puncture, first pass, final TICI (CSTK-08).
+   puncture (CSTK-09), first device pass (Advanced Therapy door-to-device),
+   final TICI (CSTK-08). Door-to-device ≠ puncture.
    Manage to CSTK-09, CSTK-11 (TICI ≥2B ≤120 from arrival),
    CSTK-12 (TICI ≥2B ≤60 from puncture).
-   Advanced Therapy internal watch: DTD ≤90 direct / ≤60 transfer.
+   Advanced Therapy published award criterion: 50% DTD ≤90 direct / ≤60 transfer.
 
 5. DUAL-ELIGIBLE RULE
    Give indicated IVT. Do not hold the table for infusion completion
@@ -511,7 +564,8 @@ Status: SAMPLE TO ADAPT
 ### Tool 9 — Dashboard data-dictionary footer
 
 ```
-HR = Target: Stroke Honor Roll; Elite / Elite Plus / AT = Advanced Therapy.
+HR / Elite / Elite Plus / AT = Target: Stroke **published award criteria**, not CSC floors.
+Door-to-device = first pass with the thrombectomy device; CSTK-09 = skin puncture.
 Spec = current Joint Commission measure specification, not a local invention.
 Internal targets are not certification requirements.
 CSTK-07 is not in the v2026B set.
@@ -525,6 +579,7 @@ SOP ID     Pharmacy  Nursing  ED  NIR  NCC  NSGY  Radiology  Legal  Quality  MD
 CS-001
 TNK-001
 ICH-001
+SAH-001
 EVT-001
 mRS-001
 TS-001
@@ -543,5 +598,5 @@ Use agendas in the checklists chapter to review these KPIs, and audit tools in t
 - 2023 aSAH Guideline, *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436.
 - 2021 AHA/ASA secondary-prevention guideline (major reference unless a later update is cited).
 - CSTK and STK Specifications Manual v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges); STK-OP exists — confirm current CMS OQR rather than asserting OP-23 is mandatory.
-- GWTG-Stroke recognition criteria (AHA, last reviewed 9 September 2022) including Target: Stroke and Target: Type 2 Diabetes thresholds.
+- GWTG-Stroke recognition criteria (AHA, last reviewed 9 September 2022) including Target: Stroke and Target: Type 2 Diabetes as **published award criteria** (Chapter 23), not CSC certification floors.
 - Joint Commission DSC / SCS26; April 2, 2025 aSAH volume announcement (20 to 10). Confirm live E-App tables for other volumes.

@@ -63,7 +63,7 @@ Three IHI questions, then PDSA:
 
 Example aims that belong on a CSC board:
 
-- Increase the percent of direct-arrival IVT with DTN ≤45 minutes to the Elite Plus public cut (75%) and hold it for six months, without increasing CSTK-05.
+- Increase the percent of direct-arrival IVT with DTN ≤45 minutes to the Elite Plus published award criterion (75%) and hold it for six months, without increasing CSTK-05. Label the aim `internal` if the hospital adopts it as policy.
 - Increase CSTK-12 (TICI ≥2B within 60 minutes of puncture) by removing a specified in-lab wait, without increasing puncture-without-device or sICH.
 - Increase CSTK-04 reversal initiation reliability for eligible ICH to a locally set internal target.
 
@@ -97,7 +97,7 @@ Do not DMAIC a process that is not yet standard. Standardize first (Lean / stand
 
 CUSP is the unit-level safety method: assemble a team, teach the science of safety, identify defects, partner with a senior executive, learn from defects, and implement tools (briefings, checklists, shadowing). Use it on the neuro ICU, the stroke unit, and the IR/anesthesia interface — the places where CSTK-05, reversal, nimodipine, and post-EVT monitoring actually live.
 
-A CUSP team is not a second stroke committee. It reports hazards into governance and takes back standard-work changes. The Learn from a Defect tool is the right first response to a CSTK-05 case that is not automatically an RCA.
+A CUSP team is not a second stroke committee. It reports hazards into monthly quality and takes back standard-work changes. The Learn from a Defect tool is the right first response to a CSTK-05 case that is not automatically an RCA.
 
 ### Five HRO principles
 
@@ -185,7 +185,7 @@ Do not silently abandon a PDSA. Silence is how five zombie projects accumulate.
 
 ### Linking methods to CSTK-05, CSTK-11, and CSTK-12
 
-**CSTK-11 (TICI ≥2B within 120 minutes of arrival).** Usually a system-time problem: prenotification, parallel IR call, imaging protocol, transport, consent, suite access. Start with Lean value-stream on a recent miss, code the defect, then PDSA one removed wait. Use Target: Stroke Advanced Therapy cuts (50% door-to-device ≤90 min direct / ≤60 min transfer) as a related but non-identical external floor.
+**CSTK-11 (TICI ≥2B within 120 minutes of arrival).** Usually a system-time problem: prenotification, parallel IR call, imaging protocol, transport, consent, suite access. Start with Lean value-stream on a recent miss, code the defect, then PDSA one removed wait. Use Target: Stroke Advanced Therapy cuts (50% door-to-device ≤90 min direct / ≤60 min transfer) as related, not identical, **published award criteria** (ER-TS-AT-DEF).
 
 **CSTK-12 (TICI ≥2B within 60 minutes of puncture).** Usually an in-lab problem: anesthesia ready, device open, access, first-pass strategy, attending presence, room setup. DMAIC if variation is high across operators or shifts. Peer review if an individual pattern exists; system PDSA if the pattern is the room.
 
@@ -215,7 +215,7 @@ flowchart LR
     Publish a one-page method-selection rule (table above) so every defect is not auto-assigned to "do a PDSA." Install the code-stroke defect taxonomy this month and require a code on every time or safety miss. Put CSTK-05, CSTK-11, and CSTK-12 on the weekly huddle, not only the monthly book. Write stop rules and a retirement ritual for PDSAs. Replace "re-educate staff" as a sole RCA action.
 
 !!! abstract "Metrics Targets"
-    Improvement portfolio: a locally set maximum number of open PDSAs (keep it small). Percent of DTN, CSTK-11, CSTK-12, and CSTK-05 events with a defect code within 7 days: internal target 100%. Apparent-cause completed same week; RCA on the hospital's clock. Balancing: no speed PDSA remains open if CSTK-05 ascertainment falls or if a pre-set sICH stop rule is crossed. External floors remain those in Chapter 23 (Elite Plus DTN cuts; Advanced Therapy 50% door-to-device; CSTK-11 120 min; CSTK-12 60 min). Huddle reliability: daily huddle held, one weak signal recorded.
+    Improvement portfolio: a locally set maximum number of open PDSAs (keep it small). Percent of DTN, CSTK-11, CSTK-12, and CSTK-05 events with a defect code within 7 days: `internal` target 100%. Apparent-cause completed same week; RCA on the hospital's clock. Balancing: no speed PDSA remains open if CSTK-05 ascertainment falls or if a pre-set sICH stop rule is crossed. Honor Roll / Elite / Elite Plus / Advanced Therapy are **published award criteria** (Chapter 23), not CSC certification floors. CSTK-11 120 min and CSTK-12 60 min are specification clocks. Huddle reliability: daily huddle held, one weak signal recorded.
 
 !!! warning "Common Pitfalls"
     Five stacked PDSAs on DTN with no defect codes. RCA for every 61-minute needle time. No RCA after a devastating sICH. A Lean event that adds a checklist and a second NIHSS form. DMAIC on a process that is not standard. CUSP team that never includes night staff or IR techs. Huddles that are announcements. Zombie PDSAs. Using CSTK-05 as a pay-for-performance rate. Simplifying a miss to "the fellow was new" — a July problem is a system problem. Ignoring transfer clocks when working CSTK-11.
@@ -297,7 +297,7 @@ Sort monthly as a Pareto. Do not collect unused codes.
 
 **Daily (10 min).** Activations yesterday. Defects yesterday. Today's constraints (people, rooms, scanners, language). One weak signal. One assignment.
 
-**Weekly safety (20 min).** Open CSTK-05. Open time misses without codes. Open PDSA stop-rule checks. Interpreter or equity flags. Items to escalate to RCA or governance.
+**Weekly safety (20 min).** Open CSTK-05. Open time misses without codes. Open PDSA stop-rule checks. Interpreter or equity flags. Items to escalate to RCA, monthly quality, or quarterly stroke executive.
 
 **Post-event (5 min).** What was the clock? What was believed at the time? What almost happened? Who else must be told before morning?
 
@@ -336,6 +336,6 @@ Clinical pathways (Chapters 10–21) are the value streams. Education (Chapters 
 - Weick KE, Sutcliffe KM. High-reliability organizing: preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, deference to expertise. Joint Commission high-reliability / patient-safety framing.
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513.
 - CSTK v2026B: CSTK-05, CSTK-09, CSTK-11 (TICI ≥2B within 120 min of arrival), CSTK-12 (TICI ≥2B within 60 min of puncture). CSTK-07 not in the current set.
-- GWTG Target: Stroke Elite Plus and Advanced Therapy public cuts (Chapter 23).
+- GWTG Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy **published award criteria** (Chapter 23).
 - HERMES 2016; DAWN; DEFUSE 3; SELECT2; ANGEL-ASPECT; RESCUE-Japan LIMIT; EXTEND-IA TNK — outcome and operational context for reperfusion speed, not as license to ignore CSTK-05.
 - Greenberg et al., 2022 ICH Guideline; 2024 AHA/ASA ICH performance measures; 2023 aSAH Guideline.

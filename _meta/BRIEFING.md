@@ -45,7 +45,7 @@ Length: 2,400–4,500 words. Dense, specific, usable in a real meeting.
 
 ### AHA/ASA 2026 AIS Guideline
 - Citation: 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Published online 26 January 2026. Replaces 2018 guideline and 2019 update.
-- IVT: either tenecteplase **0.25 mg/kg IV push, max 25 mg** OR alteplase **0.9 mg/kg, max 90 mg** (10% bolus, remainder over 60 min) in the 4.5-hour window.
+- IVT: either tenecteplase **0.25 mg/kg IV push, max 25 mg** OR alteplase **0.9 mg/kg, max 90 mg** (10% bolus, remainder over 60 min) in the 4.5-hour window. Tenecteplase **0.4 mg/kg is not recommended** (Class 3 – No Benefit).
 - Treat eligible **disabling** deficits rapidly within 4.5 h **regardless of NIHSS**, without delaying for advanced imaging selection.
 - Extended-window IVT for selected unknown-onset or 4.5–9 h patients using DWI-FLAIR or perfusion mismatch.
 - Patients eligible for both IVT and EVT should receive both rapidly, without delaying thrombectomy.
@@ -66,8 +66,9 @@ Length: 2,400–4,500 words. Dense, specific, usable in a real meeting.
 - Historical CSC capability expectations still used operationally: 24/7 vascular neurology, neurosurgery, neurointervention, neuroradiology; dedicated neuro ICU; advanced imaging; peer review; research participation; performance measure reporting.
 - Do **not** invent current numeric volume requirements for EVT or IVT if not verified. Describe them as "confirm the current E-App / CSC eligibility table in the active DSC manual" and note commonly cited historical figures (e.g., 25 IV thrombolysis cases in older summaries) as **historical / confirm current**.
 
-### CSTK measures — Specifications Manual v2026A (posted 08/08/2025)
+### CSTK measures — Specifications Manual v2026B (posted 02/06/2026)
 Population: ischemic without reperfusion; ischemic with IV/IA/MER; hemorrhagic.
+Operational window as of 2026-08: v2026B for 3Q–4Q 2026 discharges. Prior window: v2026A (posted 08/08/2025; 1Q–2Q 2026). Next window: v2027A (posted 08/07/2026; 1Q–2Q 2027). Measure IDs 01–06 and 08–12 are unchanged across all three; CSTK-07 is not in the current set.
 - CSTK-01 NIHSS performed for ischemic stroke (before recanalization, or within 12 h if no recanalization)
 - CSTK-02 mRS at 90 days
 - CSTK-03 Severity measurement for SAH and ICH (overall)
@@ -91,7 +92,7 @@ Population: ischemic without reperfusion; ischemic with IV/IA/MER; hemorrhagic.
 - STK-6 Discharged on statin
 - STK-8 Stroke education
 - STK-10 Assessed for rehabilitation
-- STK-OP exists for outpatient/ED stroke (v2026A). CMS OP-23 historically tracked head CT/MRI results for stroke; confirm current OQR set rather than asserting it is still mandatory.
+- STK-OP exists for outpatient/ED stroke (v2026B). CMS OP-23 historically tracked head CT/MRI results for stroke; confirm current OQR set rather than asserting it is still mandatory.
 
 ### GWTG-Stroke recognition (AHA published criteria; last reviewed on AHA page Sep 9, 2022 — still the public criteria)
 Achievement awards: **85%** on each of 7 achievement measures.

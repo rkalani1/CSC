@@ -14,7 +14,7 @@ This chapter is the operations manual for that chain. It is written for the acad
 
 Most recurrent strokes that an academic CSC will see this year are prevention failures, not hyperacute failures. The workup that never named a mechanism, the statin that was "moderate intensity because the LDL was only 92," the anticoagulation for atrial fibrillation that was "deferred to the PCP," and the clinic appointment booked at six weeks are the usual sequence.
 
-Joint Commission and GWTG-Stroke make parts of this sequence non-optional. STK-2 (discharged on antithrombotic) and STK-3 (anticoagulation for atrial fibrillation or flutter) are longstanding inpatient stroke measures. GWTG-Stroke achievement awards require **85%** on each of seven measures; that set includes antithrombotics at discharge, anticoagulation for AF/flutter, and **intensive statin at discharge**. CSTK-02 requires 90-day mRS collection. CSTK-10 reports favorable 90-day outcome. A CSC that cannot find its patients at 90 days cannot claim outcome excellence, and it cannot complete its certification data set.
+Joint Commission and GWTG-Stroke make parts of this sequence non-optional. STK-2, STK-3, and intensive statin at discharge are the inpatient prevention measures; award floors live in [Core Metrics](../quality/23-core-metrics.md). CSTK-02 requires 90-day mRS collection. CSTK-10 reports favorable 90-day outcome. A CSC that cannot find its patients at 90 days cannot claim outcome excellence, and it cannot complete its certification data set.
 
 The 2026 guideline's preference for DAPT over thrombolysis in non-disabling stroke will create two new failure modes if the program does not operationalize it. First, eligible disabling strokes will be under-treated because someone generalizes "DAPT is preferred" beyond the non-disabling population. Second, non-disabling patients will still receive thrombolysis out of habit, or will receive neither thrombolysis nor a loaded DAPT regimen. Write the fork. Teach the fork. Audit the fork.
 
@@ -44,12 +44,15 @@ TOAST remains the shared language: large-artery atherosclerosis, cardioembolism,
 
 | Mechanism hypothesis | Inpatient minimum | Do not delay discharge for | Clinic / outpatient next step |
 | --- | --- | --- | --- |
-| Large-artery atherosclerosis | Extracranial and intracranial vessel imaging; LDL and high-intensity statin started | Complete dental clearance or "routine" echo if vessels already explain the event and rhythm is documented | Revascularization conference if stenosis is symptomatic and anatomy is actionable |
+| Large-artery atherosclerosis | Extracranial and intracranial vessel imaging; intensive statin started toward **LDL-C <70** | Complete dental clearance or "routine" echo if vessels already explain the event and rhythm is documented | Revascularization conference if stenosis is symptomatic and anatomy is actionable; ezetimibe if LDL will not reach <70 |
 | Cardioembolism / known AF | Rhythm documentation; anticoagulation plan or documented contraindication | Transesophageal echo when transthoracic plus rhythm already suffice | INR or DOAC tolerance check inside 7 days |
 | Suspected occult AF | Inpatient telemetry for the entire stay; TSH and basic labs | Implantable loop recorder placement before discharge in every case | Time-defined extended monitoring pathway |
 | Small-vessel / lacunar | MRI when it changes counseling or DAPT duration; BP regimen | An antibody panel with no clinical indication | Tight BP follow-up; do not call it ESUS |
-| ESUS / undetermined | Vessel imaging, prolonged rhythm observation, echo strategy documented | Every advanced test in the catalog | Named residual questions on the discharge problem list |
-| Dissection / other determined | Vessel imaging, trauma and connective-tissue history, antithrombotic choice documented | Genetic panels that will not change the next 90 days | Specialty clinic or vascular neurology continuity |
+| ESUS / undetermined | Vessel imaging, prolonged rhythm observation, echo strategy documented. Do not anticoagulate by default. | Every advanced test in the catalog, or a default DOAC "because it looks embolic" | Named residual questions; antiplatelet unless a specific AC indication is written |
+| Symptomatic extracranial carotid stenosis | Conference this stay (vascular surgery + NIR + vascular neurology). 2021 SP: CEA for ipsilateral 70–99% with periprocedural risk <6% is Class 1. When revascularization is indicated after TIA or nondisabling stroke, it is reasonable within **2 weeks** (Class 2a). Prefer CEA over CAS if the procedure will occur within 1 week (Class 2a). Write the local operating clock from those classes — who books, who consents, the weekend rule. Do not invent a 48-hour national mandate. Peri-procedural stroke uses the in-house code ([Hyperacute](11-hyperacute-pathways.md)). Elective carotid intervention is a CSTK-01 exclusion. | A 48-hour mandate no surgeon here will honor | Local 2-week clock on the discharge block; clinic slot if the conference is after discharge |
+| PFO with embolic-appearing infarct and no AF | Bubble study / TEE only when it will change the next 7 days or the clinic plan. 2021 closure criteria are qualitative: age 18–60, nonlacunar infarct, no other identified cause, high-risk PFO anatomy. Closure evaluation lives in the weekly cardiology slot, not as a day-2 implant. Residual-risk antithrombotic after closure or after "PFO not causal" is written before discharge. Do not invent a RoPE cutoff as a discharge gate. | A day-2 implant or a RoPE number used as a discharge gate | Weekly cardiology slot; residual-risk antithrombotic written |
+| Cervical-artery dissection | Vessel imaging; trauma and connective-tissue history; antiplatelet **or** anticoagulation for a time-limited course. Follow-up imaging before the stop date. Duration is not a national rule — commonly 3–6 months; write the local card. | An invented national duration or a genetic panel that will not change the next 90 days | Stop-date check and follow-up vessel study |
+| Infective endocarditis | Serial blood cultures before antibiotics when the patient is stable enough; cardiology and ID on the same-stay list; no routine intravenous thrombolysis; mycotic-aneurysm path (vascular imaging + NSGY/NIR) if hemorrhage or a new focal deficit appears | Lytic "because NIHSS is high" or discharge before cultures | Culture-negative plan and mycotic-aneurysm imaging decision |
 
 Write a "workup complete enough for discharge" definition. The enemy is two opposite errors: the four-day stay for an echocardiogram that will not change treatment, and the 36-hour stay that never images the neck.
 
@@ -70,22 +73,42 @@ STK-3 measures anticoagulation at discharge for documented AF/flutter. It does n
 | Population | Default discharge antithrombotic | Clock | What must be documented |
 | --- | --- | --- | --- |
 | Disabling AIS treated with IVT or EVT | Single antiplatelet after the post-treatment imaging hold, unless a specific indication for anticoagulation | STK-5 by end of hospital day 2; STK-2 at discharge | Why DAPT is not used; imaging hold start and stop |
-| Non-disabling AIS or high-risk TIA, non-cardioembolic | Short-course DAPT (CHANCE/POINT evidence; 2026 preference for DAPT rather than IVT when deficits are non-disabling in the 4.5-hour window) | Load in the ED or on arrival to the unit; stop date in the discharge med list | NIHSS and a one-line functional statement that the deficit is non-disabling; planned DAPT duration |
+| Non-disabling AIS or high-risk TIA, non-cardioembolic | Short-course DAPT. The 2026 AIS guideline supports DAPT for minor AIS / high-risk TIA; for non-disabling deficits inside 4.5 hours, DAPT is preferred over IVT. Use **minor AIS as defined in the adopted 2026 table** — do not invent an INSPIRES numeric NIHSS cutoff. CHANCE and POINT remain the default load and duration regimens. | Load in the ED or on arrival to the unit; stop date in the discharge med list | Functional statement that the deficit is non-disabling (or that it meets the adopted minor-AIS definition); planned DAPT duration |
 | AF / flutter | Anticoagulation unless contraindication is written (STK-3) | Start or bridge plan before discharge | Agent, dose, follow-up lab or tolerance check |
 | Symptomatic high-grade intracranial stenosis | Time-limited DAPT per secondary-prevention guidance, then monotherapy | Duration on the med list | Why duration differs from the minor-stroke default |
 | Mechanical valve, LV thrombus, other definite cardioembolic | Anticoagulation pathway with cardiology co-management | Same hospitalization | Who owns INR or DOAC questions after discharge |
 
-Operationalize CHANCE and POINT as evidence, not as a brand war. CHANCE used a 300 mg clopidogrel load and 21 days of DAPT. POINT used a 600 mg load and 90 days of DAPT, with most of the benefit and most of the hemorrhage risk front-loaded. The local protocol must pick a load dose, a duration (commonly 21 days, with 90 days reserved for defined high-risk situations), a stop date that appears on the after-visit summary, and a clinic check that DAPT actually stopped. Unexplained lifelong DAPT is a preventable bleed.
+Operationalize CHANCE and POINT as the default load and duration regimens, not as a brand war. CHANCE used a 300 mg clopidogrel load and 21 days of DAPT. POINT used a 600 mg load and 90 days of DAPT, with most of the benefit and most of the hemorrhage risk front-loaded. The local protocol must pick a load dose, a duration (commonly 21 days, with 90 days reserved for defined high-risk situations), a stop date that appears on the after-visit summary, and a clinic check that DAPT actually stopped. Unexplained lifelong DAPT is a preventable bleed.
 
-Teach the 2026 fork in one sentence the night resident can repeat: treat eligible **disabling** deficits rapidly with thrombolysis regardless of NIHSS; for **non-disabling** deficits (for example, isolated sensory syndrome) inside 4.5 hours, DAPT is preferred over thrombolysis. "Mild NIHSS" is not the same as "non-disabling." Ambulation and swallowing independence belong in that determination.
+Teach the 2026 fork in one sentence the night resident can repeat: treat eligible **disabling** deficits rapidly with thrombolysis regardless of NIHSS; for **non-disabling** deficits (for example, isolated sensory syndrome) inside 4.5 hours, DAPT is preferred over thrombolysis. "Mild NIHSS" is not the same as "non-disabling." Ambulation and swallowing independence belong in that determination. Same-day TIA and minor-stroke product design — the observation unit, the imaging package, and the discharge clock — lives in [TIA and Minor-Stroke Clinic](45-tia-minor-stroke.md). This chapter owns the regimen and the clinic tail.
+
+```mermaid
+flowchart TD
+    A[AIS or high-risk TIA inside 4.5 h] --> B{Deficit disabling?}
+    B -->|Yes — treat regardless of NIHSS| C[IVT without delay for advanced-imaging selection]
+    B -->|No — non-disabling or minor AIS as defined in the adopted 2026 table| D[DAPT preferred over IVT]
+    D --> E[CHANCE or POINT load and written stop date]
+    C --> F[Single antiplatelet after the imaging hold unless anticoagulation is indicated]
+```
+
+### PFO and ESUS workup — complete enough
+
+ESUS is a workup state, not a final diagnosis. The 2021 secondary-prevention guideline is the operational source. Complete enough for discharge means the next seven days and the clinic plan are written — not that every test in the catalog has resulted. **Do not anticoagulate ESUS by default.** Antiplatelet therapy is the default unless a specific indication for anticoagulation is written.
+
+2021 PFO-closure criteria, stated qualitatively: age **18–60**, **nonlacunar** infarct, **no other identified cause**, and **high-risk PFO anatomy**. Those four conditions make transcatheter closure reasonable as a joint neurology–cardiology decision. Absence of high-risk anatomy, age outside that range, or a competing mechanism keeps the patient on medical therapy and off the implant list. Do not invent a RoPE number as a discharge gate.
+
+- **Vessels done.** Extracranial and intracranial imaging completed, or a documented reason they will not change this stay.
+- **Rhythm strategy.** Inpatient telemetry for the stay plus a named extended-monitoring plan if AF remains possible.
+- **Echo / bubble strategy.** TTE as the default; bubble study or TEE only when the result will change the next 7 days or the clinic plan. Closure evaluation lives in the weekly cardiology slot, not as a day-2 implant.
+- **Not required before discharge.** A RoPE cutoff, an implantable loop recorder, a genetic thrombophilia panel, or a scheduled PFO implant. Residual-risk antithrombotic after closure or after "PFO not causal" is written before the patient leaves.
 
 ### Intensive statin and the lipid pathway
 
-GWTG-Stroke achievement includes intensive statin at discharge. High-intensity statin (atorvastatin 40–80 mg or rosuvastatin 20–40 mg, or the current equivalent in the hospital formulary) is the default for atherosclerotic ischemic stroke and TIA unless a contraindication is written. Do not titrate from a moderate-intensity agent because the admission LDL "was not that high." Obtain a lipid panel, start the intensive agent, and let the clinic decide about add-on therapy (ezetimibe, PCSK9 pathway) using the 2021 secondary prevention guideline and any later AHA lipid update.
+GWTG-Stroke achievement includes intensive statin at discharge. The 2021 secondary-prevention Class 1 lipid target for atherosclerotic ischemic stroke and TIA is **LDL-C <70 mg/dL**, reached with high-intensity statin plus ezetimibe when the statin alone will not do it. High-intensity statin (atorvastatin 40–80 mg or rosuvastatin 20–40 mg, or the current equivalent in the hospital formulary) starts in this house. Do not titrate from a moderate-intensity agent because the admission LDL "was not that high." Do not wait for the clinic to begin the intensive agent. Obtain a lipid panel, start intensive therapy, and let the clinic add ezetimibe or a PCSK9-pathway agent if the in-house regimen will not reach <70.
 
 ### Seven-day clinic access
 
-Seven-day access is an operations standard, not a courtesy. The clinic is the safety net for missed AF, DAPT stop dates, blood-pressure rescue, statin intolerance, and the IRF patient whose mechanism workup was incomplete.
+Seven-day access is an operations standard, not a courtesy. The clinic is the safety net for missed AF, DAPT stop dates, blood-pressure rescue to the default **<130/80** clinic target (unless an ICH, aSAH, or maternal table applies), LDL-C <70 add-on therapy, statin intolerance, and the IRF patient whose mechanism workup was incomplete.
 
 | Access rule | Internal standard | Owner |
 | --- | --- | --- |
@@ -107,21 +130,22 @@ IRF and SNF handoffs fail in predictable places. Build a packet standard: mechan
 
 CSTK-02 is performance of the 90-day mRS. CSTK-10 is favorable outcome among those assessed. Programs that only call patients who answer the first time will inflate CSTK-10 and fail CSTK-02. Build a capture system:
 
-- Consent and preferred contact method collected before discharge.
-- Window defined (classically 75–105 days; confirm the current CSTK specifications manual).
+- Consent and preferred contact method collected before discharge (day 0 enroll).
+- First outbound attempt at day 60; second attempt at day 75 by an alternate modality.
+- CSTK scoring window confirmed in v2026B (classically about 75–105 days) — that is the validity window, not the first-attempt day.
 - Scripted, certified raters — not an untrained scheduler improvising.
 - At least three contact attempts plus a mailed / portal instrument.
 - IRF, SNF, and out-of-network patients included.
 - Central review of a sample for inter-rater reliability.
 
 !!! tip "Key Actions"
-    Publish a one-page mechanism-to-regimen table that the night resident can use without a fellow. Write the 2026 DAPT-versus-thrombolysis fork into the code-stroke and TIA pathways this week, with a required functional statement that the deficit is or is not disabling. Convert intensive statin, STK-2, and STK-3 into discharge hard-stops. Create a daily clinic access huddle that guarantees a seven-day slot before the patient leaves. Name a 90-day mRS owner and a three-attempt protocol. Add a DAPT stop date to the after-visit summary and to the seven-day clinic template.
+    Publish a one-page mechanism-to-regimen table that the night resident can use without a fellow. Write the 2026 DAPT-versus-thrombolysis fork into the code-stroke and TIA pathways this week, with a required functional statement that the deficit is or is not disabling, and point the same-day TIA product at [TIA and Minor-Stroke Clinic](45-tia-minor-stroke.md). Convert intensive statin to **LDL-C <70**, STK-2, and STK-3 into discharge hard-stops. Put **<130/80** on the clinic BP field unless an ICH, aSAH, or maternal table applies. Create a daily clinic access huddle that guarantees a seven-day slot before the patient leaves. Name a 90-day mRS owner and a three-attempt protocol. Add a DAPT stop date to the after-visit summary and to the seven-day clinic template.
 
 !!! abstract "Metrics Targets"
-    Hold STK-2 and STK-3 at an internal target of **≥95%**, above the GWTG achievement floor of **85%**. Hold GWTG intensive-statin achievement at **≥90%** internally. Complete a seven-day clinic visit for **≥80%** of ischemic stroke and TIA discharges, stratified by home versus IRF/SNF and by language. Capture 90-day mRS on **≥90%** of CSTK-02-eligible patients; do not manage CSTK-10 in isolation. Document a DAPT stop date on **100%** of short-course DAPT discharges. Review 100% of non-disabling 4.5-hour presentations for correct pathway selection (DAPT versus thrombolysis) each month.
+    Hold STK-2 and STK-3 at an internal target of **≥95%**, above the GWTG achievement floor of **85%** (award cuts live in [Core Metrics](../quality/23-core-metrics.md)). Hold GWTG intensive-statin achievement at **≥90%** internally, with **LDL-C <70** as the clinical target, not only "a high-intensity statin." Complete a seven-day clinic visit for **≥80%** of ischemic stroke and TIA discharges, stratified by home versus IRF/SNF and by language. Capture 90-day mRS on **≥90%** of CSTK-02-eligible patients; do not manage CSTK-10 in isolation. Document a DAPT stop date on **100%** of short-course DAPT discharges. Review 100% of non-disabling 4.5-hour presentations for correct pathway selection (DAPT versus thrombolysis) each month.
 
 !!! warning "Common Pitfalls"
-    Treating NIHSS ≤5 as automatically non-disabling and withholding thrombolysis from a patient who cannot walk or swallow. Loading DAPT and never writing the stop date. Calling the stroke "cryptogenic" without vessel imaging. Starting a moderate-intensity statin because LDL was 88 mg/dL. Documenting AF and discharging on aspirin "until the PCP decides." Booking clinic at four weeks and calling the access standard met. Collecting 90-day mRS only from clinic attendees, which both fails CSTK-02 and biases CSTK-10. Sending an IRF a 14-page imported summary that does not state the mechanism or the anticoagulation plan.
+    Treating NIHSS ≤5 as automatically non-disabling and withholding thrombolysis from a patient who cannot walk or swallow. Loading DAPT and never writing the stop date. Calling the stroke "cryptogenic" without vessel imaging. Anticoagulating ESUS by default. Starting a moderate-intensity statin because admission LDL was 88 mg/dL, or omitting the **<70** target. Leaving the clinic BP field blank or copying an acute ICH number onto an ischemic discharge. Inventing a 48-hour carotid mandate. Documenting AF and discharging on aspirin "until the PCP decides." Booking clinic at four weeks and calling the access standard met. Collecting 90-day mRS only from clinic attendees, which both fails CSTK-02 and biases CSTK-10. Sending an IRF a 14-page imported summary that does not state the mechanism or the anticoagulation plan.
 
 !!! success "Implementation Tips"
     Put the mechanism one-liner, antithrombotic, statin intensity, DAPT stop date, and clinic date in a structured discharge block that cannot be bypassed. Have pharmacy own the DAPT calendar card. Use telemedicine for IRF and rural patients rather than declaring them lost. Pair every new AF diagnosis with a same-stay anticoagulation order or a written contraindication, not a "will discuss" note. Sample ten discharge packets a month with the IRF medical director and fix the packet, not the relationship. When the 2026 DAPT preference is new to the faculty, review the first twenty cases in person rather than by email.
@@ -159,13 +183,19 @@ Multi-year, build a true secondary-prevention home: vascular neurology plus phar
 - Antithrombotic at discharge and indication
 - DAPT stop date or "not applicable"
 - Anticoagulation agent / dose / start date / contraindication
-- Statin agent / intensity / LDL value
-- Blood-pressure target and regimen
+- Statin agent / intensity / admission LDL / target **LDL-C <70 mg/dL** (statin ± ezetimibe)
+- Blood-pressure target and regimen — default clinic target **<130/80** unless an ICH, aSAH, or maternal table applies
 - Glucose plan if diabetic
 - Smoking-cessation offer (GWTG achievement measure)
 - Clinic date, time, modality, and after-hours number
 - Pending results and who will call them
 - 90-day mRS preferred contact method
+- PFO / bubble / TEE: done, deferred, or not indicated
+- Closure evaluation: weekly cardiology slot (not a day-2 implant) or not applicable
+- Residual-risk antithrombotic after closure or after "PFO not causal"
+- Symptomatic extracranial carotid: conference this stay and local 2-week clock (no 48-hour national mandate)
+- Dissection: AP or AC, local duration card (commonly 3–6 months), follow-up imaging
+- Endocarditis: cultures, no routine lytic, mycotic-aneurysm path if indicated
 
 ### Tool B — Seven-day access huddle agenda (15 minutes)
 
@@ -202,12 +232,12 @@ Multi-year, build a true secondary-prevention home: vascular neurology plus phar
 
 ### Tool E — 90-day mRS SOP skeleton
 
-1. Identify the CSTK-02 denominator from the daily stroke list, not from clinic attendance.
+1. Identify the CSTK-02 denominator from the daily stroke list, not from clinic attendance. Enroll at discharge (day 0).
 2. Collect preferred contact and a backup contact before discharge.
-3. First attempt at day 80 by the patient's preferred method.
-4. Second and third attempts by alternate methods, including the IRF/SNF social worker.
+3. First attempt at day 60 by the patient's preferred method.
+4. Second attempt at day 75 by an alternate modality (including the IRF/SNF social worker). Close the spec window (confirm v2026B) or document unable-to-contact.
 5. Use a certified rater and a scripted instrument.
-6. Record "unable to contact" only after three attempts and a mailed instrument.
+6. Record "unable to contact" only after the attempt sequence and a mailed / portal instrument.
 7. Lock the score; do not let later clinic notes silently overwrite it.
 8. Sample 10% for dual rating each quarter.
 
@@ -224,14 +254,14 @@ Multi-year, build a true secondary-prevention home: vascular neurology plus phar
 
 ## Integration With Other Pillars
 
-This chapter completes the stay that [Inpatient Stroke Unit Operations](16-inpatient-stroke-unit.md) runs and that [Hyperacute Pathways and Code Stroke](11-hyperacute-pathways.md) and [Intravenous Thrombolysis Operations](13-iv-thrombolysis.md) start. The 2026 DAPT preference is a hyperacute decision with a prevention tail; both chapters must tell the same story. [Rehabilitation and Post-Acute Continuum](18-rehabilitation-continuum.md) owns IRF versus SNF choice; this chapter owns the packet and the clinic appointment that must survive that choice.
+This chapter completes the stay that [Inpatient Stroke Unit Operations](16-inpatient-stroke-unit.md) runs and that [Hyperacute Pathways and Code Stroke](11-hyperacute-pathways.md) and [Intravenous Thrombolysis Operations](13-iv-thrombolysis.md) start. The 2026 DAPT preference is a hyperacute decision with a prevention tail; both chapters must tell the same story. Same-day TIA and minor-stroke product operations live in [TIA and Minor-Stroke Clinic](45-tia-minor-stroke.md). [Rehabilitation and Post-Acute Continuum](18-rehabilitation-continuum.md) owns IRF versus SNF choice; this chapter owns the packet and the clinic appointment that must survive that choice.
 
 Quality measurement lives in [Core Metrics: GWTG, STK, and CSTK](../quality/23-core-metrics.md). Equity stratification of clinic access and 90-day capture lives in [Equity and Disparities Reduction](../quality/26-equity-disparities.md). Fellowship education on mechanism reasoning lives in [Vascular Neurology Fellowship and GME](../education/27-fellowship-gme.md). Prevention trial screening lives in [Clinical Trials, Registries, and Research Operations](../research/29-trials-registries.md). If the clinic is not a StrokeNet screening site, the academic mission is leaking at the most repeatable patient contact the CSC has.
 
 ## Sources
 
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Includes the preference for DAPT over thrombolysis in non-disabling deficits within 4.5 hours, and the instruction to treat eligible disabling deficits rapidly regardless of NIHSS.
-- Kleindorfer DO, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack. *Stroke*. 2021;52:e364–e467. Major secondary-prevention reference unless a later AHA update is cited.
+- Kleindorfer DO, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack. *Stroke*. 2021;52:e364–e467. DOI 10.1161/STR.0000000000000375. Major secondary-prevention reference unless a later AHA update is cited. Operational classes used here: CEA for ipsilateral 70–99% with periprocedural risk <6% (Class 1); revascularization within 2 weeks when indicated (Class 2a); prefer CEA over CAS if within 1 week (Class 2a); LDL-C **<70 mg/dL** with statin ± ezetimibe (Class 1); clinic BP **<130/80** (Class 1) unless an ICH, aSAH, or maternal table applies; PFO closure reasonable when age 18–60, nonlacunar, no other identified cause, and high-risk anatomy. ESUS is not a default anticoagulation indication.
 - Wang Y, et al. Clopidogrel with aspirin in acute minor stroke or transient ischemic attack (CHANCE). *N Engl J Med*. 2013;369:11–19.
 - Johnston SC, et al. Clopidogrel and aspirin in acute ischemic stroke and high-risk TIA (POINT). *N Engl J Med*. 2018;379:215–225.
 - Johnston SC, et al. Ticagrelor and aspirin or aspirin alone in acute ischemic stroke or TIA (THALES). *N Engl J Med*. 2020;383:207–217.

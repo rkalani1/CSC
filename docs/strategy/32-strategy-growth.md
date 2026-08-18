@@ -176,7 +176,7 @@ Use this as the spine of the annual strategy packet. Replace bracketed items loc
 
 Read the capacity board the way a charge nurse does, not the way a quarterly report does. Know today's ED hallway census, CT queue, IR schedule versus emergency-preemption risk, ICU available beds, and stroke-unit staffing. If the red node is already red, the Medical Director's job that day is protection, not promotion.
 
-Review every growth-sensitive defect in the weekly stroke operations huddle: DTN or door-to-device outliers, delayed ICH reversal, delayed aneurysm securing, ICU boarding, and transfer-acceptance delays. Ask which node failed. Do not close the huddle with "busy night" as a root cause.
+Review every growth-sensitive defect in weekly ops: DTN or door-to-device outliers, delayed ICH reversal, delayed aneurysm securing, ICU boarding, and transfer-acceptance delays. Ask which node failed. Do not close the huddle with "busy night" as a root cause.
 
 Protect the emergency path in real time. If an elective case is about to consume the only suite, the preemption rule must be executable without a personality contest. If it is not, that is a strategy defect, not a manners problem.
 

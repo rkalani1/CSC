@@ -10,6 +10,78 @@ See [Living Document & Monthly Update Protocol](living-document.md) for how a ve
 
 ---
 
+## 2026.08.2 — accuracy + comprehensiveness pass
+
+**Released:** 18 August 2026
+**Register last verified:** 2026-08-18
+
+Same-month accuracy and comprehensiveness pass after 2026.08.1. No invented volume requirements. No author names, licenses, or disclaimers added.
+
+### Accuracy
+
+- AIS fever locked at **>37.5 °C** (2026 AIS §4.4). Retired the ≥38.0 AIS cut. ICH INTERACT3 remains **≤37.5 °C**. Operationally both mean treat at >37.5 — same number, different order-set.
+- Glucose: treat hypoglycemia **<60 mg/dL**; persistent hyperglycemia **140–180 mg/dL** is still reasonable; intensive **80–130 is not recommended**.
+- Post-reperfusion BP tables locked: pre-IVT **<185/110**; post-IVT 24 h **<180/105**; intensive SBP **<140 after IVT is not recommended**; after successful EVT, intensive SBP **<140 is harmful and not recommended**.
+- BAO EVT: strong recommendation within **24 hours** if **NIHSS ≥10**. Do not apply DAWN/DEFUSE perfusion maps. Effectiveness not well established for NIHSS 6–9.
+- CSTK-03 / CSTK-04 / CSTK-06 specification lock: Hunt and Hess for SAH and ICH Score for ICH (prior to surgery or within 6 hours of arrival if no surgery); CSTK-04 initiation **≥90%** internal (100% eligible tracked is a different metric); first nimodipine **within 24 hours of arrival**, enteral only, never IV.
+- Door-to-device ≠ puncture: Advanced Therapy door-to-device is arrival to **first pass with the thrombectomy device**; CSTK-09 is arrival to **skin puncture**.
+- EMTALA recipient-hospital posture locked for transfer and load-share language.
+- 2021 secondary prevention: revascularization **within 2 weeks** (Class 2a); LDL-C **<70** statin ± ezetimibe (Class 1); clinic BP **<130/80** (Class 1) unless ICH/aSAH/maternal tables apply.
+- Honor Roll / Elite / Elite Plus / Advanced Therapy remain **published award criteria**, not CSC certification floors. Award cuts sit in an Award column; internal stretch sits in Internal. Elite may be a labeled internal aim.
+- Operating-rhythm lock residual cleanup: daily huddle → weekly ops → monthly quality → quarterly stroke executive.
+
+### Comprehensiveness
+
+- Four new chapters: [43 In-Hospital and Perioperative Stroke](clinical/43-in-hospital-stroke.md); [44 Goals of Care, Palliative Pathways, and Death by Neurologic Criteria](clinical/44-goals-of-care.md); [45 TIA and Minor-Stroke Clinic](clinical/45-tia-minor-stroke.md); [46 Elective Cerebrovascular Program](clinical/46-elective-cerebrovascular.md).
+- TNK 0.4 / cardiac-card refuse checkbox added to the paper code-stroke packet, after-action AGENT line, survey posters, DTN audit, and late-DTN worksheet.
+- Advanced Therapy **50%** qualifier restored on the EVT SOP. aSAH SOP expanded to the securing-clock steps. KPI library reserves P-14–P-17 and P-19 (P-18 unused; ICH temperature in P-36). Code-stroke SOP points in-house steps to Chapter 43.
+
+### Design
+
+- Caption and overflow fixes on operating pictures and mermaid.
+
+### Register IDs touched
+
+ER-AIS-2026-09, ER-AIS-2026-GLU, ER-AIS-2026-BP, ER-AIS-2026-BAO, ER-CSTK-03T, ER-CSTK-04D, ER-CSTK-06T, ER-TS-AT-DEF, ER-SP-2021-CEA, ER-SP-2021-LDL, ER-SP-2021-BP, ER-EMTALA-01, ER-SAH-2023-NIM.
+
+---
+
+## 2026.08.1 — accuracy, special populations, and design pass
+
+**Released:** 18 August 2026
+**Register last verified:** 2026-08-18
+
+Same-month correction after a multi-swarm review of the initial public release. No invented volume requirements. No author names, licenses, or disclaimers added.
+
+### Accuracy
+
+- Named tenecteplase **0.4 mg/kg as Class 3 – No Benefit** (2026 AIS) in the IVT chapter, TNK SOP, ready-room check, glossary, and ER-AIS-2026-02b. Cardiac-strength cards are a stop-the-line event.
+- Separated DAWN (6–24 h) from DEFUSE 3 (6–16 h). Restored the **50%** qualifier on Advanced Therapy door-to-device in the hyperacute opening.
+- Split STK-6 (discharged on statin) from GWTG achievement #7 (intensive statin) in the KPI library (P-29 / P-29b).
+- Unified AIS unit fever at **≥38.0 °C** and reserved INTERACT3 **≤37.5 °C** for ICH, labeled as trial-bundle. Superseded the same day by 2026.08.2 (>37.5 °C for AIS).
+- Locked one 90-day mRS clock: enroll at discharge, first attempt day 60, second day 75, close the spec window.
+- Corrected the CSTK v2026B posting date (02/06/2026, not 08/08/2025) and retargeted CSTK-01/10/11 MIF links to v2026B.
+- Updated the January 2026 FDA CDS guidance: time-critical is a Criterion 4 factor, not an automatic Criterion 3 device trigger (ER-FDA-CDS-2026).
+- Locked operating-rhythm names: daily huddle → weekly ops → monthly quality → quarterly stroke executive. Retired the competing “stroke operations committee.”
+- Honor Roll / Elite / Elite Plus / Advanced Therapy labeled as **published award criteria**, not CSC certification floors.
+
+### Comprehensiveness
+
+- New [Chapter 42 — Special Populations](clinical/42-special-populations.md): CVT (2024 AHA statement), maternal stroke (2026 AHA statement), pediatric receiving compact, plus dated LVAD/ECMO and sickle-cell pointers. No invented doses or exchange thresholds.
+- Pediatric AIS night card in the IVT chapter. PFO and carotid revascularization rows in transitions. Fillable large-core EVT card. Time-banded ICH first-hour mermaid. aSAH nimodipine + securing SOP (SOP-CSC-SAH-001).
+- New KPIs P-36–P-39 (ICH bundle, nimodipine clock, securing clock, large-core review). Morning huddle map so 07:00 unit charge and 08:00 OS huddle are not two competing standups.
+- Glossary expanded (CVT, PFO, ESUS, TIA, BAO, DCI, EVD, CEA/CAS/TCAR, just culture, teach-back, stroke program manager vs ACGME PD, drip-and-drive, CDS/SaMD, StrokeNet National Coordinating Center).
+
+### Design
+
+- Part landing pages for all eight parts. Version bar (2026.08.1). Favicon. Custom 404. Print CSS for tools and mermaid. Mermaid no longer clipped at 390px. Copy-table control. Figure captions on operating pictures. Pinned mermaid 11.4.1. Mobile prev/next. Dark-mode mermaid retheme.
+
+### Register IDs touched
+
+ER-AIS-2026-02b, ER-AIS-2026-09, ER-CVT-2024-01, ER-MAT-2026-01, ER-FDA-CDS-2026, ER-NET-02, ER-TR-DAWN-DEF3 (clocks specified), ER-CSTK-01/10/11 (v2026B URLs).
+
+---
+
 ## 2026.08 — initial public release
 
 **Released:** August 2026

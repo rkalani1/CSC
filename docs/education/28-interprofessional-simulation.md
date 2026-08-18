@@ -107,7 +107,7 @@ Adopt a published debriefing standard and train facilitators to it. The INACSL H
 | Method | One trained method (PEARLS, plus-delta, or advocacy-inquiry) so facilitators are interchangeable. Plus-delta for in-situ; advocacy-inquiry for a safety-critical decision. |
 | Facilitation | The most senior physician is often the wrong debriefer. Train nursing education, simulation faculty, and at least two physicians. Rotate. |
 | Content | Reactions, timeline, gaps, one systems action. If the only output is "the nurse should try harder," the debrief failed. |
-| Record | Objectives, attendance by role, time stamps, actions. Close actions at the stroke operations meeting. |
+| Record | Objectives, attendance by role, time stamps, actions. Close actions at the weekly ops. |
 | Psychological safety | Rank is suspended. The Medical Director models being wrong. Using the debrief to perform expertise turns attendance into theater. |
 
 ### EMS education
@@ -143,7 +143,7 @@ Build one academic-year calendar that serves physicians, nurses, APPs, and pharm
 | Survey readiness | A single tracker: name, role, hours, skill demonstrations, simulation attendance. Confirm the current Joint Commission education-hour expectation and exceed it with competence evidence. |
 
 !!! tip "Key Actions"
-    Name a single education owner (often the stroke program manager plus a physician lead) and a simulation lead. Put both on the stroke operations agenda.
+    Name a single education owner (often the stroke program manager plus a physician lead) and a simulation lead. Put both on the weekly ops agenda.
 
     Write a one-page competency-by-role matrix this quarter. If a role has hours but no demonstration method, it is not a competency.
 
@@ -216,7 +216,7 @@ Scan public and internal messages for campaign language that overclaims. Stop it
 
 Review the education tracker: hours, skill demonstrations, simulation attendance by shift and by role. If nights are missing, the plan is missing.
 
-Run the scheduled in-situ and reversal simulations. Close last month's debrief actions at the stroke operations meeting. An open action older than 90 days is a governance failure.
+Run the scheduled in-situ and reversal simulations. Close last month's debrief actions at the weekly ops. An open action older than 90 days is a governance failure.
 
 Meet EMS agency educators quarterly with a one-page data sheet. Agree on one behavior to improve (prenotification content is the usual first target).
 
@@ -250,7 +250,7 @@ Must-run artifacts: pager group, weight, glucose, NIHSS, imaging protocol, IVT a
 Do not: surprise a real unstable patient; film without consent policy; enter punitive reports on named staff.
 Debrief (20–30 min): trained method; one systems action with owner and date.
 Record: attendance by role and shift; time stamps; action; link to quality tracker.
-After-action: report at next stroke operations meeting.
+After-action: report at next weekly ops.
 ```
 
 ### ICH reversal simulation checklist

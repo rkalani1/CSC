@@ -12,7 +12,7 @@ This chapter sets the architecture: people, fields, time, flow, sampling, dashbo
 
 ## Why This Matters
 
-CSTK, STK, and GWTG measures are only as good as the clock, the denominator, and the abstractor. A door time that is a registration click rather than the first documented arrival will systematically inflate door-to-needle (DTN) and door-to-puncture performance. A NIHSS documented after recanalization will fail CSTK-01 even when the examination was performed. A 90-day modified Rankin Scale (mRS) captured in clinic but never abstracted will fail CSTK-02 and collapse CSTK-10. These are data defects with clinical consequences: they hide real delays, invent false ones, and waste committee time.
+CSTK, STK, and GWTG measures are only as good as the clock, the denominator, and the abstractor. A door time that is a registration click rather than the first documented arrival will systematically inflate door-to-needle (DTN) and door-to-puncture performance. A NIHSS documented after recanalization will fail CSTK-01 even when the examination was performed. A 90-day modified Rankin Scale (mRS) captured in clinic but never abstracted will fail CSTK-02 and collapse CSTK-10. These are data defects with clinical consequences: they hide real delays, invent false ones, and waste monthly quality time. Weekend and holiday data lag is a designed defect unless weekend abstractor coverage exists.
 
 Joint Commission Disease-Specific Care (DSC) certification has three components: standards, clinical practice guidelines, and performance measurement. The 2026 Stroke Certification Standards book (SCS26) is the current standards source. Performance measurement for a CSC includes the CSTK set in Specifications Manual v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges) and the longstanding STK inpatient set. GWTG-Stroke is the national registry and recognition program that most academic CSCs use both to submit data and to benchmark. None of those systems will correct a local timestamp that is wrong.
 
@@ -120,7 +120,7 @@ Minimum discrete set for a CSC quality spine:
 | --- | --- | --- |
 | Identity and population | Stroke type, hemorrhagic vs ischemic, transfer vs direct, comfort-measures date | Denominator and exclusion logic |
 | Time | Arrival, last known well, symptom discovery, CT/CTA/MRA start, IVT bolus, arterial puncture, first pass, final recanalization | DTN, DTP, CSTK-09/11/12 |
-| Severity | NIHSS with time and examiner role; ICH score; Hunt-Hess or WFNS; mRS baseline if used | CSTK-01, CSTK-03, risk adjustment |
+| Severity | NIHSS with time and examiner role; Hunt and Hess (SAH); ICH Score (ICH); mRS baseline if used | CSTK-01, CSTK-03; WFNS is a clinical adjunct, not the CSTK-03 instrument |
 | Treatment | Agent and dose for IVT; reversal agent and time; nimodipine first dose; TICI grade | STK-4, CSTK-04/06/08 |
 | Safety | Symptomatic ICH definition fields; sICH imaging and clinical change | CSTK-05 |
 | Disposition and follow-up | Rehab assessment, education completion, 90-day mRS with method and date | STK-8/10, CSTK-02/10 |
@@ -166,16 +166,16 @@ flowchart LR
     F --> H
 ```
 
-Rules for the flow: one source of truth per element; validation before submission; a monthly lock date with logged amendments after lock; monthly reconciliation between GWTG and the CSTK/STK engine (they overlap but are not identical); research may read the spine but must not write measure fields without governance. GWTG reports are necessary and not sufficient for weekly operations.
+Rules for the flow: one source of truth per element; validation before submission; a monthly lock date with logged amendments after lock; monthly reconciliation between GWTG and the CSTK/STK engine (they overlap but are not identical); research may read the spine but must not write measure fields. NLP and other AI follow the same rule: no write without a gold-standard dual-abstract sample, disagreement rate, human lock, and version control (ER-FDA-CDS-2026). GWTG reports are necessary and not sufficient for weekly ops.
 
 ### CSTK sampling rules at high level
 
-CSTK-01 has a sampling option. Other CSTK measures are generally expected as population measures for the applicable CSC population (ischemic without reperfusion; ischemic with IV/IA/MER; hemorrhagic), subject to the exclusions in Specifications Manual v2026B. Do not invent sample sizes, quarters, or minimum denominators from memory.
+CSTK-01, CSTK-03, and CSTK-09 have Sampling: Yes in v2026B. Do not write that only CSTK-01 may be sampled. Confirm the current sampling table for every measure before treating any row as population-only. Do not invent sample sizes, quarters, or minimum denominators from memory.
 
 Operating rules for the Medical Director:
 
-- Confirm the current sampling table in the active CSTK specifications manual before the next submission cycle. If CSTK-01 is sampled, document the method, the frame, and who draws the sample.
-- Do not sample away a safety signal. Even if CSTK-01 is sampled for submission, concurrent NIHSS review should remain a population activity.
+- Confirm the current sampling table in the active CSTK specifications manual before the next submission cycle. If CSTK-01, CSTK-03, or CSTK-09 is sampled, document the method, the frame, and who draws the sample.
+- Do not sample away a safety signal. Even if a measure is sampled for submission, concurrent NIHSS, severity-score, and puncture-time review should remain a population activity.
 - CSTK-01 exclusions in v2026B include age under 18, length of stay over 120 days, comfort measures on the day of or the day after arrival, elective carotid intervention, and non-recanalization patients discharged within 12 hours. Build those exclusions as discrete logic, not as abstractor folklore.
 - CSTK-07 is not in the current set. Do not build a local measure numbered CSTK-07 or tell staff it is required.
 - When volume is high, sampling temptation rises. Resist expanding sampling beyond what the current manual allows. Internal dashboards should remain unsampled for reperfusion and sICH.
@@ -188,13 +188,13 @@ Build two displays: an operational dashboard and a monthly scorecard. They are n
 
 **Operational dashboard (daily/weekly).** Unsampled. Case-level. Shows open code strokes, untreated eligible patients, DTN and door-to-puncture running median and percent at target, missing NIHSS, missing TICI, open sICH reviews, and 90-day mRS worklist. Audience: Medical Director, program director, charge APP, IR lead. Refresh: next business day at worst; same day for reperfusion cases if concurrent abstraction is funded.
 
-**Monthly scorecard.** Measure-level. GWTG achievement, Target: Stroke indicators, STK, CSTK-01 through 12 except 07, internal elite targets, equity strata (Chapter 26), and open PDSA status. Audience: stroke governance committee, department leadership, hospital quality. Refresh: locked monthly with a stated lag.
+**Monthly scorecard.** Measure-level. GWTG achievement, Target: Stroke indicators, STK, CSTK-01 through 12 except 07, `internal` targets, equity strata (Chapter 26), and open PDSA status. Audience: monthly quality, department leadership, hospital quality. Refresh: locked monthly with a stated lag. Charter fights go to quarterly stroke executive.
 
 Dashboard design rules:
 
 - Every tile has a definition, a source, an owner, and a target. A tile without an owner is decoration.
 - Show numerator, denominator, and percent. A lone percentage hides small samples.
-- Separate external floors from internal elite targets (Chapter 23).
+- Separate published award criteria from `internal` targets (Chapter 23).
 - Do not put research enrollment or RVUs on the quality scorecard.
 - Keep a "data quality" row: percent of reperfusion cases concurrently abstracted within 2 business days; percent of timestamps with source conflict; inter-rater agreement.
 
@@ -202,7 +202,7 @@ Vendor platforms can host the monthly scorecard. They rarely host a usable opera
 
 ### Data governance
 
-Write a one-page data-governance charter and put it under the stroke governance committee (Chapter 7). The charter answers five questions:
+Write a one-page data-governance charter and put it under quarterly stroke executive (Chapter 7), with operational lock rules owned by monthly quality. The charter answers five questions:
 
 1. Who may change a measure definition or a timestamp hierarchy?
 2. Who may lock and unlock a GWTG or CSTK record?
@@ -223,6 +223,8 @@ Minimum control set:
 
 When Specifications Manual v2026B is replaced, or when GWTG updates a data element, the definition control board meets before abstractors "just start coding the new way." Uncontrolled definition change is a common source of false special-cause variation.
 
+NLP or other AI must not write CSTK, STK, or GWTG fields unless a gold-standard dual-abstract sample, a published disagreement rate, a human lock, and version control are in place. FDA CDS clearance is not local validation (ER-FDA-CDS-2026). An ungoverned model that fills NIHSS time, TICI, or door time is a data-integrity event, not an efficiency win.
+
 ### Vendor versus internal analytics
 
 Vendors are good at submission mechanics, national benchmarking, and staying current with GWTG dictionaries. Internal analytics are good at case-level operations, equity joins, research screening, and custom defect taxonomies. Most CSCs need both. The failure mode is paying for both and governing neither.
@@ -241,13 +243,13 @@ Vendors are good at submission mechanics, national benchmarking, and staying cur
 Contract language to insist on: data-export rights in a usable format; documented field maps; a named spec-update process; no exclusive ownership of local clinical data; service levels for mapping errors discovered inside a submission window. Do not sign a contract that makes the hospital unable to leave the vendor without losing history.
 
 !!! tip "Key Actions"
-    Name a single Medical Director–accountable owner for timestamp hierarchy, abstractor capacity, and definition control. Fund concurrent abstraction for every reperfusion and hemorrhagic bundle case. Inventory discrete EHR fields against CSTK v2026B, STK, and the current GWTG dictionary, and close gaps before the next submission. Stand up a next-business-day operational list and a locked monthly scorecard as two products. Confirm CSTK-01 sampling rules in the current manual rather than inheriting last year's vendor recipe.
+    Name a single Medical Director–accountable owner for timestamp hierarchy, abstractor capacity, and definition control. Fund concurrent abstraction for every reperfusion and hemorrhagic bundle case. Inventory discrete EHR fields against CSTK v2026B, STK, and the current GWTG dictionary, and close gaps before the next submission. Stand up a next-business-day operational list and a locked monthly scorecard as two products. Confirm CSTK-01, CSTK-03, and CSTK-09 sampling rules in the current manual rather than inheriting last year's vendor recipe. Do not let NLP write measure fields without a gold-standard dual-abstract sample, disagreement rate, human lock, and version control.
 
 !!! abstract "Metrics Targets"
-    External floors live in Chapter 23 (GWTG 85% achievement, Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy, CSTK and STK as specified). Infrastructure targets are internal and should be explicit: concurrent abstraction of reperfusion cases within 2 business days; 90-day mRS contact attempt on 100% of CSTK-02-eligible patients with a locally set capture-rate target above the submission floor; monthly inter-rater check; zero unexplained dual door times between EHR and GWTG at monthly lock; clock-sync attestation completed each month. Label each as internal. Do not report infrastructure process metrics to surveyors as if they were CSTK measures.
+    Published award criteria live in Chapter 23 (GWTG 85% achievement; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy). CSTK and STK are certification measures. Infrastructure targets are `internal` and should be explicit: concurrent abstraction of reperfusion cases within 2 business days; 90-day mRS contact attempt on 100% of CSTK-02-eligible patients with a locally set capture-rate target; monthly inter-rater check; zero unexplained dual door times between EHR and GWTG at monthly lock; clock-sync attestation completed each month. Label each `internal`. Do not report infrastructure process metrics to surveyors as if they were CSTK measures.
 
 !!! warning "Common Pitfalls"
-    Treating GWTG as the operational dashboard. Sampling CSTK measures that the current manual does not allow to be sampled. Letting the abstractor invent a compromise timestamp when sources conflict. Building thirty required EHR fields that clinicians then bypass with "unknown." Funding 0.5 retrospective FTE and expecting same-week CSTK-11 visibility. Allowing a vendor to change a map mid-quarter without a version log. Using research coordinators as untrained abstractors. Ignoring transfer clocks. Discovering CSTK-07 still listed on an old local scorecard.
+    Treating GWTG as the operational dashboard. Writing that only CSTK-01 may be sampled. Letting the abstractor invent a compromise timestamp when sources conflict. Building thirty required EHR fields that clinicians then bypass with "unknown." Funding 0.5 retrospective FTE and expecting same-week CSTK-11 visibility. Allowing a vendor to change a map mid-quarter without a version log. Using research coordinators as untrained abstractors. Ignoring transfer clocks. Discovering CSTK-07 still listed on an old local scorecard. Letting NLP write CSTK fields without a human lock. Treating weekday-only abstraction as concurrent and then wondering why Monday's book is a weekend story.
 
 !!! success "Implementation Tips"
     Sequence the build: timestamp hierarchy and clock policy first, discrete fields second, concurrent abstractor coverage third, operational list fourth, vendor reconciliation fifth. Pair each abstractor with a physician adjudicator for TICI and sICH. Put a 15-minute data-quality stand-up on the week of month-end lock. When a field is missing, fix the EHR or the workflow before retraining the same people. Use the first 90 days of a new Medical Director term to reconstruct the data lineage of DTN, DTP, NIHSS, TICI, and 90-day mRS — those five lineages explain most scorecard arguments.
@@ -257,7 +259,7 @@ Contract language to insist on: data-export rights in a usable format; documente
 ### Daily / weekly
 
 - Review the operational list: untreated eligible patients, DTN and door-to-puncture outliers, missing NIHSS before recanalization, missing TICI, new sICH, open hemorrhagic-bundle defects.
-- Confirm weekend and holiday concurrent coverage before Friday sign-out.
+- Confirm weekend and holiday concurrent coverage before Friday sign-out. Weekend and holiday data lag is a designed defect unless weekend abstractor coverage exists; do not call a Monday lock "concurrent."
 - Adjudicate timestamp conflicts the same week they appear. Do not batch them to month-end.
 - Walk one code-stroke record from EMS ePCR through EHR to the abstractor worksheet. Spot-check the hierarchy.
 - Protect 90-day mRS outbound work as a daily queue, not a quarterly scramble.
@@ -272,7 +274,7 @@ Weekly, the Medical Director or Associate Medical Director chairs a short data-a
 - Run inter-rater reliability on a locally defined sample of records. Feed disagreements into training or into a definition fix.
 - Review abstractor FTE actual hours versus the capacity model. If concurrent review is slipping, reduce scope publicly or add FTE; do not silently become retrospective.
 - Review the vendor map if a specification update landed in the quarter. Specifications Manual v2026B is the current CSTK reference as of this handbook’s evidence lock; treat any successor the same way.
-- Bring data-quality and definition issues to stroke governance. Bring clinical defects to the improvement forum (Chapter 24).
+- Bring data-quality and definition issues to monthly quality. Escalate charter, FTE, and vendor-contract fights to quarterly stroke executive. Bring clinical defects to the improvement forum (Chapter 24).
 - Quarterly, test one tracer as if a surveyor pulled the record: can a staff member show arrival, NIHSS time, bolus or puncture, and the abstractor trail without a coordinator in the room?
 
 ### Annual / multi-year
@@ -302,7 +304,7 @@ Use this in the budget cycle. Replace bracketed items. Do not treat the hours-pe
 | **Total hours** | | | | | **[ ]** |
 | **FTE at [1,760] productive hours** | | | | | **[ ]** |
 
-Add a weekend/holiday premium. State the concurrent coverage model (7-day versus weekday-only) in the same paper.
+Add a weekend/holiday premium. State the concurrent coverage model (7-day versus weekday-only) in the same paper. If coverage is weekday-only, write the weekend/holiday lag as a designed defect, not as a surprise.
 
 ### Tool B — Timestamp hierarchy SOP skeleton
 
@@ -329,7 +331,7 @@ Add a weekend/holiday premium. State the concurrent coverage model (7-day versus
 - [ ] Comfort-measures date is discrete.
 - [ ] Last known well and discovery time are separate.
 - [ ] NIHSS value, time, and examiner role are discrete; time can prove pre-recanalization or the 12-hour rule.
-- [ ] ICH score and aSAH severity score are discrete (CSTK-03).
+- [ ] Hunt and Hess (SAH) and ICH Score (ICH) are discrete (CSTK-03); WFNS is not the measure.
 - [ ] Reversal agent, dose, and time are discrete (CSTK-04).
 - [ ] Nimodipine first-dose time is discrete (CSTK-06).
 - [ ] TICI grade and time are discrete (CSTK-08/11/12).
@@ -345,7 +347,7 @@ Add a weekend/holiday premium. State the concurrent coverage model (7-day versus
 1. Unlocked records and why (5 min).
 2. Timestamp conflicts adjudicated and remaining (5 min).
 3. GWTG versus CSTK/STK reconciliation exceptions (5 min).
-4. CSTK-01 sample draw status if sampling is used — method cited to current manual (5 min).
+4. CSTK-01 / 03 / 09 sample draw status if sampling is used — method cited to current manual (5 min).
 5. 90-day mRS worklist health (5 min).
 6. Amendments since last lock (3 min).
 7. Decisions for definition control board (2 min).
@@ -375,7 +377,8 @@ Leadership (Chapters 5–8) supplies the authority to fund abstractors, bind the
 - 2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage. *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436.
 - 2024 AHA/ASA Performance and Quality Measures for Spontaneous Intracerebral Hemorrhage.
 - The Joint Commission. 2026 Stroke Certification Standards (SCS26); Disease-Specific Care certification framework (standards, clinical practice guidelines, performance measurement).
-- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges), including CSTK-01 exclusions and the existence of CSTK-01 sampling. Confirm current sampling tables in the active manual.
+- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges), including CSTK-01 exclusions and Sampling: Yes for CSTK-01, CSTK-03, and CSTK-09. Confirm current sampling tables in the active manual.
+- FDA, *Clinical Decision Support Software: Guidance for Industry and FDA Staff*, January 2026 (ER-FDA-CDS-2026): clearance is not local validation; NLP/AI must not write CSTK/STK/GWTG fields without a gold-standard dual-abstract sample, disagreement rate, human lock, and version control.
 - STK inpatient stroke measure set (STK-1, 2, 3, 4, 5, 6, 8, 10); STK-OP v2026B as the outpatient/ED companion set.
 - American Heart Association. Get With The Guidelines–Stroke recognition criteria (public criteria last reviewed on the AHA page September 9, 2022, and still the public achievement and Target: Stroke thresholds used in Chapter 23).
 - Alberts MJ, et al. Recommendations for comprehensive stroke centers. *Stroke*. 2005. Foundational capability statement; not a substitute for current TJC CSC standards.

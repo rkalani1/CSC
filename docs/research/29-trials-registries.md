@@ -56,11 +56,13 @@ Write screening into the code-stroke and ICH pathways. The question "is this pat
 
 Do not require the coordinator to be physically present for every screen if a trained clinician can complete the inclusion card and hold the randomization until the coordinator or PI joins. Do require that randomization, investigational dosing, and protocol-critical imaging never depend on an unanswered pager.
 
+Some acute stroke trials enroll under exception from informed consent (EFIC; 21 CFR 50.24). Night staff need a one-page “is this EFIC?” card: which open study, if any, is EFIC; who to page; and where community-consultation materials already live. Do not improvise EFIC at the bedside. If the card is missing or the staff member is unsure, treat the patient on the standard pathway and page the site PI.
+
 ### Coordinator FTE and the site team
 
 Do not invent a universal patients-per-coordinator ratio. Build FTE from the portfolio: number of open studies, visit intensity, night and weekend coverage, regulatory burden, and whether the site is a StrokeNet Regional Coordinating Center (RCC), a satellite, or an independent enroller.
 
-StrokeNet's public architecture is a National Coordinating Center (NCC), a National Data Management Center (NDMC), and a network of regional coordinating centers (27 RCCs in current public descriptions, involving on the order of 500 U.S. hospitals). RCC awards have expected a full-time manager at the RCC site and mentorship of satellite coordinators. Confirm the current notice of award and operations manual for any FTE the institution has promised.
+StrokeNet's public architecture is a StrokeNet National Coordinating Center (not neurocritical care; never abbreviate that coordinating center as NCC), a National Data Management Center (NDMC), and a network of regional coordinating centers (27 RCCs / ~500 hospitals **(confirm live on nihstrokenet.org — ER-NET-02)**). RCC awards have expected a full-time manager at the RCC site and mentorship of satellite coordinators. Confirm the current notice of award and operations manual for any FTE the institution has promised.
 
 | Function | What "enough" looks like | Failure mode if under-resourced |
 | --- | --- | --- |
@@ -77,6 +79,8 @@ Cross-train at least two people on every acute protocol. A single coordinator wi
 Investigational Drug Service (IDS) is part of the hyperacute clock. If the trial agent is a thrombolytic, neuroprotectant, or reversal-adjacent drug, pharmacy must be in the 24/7 plan: kit location, compounding or ready-to-use status, temperature log, and a night pharmacist who has trained on the protocol.
 
 Write a rule: standard-of-care tenecteplase 0.25 mg/kg (max 25 mg) or alteplase 0.9 mg/kg (max 90 mg) is never delayed because a trial kit is being found. If the trial is a comparison that replaces standard IVT, the kit must be as available as the formulary agent. If it is not, close night enrollment until it is.
+
+Every interventional trial gets a coverage analysis before the first patient. The analysis separates routine-care items from research-only items so the bill, the sponsor, and the patient are not improvising after randomization. Do not invent dollar figures in a board slide or a budget request; use the coverage analysis and the contract. If the analysis is not done, the study is not open to enrollment.
 
 Imaging core requirements — de-identification, upload, specific sequences, perfusion thresholds — fail more sites than inclusion criteria. Name a radiology research contact. Build the export path before the first patient, and test it on a phantom or a consented QI case. LVO-detection software, if used clinically, is not a substitute for protocol imaging. Keep the research sequence and the clinical sequence from colliding in the scanner.
 
@@ -138,6 +142,8 @@ Industry trials are not second-class if they answer a question the patients have
     Pull 90 days of screens and enrollments by time of day and language. If nights and non-English encounters are missing, the pathway is inequitable regardless of intent.
 
     Locate the GWTG data-use agreement and the official research-request path. Tell faculty that informal exports stop.
+
+    Do not open an interventional trial without a finished coverage analysis and a night-staff EFIC card (or a documented “no EFIC studies open” line).
 
 !!! abstract "Metrics Targets"
     Certification floor: active participation in patient-centered clinical research that meets the current Joint Commission CSC definition. Confirm the live manual. Registry-only or device-only portfolios have been described as insufficient.
@@ -206,7 +212,7 @@ Meet radiology and IDS quarterly even if "nothing is wrong." Quiet cores are whe
 
 Audit a sample of GWTG-to-research uses. Confirm IRB determinations exist for any abstract that left the building.
 
-Quarterly, report research operations to the stroke governance committee in the same session as CSTK and GWTG, not in a separate academic meeting that operations leaders skip.
+Report research operations by function: screens, misses, and CSTK-02 overlap to monthly quality; portfolio, coordinator FTE, and StrokeNet stance to quarterly stroke executive. Do not park research in a separate academic meeting that operations leaders skip.
 
 ### Annual / multi-year
 
@@ -221,6 +227,16 @@ Inspect biobank freezers, alarm tests, and consent-version control annually.
 Use the Joint Commission research expectation as a yearly gap analysis, not as a scramble the month before survey.
 
 ## Ready-to-Adapt Tools
+
+### EFIC card (one page)
+
+```
+Is this study EFIC under 21 CFR 50.24?  [Y / N / not this study]
+If yes: page [site PI / coordinator] before treating the exception as consent.
+If unsure: standard pathway. Do not improvise EFIC at the bedside.
+Community-consultation materials live: ________
+Open EFIC study name(s) tonight: ________
+```
 
 ### Night screening card (one page)
 
@@ -315,12 +331,12 @@ Finance and strategy (Part VII) must see coordinator FTE and IDS night coverage 
 ## Sources
 
 - Joint Commission DSC / CSC standards (SCS26 and active manual). CSCs are expected to participate in patient-centered clinical research. Official communications have stated that audit-registry, laboratory-only, or humanitarian-device activity alone does not meet the requirement, and that device trials cannot be the only research. Confirm current wording.
-- NIH StrokeNet: NCC, NDMC, and regional coordinating centers (current public figures: 27 RCCs, on the order of 500 U.S. hospitals). See nihstrokenet.org and current RCC / trial announcements (including RFA-NS-23-010 and successors) for promised manager FTE.
+- NIH StrokeNet: StrokeNet National Coordinating Center (not neurocritical care; never abbreviate that coordinating center as NCC), NDMC, and regional coordinating centers (27 RCCs / ~500 hospitals **(confirm live on nihstrokenet.org — ER-NET-02)**). See current RCC / trial announcements (including RFA-NS-23-010 and successors) for promised manager FTE.
 - Broderick JP, et al. The NIH StrokeNet: A User's Guide. 2016 and subsequent network updates.
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. Screening must not delay IVT or EVT.
 - Greenberg et al., 2022 ICH Guideline; 2023 aSAH Guideline.
 - Specifications Manual v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges): CSTK-02 and CSTK-10 (90-day mRS).
 - AHA GWTG-Stroke public award criteria (AHA page last reviewed 9 September 2022 in the handbook evidence packet): 85% on seven achievement measures; Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy thresholds as in the briefing.
-- ICH E6 Good Clinical Practice (current revision); Common Rule (45 CFR 46).
+- ICH E6 Good Clinical Practice (current revision); Common Rule (45 CFR 46); exception from informed consent, 21 CFR 50.24. Coverage analysis before first interventional-trial patient; no invented dollars.
 - Landmark trial operations as design references: NINDS tPA; HERMES-era EVT; DAWN / DEFUSE 3; large-core EVT trials; EXTEND-IA TNK; CHANCE / POINT; INTERACT3.
 - Alberts et al., BAC CSC consensus, *Stroke*, 2005.

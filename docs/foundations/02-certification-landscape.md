@@ -258,13 +258,15 @@ R = responsible, A = accountable, C = consulted, I = informed.
 
 Certification is the floor under every other pillar, not a parallel project. Leadership chapters must assign EP owners and protect coordinator FTE. Clinical chapters must produce protocols that can be traced to adopted guidelines. Quality chapters must run STK, CSTK, and GWTG as a single data system with three outputs. Education chapters must teach fellows the current measure definitions so documentation is part of clinical work. Research chapters must not create pathways that conflict with the adopted CPG. Strategy chapters must treat recertification risk as a capital risk. The opening chapter of this part defined what a CSC must be; this chapter defined how that definition is inspected. The next chapter places the certified hub inside a regional system of care.
 
+See also: [What an Academic CSC Must Be](01-what-academic-csc-must-be.md) · [Systems of Care](03-systems-of-care.md) · [Core Metrics](../quality/23-core-metrics.md) · [Certification Readiness](../quality/25-certification-readiness.md) · [First 90 Days](../playbooks/38-ninety-days-year-one.md)
+
 ## Sources
 
 - Joint Commission Disease-Specific Care Certification: three components — standards, clinical practice guidelines, performance measurement. Advanced stroke certifications: ASRH, PSC, TSC, CSC. Stroke rehabilitation as a basic certification.
 - 2026 Stroke Certification Standards (SCS26). 2026 Comprehensive Certification Manual for Disease-Specific Care.
 - Joint Commission stroke certification program descriptions: CSC is the most demanding advanced stroke certification.
 - Joint Commission Online, April 2, 2025: annual aSAH volume criterion reduced from 20 to 10, announced with AHA/ASA; official manual update January 2026. Confirm all other volume criteria in the live E-App and active DSC eligibility table.
-- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B, posted 08/08/2025. CSTK-07 not in the current set. CSTK-01 exclusions as specified.
+- Specifications Manual for Joint Commission National Quality Measures, CSTK v2026B, posted 02/06/2026 (3Q–4Q 2026 discharges). v2026A posted 08/08/2025 covered 1Q–2Q 2026. CSTK-07 not in the current set. CSTK-01 exclusions as specified.
 - STK inpatient stroke measure set; STK-OP v2026B. Confirm current CMS OQR composition; do not assume historical OP-23 remains mandatory.
 - AHA Get With The Guidelines–Stroke achievement awards (85 percent on each of 7 measures; Bronze 90 days, Silver 12 months, Gold 24 months) and Target: Stroke / Target: Type 2 Diabetes public criteria (AHA page last reviewed September 9, 2022).
 - DNV Healthcare stroke certification programs and ACHC/HFAP stroke certification programs exist as alternate certifiers. No endorsement implied.

@@ -4,7 +4,7 @@
 
 Meetings fail programs more quietly than complications. A Comprehensive Stroke Center that cannot run a 12-minute huddle will not run a 90-minute executive review. Cadence is not hospitality. It is how the Medical Director converts defects into decisions before the next eligible patient arrives.
 
-This chapter is a paste-ready kit: daily huddle, weekly operations, monthly quality, quarterly executive, annual strategy offsite, code-stroke after-action, transfer intake, survey week, and the on-call escalation card. Every template is a sample to adapt through local medical staff rules, nursing policy, and legal review. None is a hospital policy until the stroke governance committee says it is.
+This chapter is a paste-ready kit: daily huddle, weekly ops, monthly quality, quarterly stroke executive, annual strategy offsite, code-stroke after-action, transfer intake, survey week, and the on-call escalation card. Every template is a sample to adapt through local medical staff rules, nursing policy, and legal review. None is a hospital policy until monthly quality and medical staff say it is.
 
 Use the templates as written for the first 30 days. Then shorten. A good agenda loses lines. A bad program adds them.
 
@@ -14,7 +14,7 @@ Do not create a new meeting to use a template. Map each template onto the operat
 
 Surveyors, fellows, night nurses, and executive sponsors all experience the program as a series of conversations. If those conversations have no script, the same case is described five ways and no one owns the interval that failed. If they have a script that no one follows, the program is performing quality rather than practicing it.
 
-Time metrics make the cost visible. Target: Stroke Elite requires 85% of applicable patients with door-to-needle ≤60 minutes. Elite Plus requires 75% ≤45 minutes and 50% ≤30 minutes. Advanced Therapy requires 50% door-to-device ≤90 minutes for direct arrivals and ≤60 minutes for transfers. Those thresholds are not met in a monthly meeting. They are met in the huddle, the after-action, and the transfer intake that happened last night.
+Time metrics make the cost visible. Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy are **published award criteria**, not CSC certification floors (Chapter 23). Those cuts are not met in a monthly meeting. They are met in the huddle, the after-action, and the transfer intake that happened last night.
 
 Hemorrhagic clocks are just as unforgiving. CSTK-04 (procoagulant reversal initiation for ICH) and CSTK-06 (nimodipine for aSAH) are binary in front of a surveyor. The after-action checklist is how a miss becomes a system change instead of a chart note. CSTK-02 and CSTK-10 (90-day mRS) fail in silence if no weekly agenda line asks whether the caller queue is alive.
 
@@ -35,6 +35,16 @@ Cadence also protects culture. An escalation card that is current at 02:00 is ps
 | Decision log | Three bullets leave every meeting: decided, owner, date |
 | Currency | Agendas cite measure IDs, not nicknames |
 
+### Morning clock (do not add a fourth meeting)
+
+| Clock | Meeting | Duration | Owner |
+| --- | --- | --- | --- |
+| 07:00 | Unit charge (swallow / SCD / STK-5 / 36-h discharges) | 7 min | Charge RN |
+| 08:00 | CSC OS huddle (codes, beds, reversal, nimodipine, research) — this is also the hyperacute review | 12 min | MD / AMD |
+| Same shift | After-action (trigger list) | 10–15 min | Case team |
+
+The 08:00 row is the existing daily huddle (Tool 1). Do not create a fourth morning meeting.
+
 ### Meeting-to-artifact map
 
 | Template in this chapter | Horizon | Required artifact produced |
@@ -44,7 +54,7 @@ Cadence also protects culture. An escalation card that is current at 02:00 is ps
 | Transfer intake checklist | Per transfer | Accept/deny with clinical reason and clock start |
 | Weekly ops agenda | Weekly | Pattern call; PDSA referrals |
 | Monthly quality agenda | Monthly | Packet decisions; PDSA open/close |
-| Quarterly executive agenda | Quarterly | Resource and policy decisions |
+| Quarterly stroke executive agenda | Quarterly | Resource and policy decisions |
 | Annual offsite agenda | Annual | 3–5 bets; killed projects |
 | Survey-week checklist | Per survey | Tracer-ready binder and staffing |
 | On-call escalation card | Always | Who is called, in what order, for what |
@@ -59,7 +69,7 @@ flowchart TD
     D --> E
     E --> F["Weekly ops agenda"]
     F --> G["Monthly quality agenda"]
-    G --> H["Quarterly executive agenda"]
+    G --> H["Quarterly stroke executive agenda"]
     H --> I["Annual offsite agenda"]
     J["Survey window"] --> K["Survey-week checklist"]
     F --> K
@@ -77,16 +87,16 @@ flowchart TD
 | After-action | 10–15 min | Anyone on the case + one recorder | Yes |
 | Weekly ops | 45 min | MD or AMD + program manager | No decision; information only |
 | Monthly quality | 60–90 min | MD + quality lead + one physician partner | No PDSA close |
-| Quarterly executive | 90 min | Sponsor + MD | No capital or FTE decision |
+| Quarterly stroke executive | 90 min | Sponsor + MD | No capital or FTE decision |
 | Annual offsite | 4 hours | MD + sponsor + chair + pillar leads | Do not hold |
 
 !!! tip "Key Actions"
 
-    Paste the daily huddle script into the standing 08:00 slot this week and enforce the 12-minute box for 14 consecutive days. Issue the escalation card to every fellow, APP, ED charge nurse, and transfer-center agent; collect a read-back. Put the after-action checklist in the code-stroke packet, not in a quality shared drive. Schedule the next monthly quality and quarterly executive with the agendas in the invite, not “TBD.” Assign a survey-week owner even if the window is months away.
+    Paste the daily huddle script into the standing 08:00 slot this week and enforce the 12-minute box for 14 consecutive days. Issue the escalation card to every fellow, APP, ED charge nurse, and transfer-center agent; collect a read-back. Put the after-action checklist in the code-stroke packet, not in a quality shared drive. Schedule the next monthly quality and quarterly stroke executive with the agendas in the invite, not “TBD.” Assign a survey-week owner even if the window is months away.
 
 !!! abstract "Metrics Targets"
 
-    Process targets for cadence itself: huddle start on time ≥90%; huddle duration ≤15 min on ≥80% of days; after-action completed same shift or next huddle for 100% of trigger cases; weekly ops held 46/52 weeks; monthly packet out 24 hours in advance ≥10/12 months; quarterly executive produces at least one written decision each quarter; escalation card version date ≤180 days old; survey-week checklist opened 21 days before any on-site. Clinical floors remain the GWTG 85% achievement measures, Target: Stroke Elite as internal DTN floor, and specification-compliant CSTK reporting.
+    Process targets for cadence itself: huddle start on time ≥90%; huddle duration ≤15 min on ≥80% of days; after-action completed same shift or next huddle for 100% of trigger cases; weekly ops held 46/52 weeks; monthly packet out 24 hours in advance ≥10/12 months; quarterly stroke executive produces at least one written decision each quarter; escalation card version date ≤180 days old; survey-week checklist opened 21 days before any on-site. Clinical award cuts remain the GWTG 85% achievement measures (Chapter 23); label Elite as the internal DTN aim; report CSTK to specification.
 
 !!! warning "Common Pitfalls"
 
@@ -108,7 +118,7 @@ Weekly ops follows Tool 3. Pre-read is a one-page 7-day metric strip plus open a
 
 ### Monthly / quarterly
 
-Monthly quality follows Tool 4 and consumes the packet cover sheet from the integrating-pillars chapter. It is the only meeting that opens or closes a reported PDSA. Quarterly executive follows Tool 5. The Medical Director presents. The sponsor is asked for decisions in writing.
+Monthly quality follows Tool 4 and consumes the packet cover sheet from the integrating-pillars chapter. It is the only meeting that opens or closes a reported PDSA. Quarterly stroke executive follows Tool 5. The Medical Director presents. The sponsor is asked for decisions in writing.
 
 ### Annual / multi-year
 
@@ -118,7 +128,7 @@ Review every template's version date in August during the evidence-register curr
 
 ## Ready-to-Adapt Tools
 
-All tools below are samples to adapt. Replace bracketed fields. Route through stroke governance before production use.
+All tools below are samples to adapt. Replace bracketed fields. Route through monthly quality and medical-staff approval before production use.
 
 ### Tool 1 — Daily huddle agenda (12 minutes)
 
@@ -187,6 +197,7 @@ First hospital DIDO (if transfer): ____
 AGENT / PROCEDURE
 [ ] TNK 0.25 mg/kg max 25 mg   dose given: ____
 [ ] Alteplase 0.9 mg/kg max 90 mg (10% bolus / 60 min)   dose given: ____
+[ ] TNK 0.4 / cardiac-card refused (Class 3 – No Benefit)
 [ ] No IVT  reason: ________
 [ ] EVT  TICI: ____   CSTK-08 documented? [ ] Y [ ] N
 
@@ -251,10 +262,10 @@ Pre-read due 24 h prior: 7-day metric strip + open after-actions
    D3: ________  Owner: ____  Date: ____
 ```
 
-### Tool 4 — Monthly quality committee agenda (60–90 minutes)
+### Tool 4 — Monthly quality agenda (60–90 minutes)
 
 ```
-CSC MONTHLY QUALITY COMMITTEE  [month YYYY]
+CSC MONTHLY QUALITY  [month YYYY]
 Chair: Medical Director     Quorum: MD + quality lead + one physician partner
 Packet out 24 hours prior. No slide-only items.
 
@@ -264,17 +275,18 @@ Packet out 24 hours prior. No slide-only items.
    Vote: close / extend / kill  IDs: ________
 
 3. GWTG-STROKE (10 min)
-   Seven achievement measures vs 85% floor — list any below:
+   Seven achievement measures vs 85% published award cut — list any below:
    ________
+   P-29b GWTG #7 intensive statin (not the same as STK-6): ________
    Quality measures of concern: ________
-   Award posture: Bronze / Silver / Gold trajectory: ________
-   Target: Stroke tier currently met: [ ] none [ ] HR [ ] Elite [ ] Elite Plus
-   Advanced Therapy: [ ] Y [ ] N
+   Award posture (published criteria, not floors): Bronze / Silver / Gold trajectory: ________
+   Target: Stroke published award criteria currently met: [ ] none [ ] HR [ ] Elite [ ] Elite Plus
+   Advanced Therapy (50% DTD ≤90 direct / ≤60 transfer; DTD ≠ puncture): [ ] Y [ ] N
    Target: Type 2 Diabetes composite (if applicable) ≥80% for 12 mo: [ ] Y [ ] N [ ] NA
 
 4. STK SET (8 min)
    STK-1 VTE   STK-2 DC antithrombotic   STK-3 AF anticoagulation
-   STK-4 thrombolytic   STK-5 antithrombotic HD2   STK-6 statin
+   STK-4 thrombolytic   STK-5 antithrombotic HD2   STK-6 statin (not P-29b)
    STK-8 education   STK-10 rehab
    STK-OP / CMS OQR items: confirm current set, do not assume OP-23 is mandatory
    Outliers and abstraction questions: ________
@@ -299,10 +311,10 @@ Packet out 24 hours prior. No slide-only items.
 12. NEXT PACKET OWNER AND DEEP-DIVE (2 min)
 ```
 
-### Tool 5 — Quarterly executive agenda (90 minutes)
+### Tool 5 — Quarterly stroke executive agenda (90 minutes)
 
 ```
-CSC QUARTERLY EXECUTIVE / STEERING  [Q# YYYY]
+CSC QUARTERLY STROKE EXECUTIVE  [Q# YYYY]
 Chair: Executive sponsor     Presenter: Medical Director
 Pre-read: 10-slide cap + scorecard appendix
 
@@ -311,7 +323,7 @@ Pre-read: 10-slide cap + scorecard appendix
        Clock (DTN, DTD, CSTK-11/12)
        Hemorrhage (CSTK-04/06)
        Outcomes process (CSTK-02/10)
-       GWTG / Target: Stroke / Advanced Therapy posture
+       GWTG / Target: Stroke / Advanced Therapy published award posture (Ch 23)
 20–35  Three defect stories (one must be a late DTN or dual-eligible delay)
 35–45  PDSA board and what closed
 45–55  Survey risk and volume vs live E-App tables
@@ -339,7 +351,7 @@ HOUR 2.25–3.25  Choose 3–5 bets for the next 12–36 months
                Each bet: owner, 12-month product, resource implication, harm if ignored
 HOUR 3.25–3.75  Year-one vs year-two vs year-three sequence
                Clock first, network second, academic differentiation third
-HOUR 3.75–4.0  Write bets and kills on one page; schedule Q1 steering to ratify
+HOUR 3.75–4.0  Write bets and kills on one page; schedule Q1 stroke executive to ratify
 
 OUT-OF-BOUNDS
 No vendor demos. No award-chasing without a floor. No new meeting created.
@@ -411,6 +423,7 @@ T-21 TO T-14
 T-13 TO T-8
 [ ] Tracer scripts: IVT, EVT transfer, ICH reversal, aSAH nimodipine, 90-day mRS
 [ ] Unit posters show current doses (TNK 0.25 mg/kg max 25; alteplase 0.9/90)
+[ ] Posters show TNK 0.4 / cardiac-card refuse (Class 3 – No Benefit)
 [ ] Order sets match posters
 [ ] Two mock tracers, one after 17:00
 [ ] Staff list of who speaks to surveyors (and who pages the MD)
@@ -519,7 +532,7 @@ After-actions open: __   Research clock events: __
 
 ## Integration With Other Pillars
 
-These agendas are how clinical operations, quality, education, research, and strategy share a clock. The huddle and after-action are clinical instruments with quality outputs. Monthly quality is a quality instrument with education and research lines that cannot be optional. Quarterly executive is a strategy instrument that must hear defect stories, not only volume. The escalation card is a culture instrument. The survey-week checklist is a certification instrument that should feel identical to an ordinary week if the cadence is real.
+These agendas are how clinical operations, quality, education, research, and strategy share a clock. The huddle and after-action are clinical instruments with quality outputs. Monthly quality is a quality instrument with education and research lines that cannot be optional. Quarterly stroke executive is a strategy instrument that must hear defect stories, not only volume. The escalation card is a culture instrument. The survey-week checklist is a certification instrument that should feel identical to an ordinary week if the cadence is real.
 
 Pair this chapter with the KPI library and SOP skeletons when a meeting needs a definition or a procedure, and with the audit/PDSA chapter when a recurring agenda line becomes a formal cycle.
 
@@ -527,6 +540,6 @@ Pair this chapter with the KPI library and SOP skeletons when a meeting needs a 
 
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513.
 - Specifications Manual for Joint Commission National Quality Measures (v2026B), CSTK and STK / STK-OP. Posted 02/06/2026 (3Q–4Q 2026 discharges).
-- GWTG-Stroke recognition criteria and Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy thresholds (AHA public criteria, last reviewed 9 September 2022).
+- GWTG-Stroke recognition criteria and Target: Stroke Honor Roll / Elite / Elite Plus / Advanced Therapy as **published award criteria** (AHA public criteria, last reviewed 9 September 2022; Chapter 23).
 - Joint Commission DSC survey practice: standards, clinical practice guidelines, performance measurement; SCS26. Confirm live E-App tables. The April 2, 2025 announcement reduced the annual aSAH volume criterion to 10.
 - IHI Model for Improvement; high-reliability organizing (sensitivity to operations; deference to expertise).

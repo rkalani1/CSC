@@ -24,9 +24,9 @@ Academic CSCs fail improvement by scaling too early: a system-wide “DTN initia
 | --- | --- | --- |
 | Single outlier, first in 30 days | After-action + 1-chart audit | Weekly ops watches for a second |
 | Three similar defects in 30 days | 10-chart audit | PDSA if the cause is local and changeable |
-| Measure below a published floor | 20-chart audit + equity slice | PDSA plus monthly executive visibility |
+| Measure below a published award cut | 20-chart audit + equity slice | PDSA plus quarterly stroke executive visibility |
 | Specification confusion | Audit the abstraction, not the clinicians | Retrain; do not PDSA a wrong definition |
-| Resource or network required | Do not PDSA a staffing hole | Roadmap / quarterly executive |
+| Resource or network required | Do not PDSA a staffing hole | Roadmap / quarterly stroke executive |
 | Multi-year capability (MSU, new spoke, StrokeNet) | SWOT | 3-year roadmap bet |
 
 ### Audit sampling rules (sample)
@@ -51,7 +51,7 @@ flowchart TD
     F --> H["Weekly ops watches change"]
     H --> I{"Adopt / adapt / abandon"}
     I --> J["Update SOP and workflow"]
-    G --> K["Quarterly executive decision"]
+    G --> K["Quarterly stroke executive decision"]
     K --> J
     J --> L["Re-audit"]
 ```
@@ -62,7 +62,7 @@ flowchart TD
 
 !!! abstract "Metrics Targets"
 
-    Audit completion: 100% of CSTK-04 and CSTK-06 eligible cases each month; 100% of MER cases scored for CSTK-08/09/11/12; DTN interval audit on every case >45 min; swallow weekly sample until 100%; STK-3 fails audited 100%. PDSA: no more than three open PDSAs per program; each closed or killed by day 90. Roadmap: 3–5 bets; at least one project killed annually. Workflows: version date ≤12 months or since the last guideline/manual change. External floors remain GWTG 85% achievement, Target: Stroke Elite as internal DTN floor, specification-compliant CSTK. aSAH volume tracked against the live table after the 2 April 2025 announcement reduced the criterion to 10.
+    Audit completion: 100% of CSTK-04 and CSTK-06 eligible cases each month; 100% of MER cases scored for CSTK-08/09/11/12; DTN interval audit on every case >45 min; swallow weekly sample until 100%; STK-3 fails audited 100%. PDSA: no more than three open PDSAs per program; each closed or killed by day 90. Roadmap: 3–5 bets; at least one project killed annually. Workflows: version date ≤12 months or since the last guideline/manual change. Published award criteria live in Chapter 23; label Elite as the internal DTN aim. Report CSTK to specification. aSAH volume tracked against the live table after the 2 April 2025 announcement reduced the criterion to 10.
 
 !!! warning "Common Pitfalls"
 
@@ -80,7 +80,7 @@ After-actions feed the DTN and swallow audits. Weekly ops reviews open audit fin
 
 ### Monthly / quarterly
 
-Monthly quality closes the CSTK-04, CSTK-06, CSTK-11/12, and STK-3 audits. Quarterly executive hears only PDSAs that need resource or that died. Quarterly, re-audit a previously closed PDSA to test hold.
+Monthly quality closes the CSTK-04, CSTK-06, CSTK-11/12, and STK-3 audits. Quarterly stroke executive hears only PDSAs that need resource or that died. Quarterly, re-audit a previously closed PDSA to test hold.
 
 ### Annual / multi-year
 
@@ -104,6 +104,7 @@ All tools are samples to adapt. Abstract to live specifications.
 ```
 DTN INTERVAL AUDIT  (sample)   ID: AUD-DTN-[YYYYMM]
 Case date: ____   DTN min: ____   Agent: [ ] TNK 0.25 mg/kg max 25  [ ] alteplase 0.9/90
+[ ] TNK 0.4 / cardiac-card refused (Class 3 – No Benefit)
 Disabling deficit? [ ] Y [ ] N   NIHSS: ____   Dual-eligible? [ ] Y [ ] N
 Night / weekend / transfer / MSU / language: ________
 
@@ -114,7 +115,7 @@ CT start to first read    local                    ____       [ ]
 Read to decision          local                    ____       [ ]
 Decision to pharmacy      local                    ____       [ ]
 Pharmacy to needle        local                    ____       [ ]
-DTN total                 floors: 60 / 45 / 30     ____       [ ]
+DTN total                 award cuts: 60 / 45 / 30     ____       [ ]
 
 ELIGIBILITY / GUIDELINE CHECK
 Treated within 4.5 h for disabling deficit regardless of NIHSS? [ ] Y [ ] N [ ] NA
@@ -334,7 +335,7 @@ GWTG / Target: Stroke / Advanced Therapy aim by year:
    Y1: ________   Y2: ________   Y3: ________
 Volume: confirm live E-App each August.
 
-RATIFIED: steering date ____   Next rewrite: annual offsite
+RATIFIED: quarterly stroke executive date ____   Next rewrite: annual offsite
 ```
 
 ### Tool 10 — Workflow library (mermaid)
@@ -369,7 +370,7 @@ flowchart TD
     D -->|Yes| E[Order set and STAT pharmacy]
     E --> F[Initiate agent - CSTK-04 clock]
     D -->|No| G[Document reason]
-    F --> H[BP airway glucose dysphagia path]
+    F --> H[BP airway glucose temp ≤37.5 trial-bundle ICH only]
     G --> H
     B --> H
     H --> I[NCC admission]
@@ -377,6 +378,8 @@ flowchart TD
     J -->|Yes| K[After-action plus AUD-04]
     J -->|No| L[Monthly 100 percent audit]
 ```
+
+AIS now treats temperature **>37.5 °C** (2026 AIS §4.4). ICH INTERACT3 uses **≤37.5 °C**. Operationally both mean treat at >37.5. Same number, different order-set. Do not put two cuts on one board.
 
 #### 10C — Transfer EVT
 
@@ -474,7 +477,7 @@ Link every adopted PDSA back to an SOP in the KPI/SOP chapter and to an agenda l
 - 2022 ICH Guideline, *Stroke*, DOI 10.1161/STR.0000000000000407; 2024 ICH performance measures.
 - 2023 aSAH Guideline, *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436. Nimodipine remains standard.
 - CSTK / STK Specifications Manual v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges). CSTK-07 is not in the current set.
-- GWTG-Stroke achievement measure 5 (anticoagulation for AF/flutter) and Target: Stroke DTN tiers (AHA, last reviewed 9 September 2022).
+- GWTG-Stroke achievement measure 5 (anticoagulation for AF/flutter) and Target: Stroke DTN published award criteria (AHA, last reviewed 9 September 2022; Chapter 23).
 - HERMES 2016 (mRS 0–2 46.0% vs 26.5%; NNT 2.6 for ≥1-point mRS shift) — use for education and strategy, not as a monthly audit threshold.
 - IHI Model for Improvement / PDSA; Lean; Six Sigma DMAIC; AHRQ CUSP; high-reliability organizing.
 - Joint Commission DSC / SCS26; April 2, 2025 aSAH volume announcement. Confirm live E-App tables.

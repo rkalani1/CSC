@@ -135,7 +135,7 @@ Build a 24-month plan. Year one is competence in the current portfolio and the n
 **Year-one milestones (illustrative):**
 
 - Month 1–3: Co-sign the decision-rights matrix; complete a structured orientation to CSTK v2026B, STK, GWTG achievement and Target: Stroke thresholds, and the current DSC manual sections that govern medical leadership.
-- Month 4–6: Chair the weekly ops huddle for a month; own one PDSA through two cycles (IHI Model for Improvement).
+- Month 4–6: Chair weekly ops (and rotate the daily huddle chair separately) for a month; own one PDSA through two cycles (IHI Model for Improvement).
 - Month 7–9: Serve as leadership designee for a defined block of nights/weekends with next-day debrief; present the defect log to executive committee.
 - Month 10–12: Lead one guideline-implementation project (for example, a tenecteplase or ICH-reversal update) across pharmacy, nursing, and informatics.
 

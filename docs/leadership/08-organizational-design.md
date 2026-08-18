@@ -143,6 +143,18 @@ Draw four coverage maps and refuse to merge them.
 | Program operations | Who reconstructs the timeline at 07:00; who the house supervisor calls for matrix decisions | Coordinator weekday-only |
 | Research screening | Who is paged for inclusion windows | PI’s personal cell, unanswered |
 
+**In-house night coverage models** are a planning frame, not a certification requirement and not a national roster. Publish one. The fellow is never the unsupervised attending.
+
+| Model | Who is in house | Who is home | Use when | Hard rule |
+| --- | --- | --- | --- | --- |
+| Attending 24/7 | Vascular attending | Backup attending / AMD | Highest-complexity nights; no learner as the floor | Attending is the decision owner |
+| Fellow in-house + attending home | Fellow (with or without a resident) | Vascular attending, immediately available | Accredited fellowship with a written supervision step-up | Fellow is never the unsupervised attending |
+| APP in-house + attending home | Privileged stroke APP | Vascular attending, immediately available | APP service exists and is privileged for NIHSS and IVT prep | APP does not replace attending concurrence for EVT, reversal, or diversion |
+| NCC in-house + vascular home | Neurocritical care attending | Vascular attending on home call | Shared ICU night; ICH/aSAH dominate the after-hours load | Vascular remains accountable for reperfusion decisions |
+| Hybrid | Mix by night of week or by census | Named backup for each map | Most academic CSCs | Write the night-of-week grid; do not improvise at 02:00 |
+
+Name the published model on the night-map one-pager. A weekend variant is still one published hybrid, not a rumor.
+
 Staff nights with the same role types that produce CSTK-09, CSTK-11, CSTK-12, and CSTK-04, or accept that night performance will lag. If APP coverage is weekday-only, night DTN and documentation will depend entirely on residents and ED nurses — design training and order sets accordingly, and do not pretend the APP FTE has solved after-hours care.
 
 Build a next-morning reconstruction block (even 0.2 FTE shared) so weekend cases enter the defect log before Monday huddle. Delayed abstraction is how weekly ops becomes archaeology.
@@ -170,7 +182,7 @@ If the conflict resolver is “we’ll work it out,” the matrix will fail the 
     Draw the live org chart with solid and dotted lines and put it in the charter packet. Build the FTE worksheet from the ten drivers, not from last year’s leftover salaries. Separate the four night maps. Cross-train abstractor and coordinator backups this quarter. Attach coordinator or analyst time to the AMD portfolio so leadership FTE is not consumed by data pulls. Take one matrix conflict (usually IR backup or abstractor priorities) to a named resolver with a written rule.
 
 !!! abstract "Metrics Targets"
-    **Floors:** roles required to sustain 24/7 capability and current CSC reporting exist on a roster, including after-hours clinical and procedural coverage. Abstraction lag does not threaten timely CSTK/STK/GWTG submission. 90-day mRS capture is staffed as a process. **Internal design targets:** abstraction complete within 30 days of discharge for ≥90% of cases; 90-day mRS attempts started by day 75; coordinator backup named for every core role; vacancy days for coordinator/abstractor <30 per year without a trained backup in seat; night/weekend cases appear in the Monday defect log ≥95%; research missed-eligibles reviewed weekly; APP or equivalent coverage plan documented for nights if APPs are a daytime-only resource; FTE worksheet refreshed annually and after any step-change in volume or sites.
+    **Floors:** roles required to sustain 24/7 capability and current CSC reporting exist on a roster, including after-hours clinical and procedural coverage. Abstraction lag does not threaten timely CSTK/STK/GWTG submission. 90-day mRS capture is staffed as a process. **Internal design targets:** abstraction complete within 30 days of discharge for ≥90% of cases; 90-day mRS first attempt by day 60 / second by day 75; coordinator backup named for every core role; vacancy days for coordinator/abstractor <30 per year without a trained backup in seat; night/weekend cases appear in the Monday defect log ≥95%; research missed-eligibles reviewed weekly; APP or equivalent coverage plan documented for nights if APPs are a daytime-only resource; FTE worksheet refreshed annually and after any step-change in volume or sites.
 
 !!! warning "Common Pitfalls"
     Citing another hospital’s FTE as if it were a Joint Commission requirement. Using historical IVT volume figures as a staffing formula. Combining research and abstraction in one person and then wondering why CSTK-02 and enrollment both slip. Hiring navigators to fix DTN. Leaving telestroke operations inside a vendor relationship with no internal owner. Solid-line managers who forbid huddle attendance. A single coordinator who is also the EMS liaison, the survey lead, and the fellowship coordinator. Modeling only weekday hours. Treating the aSAH criterion of 10 as a reason to thin NSGY call. Physician FTE announced without clinic-template changes. Org charts that omit techs and transfer-center staff — the people who actually start CSTK-09.
@@ -224,6 +236,8 @@ Multi-year, tie FTE to strategy: a new spoke cluster, an MSU, a second hospital 
 Time-study the “hours per unit” on 20 consecutive cases rather than inventing them in a meeting. Recalculate after EHR or measure-spec changes.
 
 ### Night-map one-pager
+
+Published in-house night model (planning frame, not a requirement): [Attending 24/7 / Fellow in-house + attending home / APP in-house + attending home / NCC in-house + vascular home / Hybrid]. Fellow is never the unsupervised attending.
 
 | Function | Weeknight | Weekend day | Weekend night | Backup if primary down |
 | --- | --- | --- | --- | --- |

@@ -6,6 +6,7 @@ theme:
   name: material
   custom_dir: overrides
   font: false
+  favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -34,6 +35,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - content.tooltips
+    - content.action.print
     - toc.follow
 
 plugins:
@@ -72,8 +74,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js
   - javascripts/header-controls.js
-  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
 
 extra_css:
   - stylesheets/extra.css
@@ -82,6 +84,7 @@ extra_css:
 use_directory_urls: false
 
 extra:
+  version: "2026.08.2"
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rkalani1/CSC
@@ -91,17 +94,20 @@ nav:
   - Home: index.md
   - How to Use This Handbook: how-to-use.md
   - Part I · Foundations:
+    - Overview: foundations/index.md
     - What an Academic CSC Must Be: foundations/01-what-academic-csc-must-be.md
     - Certification Landscape and Standards: foundations/02-certification-landscape.md
     - Systems of Care and the Regional Hub: foundations/03-systems-of-care.md
     - What Medical Directors Must Know on Day One: foundations/04-day-one-briefing.md
   - Part II · Leadership and Governance:
+    - Overview: leadership/index.md
     - Medical Director Role and Authority: leadership/05-medical-director-role.md
     - Associate Medical Director Role and Succession: leadership/06-associate-medical-director.md
     - Governance Architecture and Decision Rights: leadership/07-governance-architecture.md
     - Organizational Design and FTE Architecture: leadership/08-organizational-design.md
     - Culture of Excellence and Psychological Safety: leadership/09-culture-of-excellence.md
   - Part III · Clinical Enterprise:
+    - Overview: clinical/index.md
     - Prehospital Systems and EMS Partnership: clinical/10-prehospital-ems.md
     - Hyperacute Pathways and Code Stroke: clinical/11-hyperacute-pathways.md
     - Imaging Architecture: clinical/12-imaging-architecture.md
@@ -114,26 +120,36 @@ nav:
     - Telestroke Network Operations: clinical/19-telestroke-networks.md
     - Mobile Stroke Units: clinical/20-mobile-stroke-units.md
     - Hemorrhagic Stroke and Complex Cerebrovascular Programs: clinical/21-hemorrhagic-complex.md
+    - "Special Populations: CVT, Maternal Stroke, and Pediatric Receiving": clinical/42-special-populations.md
+    - In-Hospital and Perioperative Stroke: clinical/43-in-hospital-stroke.md
+    - Goals of Care, Palliative Pathways, and Death by Neurologic Criteria: clinical/44-goals-of-care.md
+    - TIA and Minor-Stroke Clinic: clinical/45-tia-minor-stroke.md
+    - Elective Cerebrovascular Program: clinical/46-elective-cerebrovascular.md
   - Part IV · Quality, Safety, and Data:
+    - Overview: quality/index.md
     - Quality System and Data Infrastructure: quality/22-quality-data-infrastructure.md
     - "Core Metrics: GWTG, STK, and CSTK": quality/23-core-metrics.md
     - Continuous Improvement and High Reliability: quality/24-improvement-high-reliability.md
     - Certification Readiness and Survey: quality/25-certification-readiness.md
     - Equity and Disparities Reduction: quality/26-equity-disparities.md
   - Part V · Education:
+    - Overview: education/index.md
     - Vascular Neurology Fellowship and GME: education/27-fellowship-gme.md
     - Interprofessional Education, Simulation, and Community Teaching: education/28-interprofessional-simulation.md
   - Part VI · Research and Innovation:
+    - Overview: research/index.md
     - Clinical Trials, Registries, and Research Operations: research/29-trials-registries.md
     - Faculty Development, Grants, and Scholarly Productivity: research/30-faculty-grants.md
     - Innovation, AI, and Decision-Support Governance: research/31-innovation-ai.md
   - Part VII · Strategy and Elite Performance:
+    - Overview: strategy/index.md
     - Strategy, Growth, Volume, and Complexity: strategy/32-strategy-growth.md
     - Network Leadership and Regional Integration: strategy/33-network-leadership.md
     - Financial Stewardship and Resource Allocation: strategy/34-financial-stewardship.md
     - Disaster, Surge, and Continuity Planning: strategy/35-disaster-surge.md
     - Becoming and Remaining Elite: strategy/36-elite-performance.md
   - Part VIII · Playbooks and Toolkits:
+    - Overview: playbooks/index.md
     - Integrating the Pillars: playbooks/37-integrating-pillars.md
     - First 90 Days and Year One: playbooks/38-ninety-days-year-one.md
     - Checklists, Agendas, and Cadence: playbooks/39-checklists-agendas.md

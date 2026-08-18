@@ -28,6 +28,8 @@ The scope is deliberately narrow:
 | VII Strategy | Grow, finance, network, prepare for surge, and pursue elite standing |
 | VIII Playbooks | Implement in 90 days, copy templates, and run the operating cadence |
 
+Special-population operations — cerebral venous thrombosis, maternal stroke, and pediatric receiving — live in [Chapter 42](clinical/42-special-populations.md). Chapters 43–46 cover in-hospital stroke, goals of care, the TIA clinic, and elective cerebrovascular operations.
+
 ## How to read a chapter
 
 Every chapter follows the same operating logic:
@@ -45,7 +47,7 @@ Callouts are used with a fixed meaning:
     What the Medical Director should do this week or this quarter.
 
 !!! abstract "Metrics Targets"
-    The numbers used to manage the work. Certification floors are labeled as floors. Elite internal targets are labeled as internal.
+    The numbers used to manage the work. Certification requirements and **published award criteria** (Honor Roll / Elite / Elite Plus / Advanced Therapy) are labeled as such. Internal aims are labeled `internal`.
 
 !!! warning "Common Pitfalls"
     Failure modes seen in academic CSCs: authority without control, vanity metrics, survey theater, and ungoverned growth.
@@ -81,7 +83,7 @@ When a local protocol and a national guideline diverge, the handbook tells you w
 
 ## How to adapt tools
 
-Templates in Part VIII are generic and original. Replace bracketed fields, align with medical staff bylaws and hospital policy, and route through the stroke governance committee before implementation. Do not paste a sample SOP into production without local legal, pharmacy, radiology, and nursing review.
+Templates in Part VIII are generic and original. Replace bracketed fields, align with medical staff bylaws and hospital policy, and route SOPs through monthly quality and charter language through quarterly stroke executive before implementation. Do not paste a sample SOP into production without local legal, pharmacy, radiology, and nursing review.
 
 ## Navigation conventions
 

@@ -100,9 +100,9 @@ The map is a discipline against doing everything and a discipline against doing 
 
 **Days 1–30 — See and stabilize.** Finish the tour and the twelve artifacts. Identify any coverage hole that makes a public CSC claim false and close it or change the claim. Freeze non-urgent protocol rewrites. Stand in the existing huddles rather than inventing new ones. Meet the load-bearing relationships above. Deliver a two-page findings note to the CNO and the sponsor: what is true at night, what the measures say, what will not be changed this month, and the two or three risks that cannot wait.
 
-**Days 31–60 — Fix the clock.** Pick one hyperacute clock and one hemorrhage clock. Typical pair: door-to-needle distribution and time-to-reversal, or transfer door-to-puncture and nimodipine reliability. Use IHI Model for Improvement and a written PDSA, not a memo. Confirm that pharmacy policy matches tenecteplase 0.25 mg/kg max 25 mg or alteplase 0.9 mg/kg max 90 mg. Confirm the live E-App eligibility table, including the aSAH criterion of 10 as announced April 2, 2025. Start attending EMS and spoke conversations with data, not introductions.
+**Days 31–60 — Fix the clock.** Pick one hyperacute clock and one hemorrhage clock. Typical pair: door-to-needle distribution and time-to-reversal, or transfer door-to-puncture and nimodipine reliability. Use IHI Model for Improvement and a written PDSA, not a memo. Confirm that pharmacy policy matches tenecteplase 0.25 mg/kg max 25 mg or alteplase 0.9 mg/kg max 90 mg. Confirm the live E-App eligibility table. The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10. Start attending EMS and spoke conversations with data, not introductions.
 
-**Days 61–90 — Set the cadence.** Install the operating rhythm that will still exist in month eighteen: weekly exception review, monthly operations committee, quarterly regional call, quarterly mock tracer. Publish the certified-floor versus elite scorecard. Name EP owners for the current SCS26 crosswalk. Agree with GME on night supervision rules. Agree with research on weekend screening. Present a 12-month plan that a sponsor can fund.
+**Days 61–90 — Set the cadence.** Install the operating rhythm locked in [Governance](../leadership/07-governance-architecture.md): daily operations huddle, weekly ops, monthly quality, quarterly stroke executive. Publish the certified-floor versus elite scorecard. Name EP owners for the current SCS26 crosswalk. Agree with GME on night supervision rules. Agree with research on weekend screening. Present a 12-month plan that a sponsor can fund.
 
 Do not attempt a tenecteplase conversion, an MSU launch, a certifier change, or a fellowship expansion in the first 90 days unless the artifact review shows that delay itself is unsafe. Sequence those into year one.
 
@@ -110,13 +110,14 @@ Do not attempt a tenecteplase conversion, an MSU launch, a certifier change, or 
 
 The Medical Director needs a calendar that makes preoccupation with failure automatic.
 
-| Horizon | Cadence | Duration | Non-negotiable content |
+| Horizon | Forum | Duration | Non-negotiable content |
 | --- | --- | --- | --- |
-| Daily | Exception page and transfer-decline review | 15 minutes | Overnight reperfusion, hemorrhage, declines |
-| Weekly | Pathway huddle with coordinator and abstractor | 30 minutes | Fallouts, coverage holes, one teaching case |
-| Weekly | Visible presence on the unit or in ED | 30–60 minutes | Night or weekend sample at least monthly |
-| Monthly | Stroke operations committee | 60 minutes | CSTK / STK / GWTG, FTE, transfers, PDSA |
-| Monthly | One-to-one with CNO or program director | 30 minutes | Staffing and authority |
+| Daily | Operations huddle | 15 min | Overnight reperfusion, hemorrhage, declines, designee |
+| Weekly | Weekly ops | 45–60 min | Defect themes, PDSA, weekend log, staffing |
+| Weekly | Visible presence on the unit or in ED | 30–60 min | Night or weekend sample at least monthly |
+| Monthly | Quality | 60–90 min | Full CSTK/STK/GWTG, equity, action aging |
+| Monthly | One-to-one with CNO or stroke program manager | 30 min | Staffing and authority |
+| Quarterly | Stroke executive | 90 min | Charter, FTE, certification, education, research, network |
 | Monthly | One-to-one with IR and with NSGY | 20 minutes each | Clock and call panel |
 | Quarterly | Regional EMS / spoke call | 60 minutes | Destination card and DIDO |
 | Quarterly | Mock tracer and morbidity conference | 90 minutes | A live case from door to 90-day mRS |
@@ -145,13 +146,13 @@ For the first month, end each day with a six-line log: what was seen, who was he
 
 Take overnight exception review from the first Monday. If no one currently compiles overnight reperfusion and transfer declines, that is the first process the Medical Director should ask the coordinator to stand up. Do not wait for the perfect dashboard.
 
-Hold the weekly 30-minute huddle even if the official committee is monthly. The huddle is how the director learns the abstractor’s name and the measure language the surveyor will use.
+Hold weekly ops even if monthly quality is the official scorecard meeting. Weekly ops is how the director learns the abstractor’s name and the measure language the surveyor will use.
 
 Protect one unscheduled hour on the floor. New directors who live in conference rooms inherit conference-room programs.
 
 ### Monthly / quarterly
 
-Use the first operations committee the Medical Director chairs to reset the agenda, not to add a slide. Required standing items: coverage exceptions, CSTK/STK/GWTG, one PDSA, transfer declines, pharmacy and imaging SLA breaches, fellow safety, trial screening. Time-box announcements.
+Use the first monthly quality meeting the Medical Director chairs to reset the agenda, not to add a slide. Required standing items: coverage exceptions, CSTK/STK/GWTG, one PDSA, transfer declines, pharmacy and imaging SLA breaches, fellow safety, trial screening. Time-box announcements. Operational defects that cannot wait a month go to weekly ops.
 
 By the first quarterly date, run a mock tracer that starts at the E-App description and ends at a 90-day mRS. Invite the sponsor. A sponsor who has walked the tracer funds differently.
 
@@ -233,7 +234,7 @@ Ask at every stop:
 
 **By day 90**
 
-- [ ] Operations committee agenda reset
+- [ ] Monthly quality agenda reset
 - [ ] Certified-floor versus elite scorecard published
 - [ ] Weekly / monthly / quarterly cadence on calendars
 - [ ] EP owners named for the current manual
@@ -242,7 +243,7 @@ Ask at every stop:
 - [ ] Next four regional calls scheduled
 - [ ] Twelve-month plan presented to the sponsor
 
-### Tool 5. First operations-committee agenda (60 minutes)
+### Tool 5. First monthly quality agenda (60 minutes)
 
 1. Coverage exceptions since the last meeting (10 minutes)
 2. CSTK / STK / GWTG and 90-day mRS completeness (15 minutes)
@@ -276,11 +277,13 @@ This briefing is the on-ramp to the rest of the handbook. The specification of w
 
 If the first ninety days produce only relationships and no cadence, the later pillars will have nowhere to land.
 
+See also: [Medical Director Role](../leadership/05-medical-director-role.md) · [Governance](../leadership/07-governance-architecture.md) · [Core Metrics](../quality/23-core-metrics.md) · [Hyperacute Pathways](../clinical/11-hyperacute-pathways.md) · [First 90 Days](../playbooks/38-ninety-days-year-one.md) · [Checklists and Agendas](../playbooks/39-checklists-agendas.md)
+
 ## Sources
 
 - 2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke. *Stroke*. 2026;57(8):e316–e436. DOI 10.1161/STR.0000000000000513. IVT dosing and systems decisions a new director must verify in local policy.
 - 2022 ICH Guideline, *Stroke*, DOI 10.1161/STR.0000000000000407. 2023 aSAH Guideline, *Stroke*. 2023;54:e314–e370. DOI 10.1161/STR.0000000000000436. 2024 AHA/ASA ICH performance measures.
-- Joint Commission DSC architecture; 2026 Stroke Certification Standards (SCS26). Confirm eligibility tables, including the April 2, 2025 aSAH volume change to 10, in the live E-App.
+- Joint Commission DSC architecture; 2026 Stroke Certification Standards (SCS26). Confirm eligibility tables in the live E-App. The April 2, 2025 Joint Commission announcement reduced the annual aSAH volume criterion to 10.
 - Specifications Manual, CSTK v2026B (posted 02/06/2026; 3Q–4Q 2026 discharges). STK core set. GWTG-Stroke achievement and Target: Stroke public criteria (AHA page last reviewed September 9, 2022).
 - IHI Model for Improvement and PDSA as the default improvement method for the 31–60 day clocks. High-reliability organizing principles: preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, deference to expertise.
 - NIH StrokeNet: treat site participation, coordinator FTE, and 24/7 screening as first-quarter infrastructure questions.
