@@ -1,0 +1,146 @@
+site_name: Comprehensive Stroke Center Management
+site_description: Operational handbook for Medical Directors and Associate Medical Directors of U.S. academic Comprehensive Stroke Centers.
+site_url: https://rkalani1.github.io/CSC/
+
+theme:
+  name: material
+  custom_dir: overrides
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/header-controls.js
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/mobile-orientation.css
+
+use_directory_urls: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rkalani1/CSC
+  generator: false
+
+nav:
+  - Home: index.md
+  - How to Use This Handbook: how-to-use.md
+  - Part I · Foundations:
+    - What an Academic CSC Must Be: foundations/01-what-academic-csc-must-be.md
+    - Certification Landscape and Standards: foundations/02-certification-landscape.md
+    - Systems of Care and the Regional Hub: foundations/03-systems-of-care.md
+    - What Medical Directors Must Know on Day One: foundations/04-day-one-briefing.md
+  - Part II · Leadership and Governance:
+    - Medical Director Role and Authority: leadership/05-medical-director-role.md
+    - Associate Medical Director Role and Succession: leadership/06-associate-medical-director.md
+    - Governance Architecture and Decision Rights: leadership/07-governance-architecture.md
+    - Organizational Design and FTE Architecture: leadership/08-organizational-design.md
+    - Culture of Excellence and Psychological Safety: leadership/09-culture-of-excellence.md
+  - Part III · Clinical Enterprise:
+    - Prehospital Systems and EMS Partnership: clinical/10-prehospital-ems.md
+    - Hyperacute Pathways and Code Stroke: clinical/11-hyperacute-pathways.md
+    - Imaging Architecture: clinical/12-imaging-architecture.md
+    - Intravenous Thrombolysis Operations: clinical/13-iv-thrombolysis.md
+    - Endovascular Therapy Program: clinical/14-endovascular-therapy.md
+    - Neurocritical Care Integration: clinical/15-neurocritical-care.md
+    - Inpatient Stroke Unit Operations: clinical/16-inpatient-stroke-unit.md
+    - Transitions, Secondary Prevention, and Clinic: clinical/17-transitions-prevention.md
+    - Rehabilitation and Post-Acute Continuum: clinical/18-rehabilitation-continuum.md
+    - Telestroke Network Operations: clinical/19-telestroke-networks.md
+    - Mobile Stroke Units: clinical/20-mobile-stroke-units.md
+    - Hemorrhagic Stroke and Complex Cerebrovascular Programs: clinical/21-hemorrhagic-complex.md
+  - Part IV · Quality, Safety, and Data:
+    - Quality System and Data Infrastructure: quality/22-quality-data-infrastructure.md
+    - "Core Metrics: GWTG, STK, and CSTK": quality/23-core-metrics.md
+    - Continuous Improvement and High Reliability: quality/24-improvement-high-reliability.md
+    - Certification Readiness and Survey: quality/25-certification-readiness.md
+    - Equity and Disparities Reduction: quality/26-equity-disparities.md
+  - Part V · Education:
+    - Vascular Neurology Fellowship and GME: education/27-fellowship-gme.md
+    - Interprofessional Education, Simulation, and Community Teaching: education/28-interprofessional-simulation.md
+  - Part VI · Research and Innovation:
+    - Clinical Trials, Registries, and Research Operations: research/29-trials-registries.md
+    - Faculty Development, Grants, and Scholarly Productivity: research/30-faculty-grants.md
+    - Innovation, AI, and Decision-Support Governance: research/31-innovation-ai.md
+  - Part VII · Strategy and Elite Performance:
+    - Strategy, Growth, Volume, and Complexity: strategy/32-strategy-growth.md
+    - Network Leadership and Regional Integration: strategy/33-network-leadership.md
+    - Financial Stewardship and Resource Allocation: strategy/34-financial-stewardship.md
+    - Disaster, Surge, and Continuity Planning: strategy/35-disaster-surge.md
+    - Becoming and Remaining Elite: strategy/36-elite-performance.md
+  - Part VIII · Playbooks and Toolkits:
+    - Integrating the Pillars: playbooks/37-integrating-pillars.md
+    - First 90 Days and Year One: playbooks/38-ninety-days-year-one.md
+    - Checklists, Agendas, and Cadence: playbooks/39-checklists-agendas.md
+    - KPIs, Dashboards, FTE, and SOP Templates: playbooks/40-kpis-dashboards-sops.md
+    - Audits, PDSA, Roadmaps, and Workflows: playbooks/41-audits-pdsa-roadmaps.md
+  - Reference:
+    - Evidence Register: evidence-register.md
+    - Glossary: glossary.md
+    - Living Document Protocol: living-document.md
+    - Changelog: changelog.md

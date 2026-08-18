@@ -1,0 +1,55 @@
+.mobile-page-orientation,
+.mobile-route-strip {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .md-header__ellipsis {
+    display: none;
+  }
+
+  .mobile-page-orientation {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-height: 44px;
+    color: #f8fafc !important;
+    font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none !important;
+    letter-spacing: 0.01em;
+  }
+
+  .mobile-page-orientation strong {
+    color: #99f6e4;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .mobile-route-strip {
+    display: flex;
+    gap: 0.55rem;
+    padding: 0.35rem 0.9rem 0.55rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    overflow-x: auto;
+  }
+
+  .mobile-route-strip a {
+    flex: 0 0 auto;
+    padding: 0.28rem 0.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    color: #ecfeff !important;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none !important;
+    text-transform: uppercase;
+  }
+
+  .mobile-route-strip a[aria-current="page"] {
+    background: rgba(45, 212, 191, 0.22);
+    border-color: rgba(45, 212, 191, 0.5);
+  }
+}

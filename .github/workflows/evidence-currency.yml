@@ -1,0 +1,60 @@
+name: Monthly evidence-currency reminder
+
+on:
+  schedule:
+    - cron: "0 13 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  currency-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Open or refresh monthly currency issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Monthly evidence-currency review — ${new Date().toISOString().slice(0, 7)}`;
+            const body = [
+              '## Monthly evidence-currency review',
+              '',
+              'Run the Living Document protocol in `docs/living-document.md` and the prompts in `AGENTS.md`.',
+              '',
+              '### Required checks',
+              '- [ ] Joint Commission CSC / DSC standards and CSTK/STK specifications (current manual version)',
+              '- [ ] AHA/ASA guideline updates (AIS, ICH, aSAH, secondary prevention, systems of care)',
+              '- [ ] GWTG-Stroke recognition criteria and Target: Stroke thresholds',
+              '- [ ] CMS hospital quality / stroke-related measures',
+              '- [ ] NIH StrokeNet and major trial results that change operations',
+              '- [ ] Update `docs/evidence-register.md` last-verified dates',
+              '- [ ] Patch affected chapters and add a `docs/changelog.md` entry',
+              '',
+              'Do not add personal names, licenses, or disclaimer language.',
+            ].join('\n');
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'evidence-currency',
+            });
+            const existing = issues.data.find((issue) => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: 'Scheduled reminder: complete the checklist above this month.',
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['evidence-currency'],
+              });
+            }
